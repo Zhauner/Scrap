@@ -1,0 +1,13 @@
+
+
+class PreferredSpecimen_AttributeStatus(str, Enum):
+     """
+     920 - Preferred Specimen-Attribute Status
+
+     P  Preferred
+     A  Alternate
+     """
+
+
+     P = "P"
+     A = "A"

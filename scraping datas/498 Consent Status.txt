@@ -1,0 +1,21 @@
+
+
+class ConsentStatus(str, Enum):
+     """
+     498 - Consent Status
+
+     A  Active - Consent has been granted
+     L  Limited - Consent has been granted with limitations
+     R  Refused - Consent has been refused
+     P  Pending - Consent has not yet been sought
+     X  Rescinded - Consent was initially granted, but was subsequently revoked or ended.
+     B  Bypassed (Consent not sought)
+     """
+
+
+     A = "A"
+     L = "L"
+     R = "R"
+     P = "P"
+     X = "X"
+     B = "B"

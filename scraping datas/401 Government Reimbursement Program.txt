@@ -1,0 +1,13 @@
+
+
+class GovernmentReimbursementProgram(str, Enum):
+     """
+     401 - Government Reimbursement Program
+
+     MM  Medicare
+     C  Medi-Cal
+     """
+
+
+     MM = "MM"
+     C = "C"

@@ -1,0 +1,51 @@
+
+
+class ContainerCondition(str, Enum):
+     """
+     544 - Container Condition
+
+     XC37  Not Body temperature
+     XAMB  Not Ambient temperature
+     XCAMB  Not Critical ambient temperature
+     XREF  Not Refrigerated temperature
+     XCREF  Not Critical refrigerated temperature
+     XFRZ  Not Frozen temperature
+     XCFRZ  Not Critical frozen temperature
+     XDFRZ  Not Deep frozen
+     XUFRZ  Not Ultra frozen
+     XNTR  Not Liquid nitrogen
+     XPRTL  Not Protected from light
+     XCATM  Exposed to Air
+     XDRY  Not Dry
+     XPSO  Exposed to shock
+     XPSA  Shaken
+     XUPR  Not Upright
+     XMTLF  Metal Exposed
+     SB  Seal Broken
+     CC  Container Cracked
+     CT  Container Torn
+     CL  Container Leaking
+     """
+
+
+     XC37 = "XC37"
+     XAMB = "XAMB"
+     XCAMB = "XCAMB"
+     XREF = "XREF"
+     XCREF = "XCREF"
+     XFRZ = "XFRZ"
+     XCFRZ = "XCFRZ"
+     XDFRZ = "XDFRZ"
+     XUFRZ = "XUFRZ"
+     XNTR = "XNTR"
+     XPRTL = "XPRTL"
+     XCATM = "XCATM"
+     XDRY = "XDRY"
+     XPSO = "XPSO"
+     XPSA = "XPSA"
+     XUPR = "XUPR"
+     XMTLF = "XMTLF"
+     SB = "SB"
+     CC = "CC"
+     CT = "CT"
+     CL = "CL"

@@ -1,0 +1,19 @@
+
+
+class CCLValue(str, Enum):
+     """
+     728 - CCL Value
+
+     0  Nothing obvious
+     1  Low
+     2  Moderate
+     3  High
+     4  Very high
+     """
+
+
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"

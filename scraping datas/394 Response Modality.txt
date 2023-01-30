@@ -1,0 +1,15 @@
+
+
+class ResponseModality(str, Enum):
+     """
+     394 - Response Modality
+
+     R  Real Time
+     T  Bolus (a series of responses sent at the same time without use of batch formatting)
+     B  Batch
+     """
+
+
+     R = "R"
+     T = "T"
+     B = "B"

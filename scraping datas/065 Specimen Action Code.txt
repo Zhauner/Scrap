@@ -1,0 +1,23 @@
+
+
+class SpecimenActionCode(str, Enum):
+     """
+     065 - Specimen Action Code
+
+     A  Add ordered tests to the existing specimen
+     G  Generated order; reflex order
+     L  Lab to obtain specimen from patient
+     O  Specimen obtained by service other than Lab
+     P  Pending specimen; Order sent prior to delivery
+     R  Revised order
+     S  Schedule the tests specified below
+     """
+
+
+     A = "A"
+     G = "G"
+     L = "L"
+     O = "O"
+     P = "P"
+     R = "R"
+     S = "S"

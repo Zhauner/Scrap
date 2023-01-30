@@ -1,0 +1,15 @@
+
+
+class PhlebotomyStatus(str, Enum):
+     """
+     926 - Phlebotomy Status
+
+     SUC  Successful
+     NDR  Not Drawn
+     UL5  Unsuccessful Less than 50 ml drawn
+     """
+
+
+     SUC = "SUC"
+     NDR = "NDR"
+     UL5 = "UL5"

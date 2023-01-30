@@ -1,0 +1,33 @@
+
+
+class LocationCharacteristicID(str, Enum):
+     """
+     324 - Location Characteristic ID
+
+     SMK  Smoking
+     LIC  Licensed
+     IMP  Implant: can be used for radiation implant patients
+     SHA  Shadow: a temporary holding location that does not physically exist
+     INF  Infectious disease: this location can be used for isolation
+     PRL  Privacy level: indicating the level of private versus non-private room
+     LCR  Level of care
+     OVR  Overflow
+     STF  Bed is staffed
+     SET  Bed is set up
+     GEN  Gender of patient(s)
+     TEA  Teaching location
+     """
+
+
+     SMK = "SMK"
+     LIC = "LIC"
+     IMP = "IMP"
+     SHA = "SHA"
+     INF = "INF"
+     PRL = "PRL"
+     LCR = "LCR"
+     OVR = "OVR"
+     STF = "STF"
+     SET = "SET"
+     GEN = "GEN"
+     TEA = "TEA"

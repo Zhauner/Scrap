@@ -1,0 +1,17 @@
+
+
+class DisabledPersonCode(str, Enum):
+     """
+     334 - Disabled Person Code
+
+     PT  Patient
+     GT  Guarantor
+     IN  Insured
+     AP  Associated party
+     """
+
+
+     PT = "PT"
+     GT = "GT"
+     IN = "IN"
+     AP = "AP"

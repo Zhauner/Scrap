@@ -1,0 +1,25 @@
+
+
+class ContactRole(str, Enum):
+     """
+     131 - Contact Role
+
+     E  Employer
+     C  Emergency Contact
+     F  Federal Agency
+     I  Insurance Company
+     N  Next-of-Kin
+     S  State Agency
+     O  Other
+     U  Unknown
+     """
+
+
+     E = "E"
+     C = "C"
+     F = "F"
+     I = "I"
+     N = "N"
+     S = "S"
+     O = "O"
+     U = "U"

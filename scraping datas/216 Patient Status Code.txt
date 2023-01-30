@@ -1,0 +1,13 @@
+
+
+class PatientStatusCode(str, Enum):
+     """
+     216 - Patient Status Code
+
+     AI  Active Inpatient
+     DI  Discharged Inpatient
+     """
+
+
+     AI = "AI"
+     DI = "DI"

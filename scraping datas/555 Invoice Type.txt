@@ -1,0 +1,29 @@
+
+
+class InvoiceType(str, Enum):
+     """
+     555 - Invoice Type
+
+     FS  Fee for Service
+     SS  By Session
+     GP  Group
+     BK  Block
+     SL  Salary
+     IN  Information Only
+     NP  Non Patient
+     FN  Final
+     PA  Partial
+     SU  Supplemental
+     """
+
+
+     FS = "FS"
+     SS = "SS"
+     GP = "GP"
+     BK = "BK"
+     SL = "SL"
+     IN = "IN"
+     NP = "NP"
+     FN = "FN"
+     PA = "PA"
+     SU = "SU"

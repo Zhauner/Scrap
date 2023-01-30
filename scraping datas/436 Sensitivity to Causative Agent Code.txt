@@ -1,0 +1,19 @@
+
+
+class SensitivitytoCausativeAgentCode(str, Enum):
+     """
+     436 - Sensitivity to Causative Agent Code
+
+     AD  Adverse Reaction (Not otherwise classified)
+     AL  Allergy
+     CT  Contraindication
+     IN  Intolerance
+     SE  Side Effect
+     """
+
+
+     AD = "AD"
+     AL = "AL"
+     CT = "CT"
+     IN = "IN"
+     SE = "SE"

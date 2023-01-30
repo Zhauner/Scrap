@@ -1,0 +1,17 @@
+
+
+class VisitUserCode(str, Enum):
+     """
+     130 - Visit User Code
+
+     TE  Teaching
+     HO  Home
+     MO  Mobile Unit
+     PH  Phone
+     """
+
+
+     TE = "TE"
+     HO = "HO"
+     MO = "MO"
+     PH = "PH"

@@ -1,0 +1,25 @@
+
+
+class InvoiceProcessingResultsStatus(str, Enum):
+     """
+     571 - Invoice Processing Results Status
+
+     ACK  Acknowledge
+     REJECT  Reject
+     PEND  Pending
+     ADJZER  Adjudicated to Zero
+     ADJSUB  Adjudicated as Submitted
+     ADJ  Adjudicated with Adjustments
+     PAID  Paid
+     PRED  Pre-Determination
+     """
+
+
+     ACK = "ACK"
+     REJECT = "REJECT"
+     PEND = "PEND"
+     ADJZER = "ADJZER"
+     ADJSUB = "ADJSUB"
+     ADJ = "ADJ"
+     PAID = "PAID"
+     PRED = "PRED"

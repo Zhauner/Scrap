@@ -1,0 +1,17 @@
+
+
+class DocumentAvailabilityStatus(str, Enum):
+     """
+     273 - Document Availability Status
+
+     AV  Available for patient care
+     CA  Deleted
+     OB  Obsolete
+     UN  Unavailable for patient care
+     """
+
+
+     AV = "AV"
+     CA = "CA"
+     OB = "OB"
+     UN = "UN"

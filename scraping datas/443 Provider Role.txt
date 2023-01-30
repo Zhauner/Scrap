@@ -1,0 +1,55 @@
+
+
+class ProviderRole(str, Enum):
+     """
+     443 - Provider Role
+
+     AD  Admitting
+     AP  Administering Provider
+     AT  Attending
+     CLP  Collecting Provider
+     CP  Consulting Provider
+     DP  Dispensing Provider
+     EP  Entering Provider (probably not the same as transcriptionist?)
+     FHCP  Family Health Care Professional
+     IP  Initiating Provider (as in action by)
+     MDIR  Medical Director
+     OP  Ordering Provider
+     PH  Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)
+     PP  Primary Care Provider
+     RO  Responsible Observer
+     RP  Referring Provider
+     RT  Referred to Provider
+     TR  Transcriptionist
+     PI  Primary Interpreter
+     AI  Assistant/Alternate Interpreter
+     TN  Technician
+     VP  Verifying Provider
+     VPS  Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)
+     VTS  Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)
+     """
+
+
+     AD = "AD"
+     AP = "AP"
+     AT = "AT"
+     CLP = "CLP"
+     CP = "CP"
+     DP = "DP"
+     EP = "EP"
+     FHCP = "FHCP"
+     IP = "IP"
+     MDIR = "MDIR"
+     OP = "OP"
+     PH = "PH"
+     PP = "PP"
+     RO = "RO"
+     RP = "RP"
+     RT = "RT"
+     TR = "TR"
+     PI = "PI"
+     AI = "AI"
+     TN = "TN"
+     VP = "VP"
+     VPS = "VPS"
+     VTS = "VTS"

@@ -1,0 +1,41 @@
+
+
+class BodySiteModifier(str, Enum):
+     """
+     495 - Body Site Modifier
+
+     ANT  Anterior
+     BIL  Bilateral
+     DIS  Distal
+     EXT  External
+     LAT  Lateral
+     L  Left
+     LOW  Lower
+     MED  Medial
+     POS  Posterior
+     PRO  Proximal
+     LLQ  Quadrant, Left Lower
+     LUQ  Quadrant, Left Upper
+     RLQ  Quadrant, Right Lower
+     RUQ  Quadrant, Right Upper
+     R  Right
+     UPP  Upper
+     """
+
+
+     ANT = "ANT"
+     BIL = "BIL"
+     DIS = "DIS"
+     EXT = "EXT"
+     LAT = "LAT"
+     L = "L"
+     LOW = "LOW"
+     MED = "MED"
+     POS = "POS"
+     PRO = "PRO"
+     LLQ = "LLQ"
+     LUQ = "LUQ"
+     RLQ = "RLQ"
+     RUQ = "RUQ"
+     R = "R"
+     UPP = "UPP"

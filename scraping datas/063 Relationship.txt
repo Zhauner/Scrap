@@ -1,0 +1,73 @@
+
+
+class Relationship(str, Enum):
+     """
+     063 - Relationship
+
+     SEL  Self
+     SPO  Spouse
+     DOM  Life partner
+     CHD  Child
+     GCH  Grandchild
+     NCH  Natural child
+     SCH  Stepchild
+     FCH  Foster child
+     DEP  Handicapped dependent
+     WRD  Ward of court
+     PAR  Parent
+     MTH  Mother
+     FTH  Father
+     CGV  Care giver
+     GRD  Guardian
+     GRP  Grandparent
+     EXF  Extended family
+     SIB  Sibling
+     BRO  Brother
+     SIS  Sister
+     FND  Friend
+     OAD  Other adult
+     EME  Employee
+     EMR  Employer
+     ASC  Associate
+     EMC  Emergency contact
+     OWN  Owner
+     TRA  Trainer
+     MGR  Manager
+     NON  None
+     UNK  Unknown
+     OTH  Other
+     """
+
+
+     SEL = "SEL"
+     SPO = "SPO"
+     DOM = "DOM"
+     CHD = "CHD"
+     GCH = "GCH"
+     NCH = "NCH"
+     SCH = "SCH"
+     FCH = "FCH"
+     DEP = "DEP"
+     WRD = "WRD"
+     PAR = "PAR"
+     MTH = "MTH"
+     FTH = "FTH"
+     CGV = "CGV"
+     GRD = "GRD"
+     GRP = "GRP"
+     EXF = "EXF"
+     SIB = "SIB"
+     BRO = "BRO"
+     SIS = "SIS"
+     FND = "FND"
+     OAD = "OAD"
+     EME = "EME"
+     EMR = "EMR"
+     ASC = "ASC"
+     EMC = "EMC"
+     OWN = "OWN"
+     TRA = "TRA"
+     MGR = "MGR"
+     NON = "NON"
+     UNK = "UNK"
+     OTH = "OTH"

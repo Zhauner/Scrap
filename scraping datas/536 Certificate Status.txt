@@ -1,0 +1,19 @@
+
+
+class CertificateStatus(str, Enum):
+     """
+     536 - Certificate Status
+
+     P  Provisional
+     R  Revoked
+     V  Active/Valid
+     E  Expired
+     I  Inactive
+     """
+
+
+     P = "P"
+     R = "R"
+     V = "V"
+     E = "E"
+     I = "I"

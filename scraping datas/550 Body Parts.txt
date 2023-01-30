@@ -1,0 +1,895 @@
+
+
+class BodyParts(str, Enum):
+     """
+     550 - Body Parts
+
+     JUGE  Jugular, External
+     ADB  Abdomen
+     ACET  Acetabulum
+     ACHIL  Achilles
+     ADE  Adenoids
+     ADR  Adrenal
+     AMN  Amniotic fluid
+     AMS  Amniotic Sac
+     ANAL  Anal
+     ANKL  Ankle
+     ANTEC  Antecubital
+     ANTECF  Antecubital Fossa
+     ANTR  Antrum
+     ANUS  Anus
+     AORTA  Aorta
+     AR  Aortic Rim
+     AV  Aortic Valve
+     APDX  Appendix
+     AREO  Areola
+     ARM  Arm
+     ARTE  Artery
+     ASCIT  Ascites
+     ASCT  Ascitic Fluid
+     ATR  Atrium
+     AURI  Auricular
+     AXI  Axilla
+     BACK  Back
+     BARTD  Bartholin Duct
+     BARTG  Bartholin Gland
+     BRTGF  Bartholin Gland Fluid
+     BPH  Basophils
+     BID  Bile Duct
+     BIFL  Bile fluid
+     BLAD  Bladder
+     BLOOD  Blood
+     BLDA  Blood,  Arterial
+     BLDC  Blood,  Capillary
+     BLDV  Blood,  Venous
+     CBLD  Blood, Cord
+     BLD  Blood, Whole
+     BDY  Body, Whole
+     BON  Bone
+     BMAR  Bone marrow
+     BOWEL  Bowel
+     BOWLA  Bowel, Large
+     BOWSM  Bowel, Small
+     BRA  Brachial
+     BRAIN  Brain
+     BCYS  Brain Cyst Fluid
+     BRST  Breast
+     BRSTFL  Breast fluid
+     BRO  Bronchial
+     BROCH  Bronchiole/Bronchiolar
+     BRONC  Bronchus/Bronchial
+     BRV  Broviac
+     BUCCA  Buccal
+     BURSA  Bursa
+     BURSF  Bursa Fluid
+     BUTT  Buttocks
+     CALF  Calf
+     CANAL  Canal
+     CANLI  Canaliculis
+     CNL  Cannula
+     CANTH  Canthus
+     CDM  Cardiac Muscle
+     CARO  Carotid
+     CARP  Carpal
+     CAVIT  Cavity
+     CHE  Cavity, Chest
+     CECUM  Cecum/Cecal
+     CSF  Cerebral Spinal Fluid
+     CVX  Cervix
+     CERVUT  Cervix/Uterus
+     CHEEK  Cheek
+     CHES  Chest
+     CHESTÂ   Chest Tube
+     CHIN  Chin
+     CIRCU  Circumcision Site
+     CLAVI  Clavicle/Clavicular
+     CLITO  Clitoral
+     CLIT  Clitoris
+     COCCG  Coccygeal
+     COCCY  Coccyx
+     COLON  Colon
+     COLOS  Colostomy
+     COS  Colostomy Stoma
+     CDUCT  Common Duct
+     CONJ  Conjunctiva
+     CORAL  Coral
+     COR  Cord
+     CORD  Cord Blood
+     CORN  Cornea
+     CRANE  Cranium, ethmoid
+     CRANF  Cranium, frontal
+     CRANO  Cranium, occipital
+     CRANP  Cranium, parietal
+     CRANS  Cranium, sphenoid
+     CRANT  Cranium, temporal
+     CUBIT  Cubitus
+     CUFF  Cuff
+     CULD  Cul De Sac
+     CULDO  Culdocentesis
+     DELT  Deltoid
+     DENTA  Dental
+     DEN  Dental Gingiva
+     DIAF  Dialysis Fluid
+     DPH  Diaphragm
+     DIGIT  Digit
+     DISC  Disc
+     DORS  Dorsum/Dorsal
+     DUFL  Duodenal Fluid
+     DUODE  Duodenum/Duodenal
+     DUR  Dura
+     EAR  Ear
+     EARBI  Ear bone, incus
+     EARBM  Ear bone, malleus
+     EARBS  Ear bone,stapes
+     EARLO  Ear Lobe
+     ELBOW  Elbow
+     ELBOWJ  Elbow Joint
+     ENDC  Endocardium
+     EC  Endocervical
+     EOLPH  endolpthamitis
+     ENDM  Endometrium
+     ET  Endotracheal
+     EUR  Endourethral
+     EOS  Eosinophils
+     EPICA  Epicardial
+     EPICM  Epicardium
+     EPD  Epididymis
+     EPIDU  Epidural
+     EPIGL  Epiglottis
+     ESOPG  Esophageal
+     ESO  Esophagus
+     ETHMO  Ethmoid
+     Â   External Jugular
+     EYE  Eye
+     BROW  Eyebrow
+     EYELI  Eyelid
+     FACE  Face
+     FBINC  Facial bone, inferior nasal concha
+     FBLAC  Facial bone, lacrimal
+     FBMAX  Facial bone, maxilla
+     FBNAS  Facial bone, nasal
+     FBPAL  Facial bone, palatine
+     FBVOM  Facial bone, vomer
+     FBZYG  Facial bone, zygomatic
+     FALLT  Fallopian Tube
+     FEMOR  Femoral
+     FMH  Femoral Head
+     FEMUR  Femur
+     FET  Fetus
+     FIBU  Fibula
+     FING  Finger
+     FINGN  Finger Nail
+     FOL  Follicle
+     FOOT  Foot
+     FOREA  Forearm
+     FOREH  Forehead
+     FORES  Foreskin
+     FOURC  Fourchette
+     GB  Gall Bladder
+     GEN  Genital
+     GVU  Genital - Vulva
+     GENC  Genital Cervix
+     GL  Genital Lesion
+     GENL  Genital Lochia
+     GLAND  Gland
+     GLANS  Glans
+     GLUTE  Gluteal
+     GLUT  Gluteus
+     GLUTM  Gluteus Medius
+     GROIN  Groin
+     GUM  Gum
+     HAR  Hair
+     HAL  Hallux
+     HAND  Hand
+     HEAD  Head
+     HART  Heart
+     HV  Heart Valve
+     HVB  Heart Valve, Bicuspid
+     HVT  Heart Valve, Tricuspid
+     HEEL  Heel
+     HEM  Hemorrhoid
+     HIP  Hip
+     HIPJ  Hip Joint
+     HUMER  Humerus
+     HYMEN  Hymen
+     ILC  Ileal Conduit
+     ILE  Ileal Loop
+     ILEOS  Ileostomy
+     ILEUM  Ileum
+     ILIAC  Iliac
+     ILCR  Iliac Crest
+     ILCON  Ilical Conduit
+     INGUI  Inguinal
+     JUGI  Jugular, Internal
+     INT  Intestine
+     ICX  Intracervical
+     INASA  Intranasal
+     INTRU  Intrauterine
+     INTRO  Introitus
+     ISCHI  Ischium
+     JAW  Jaw
+     KIDNÂ   Kidney
+     KNEE  Knee
+     KNEEF  Knee Fluid
+     KNEEJ  Knee Joint
+     LABIA  Labia
+     LABMA  Labia Majora
+     LABMI  Labia Minora
+     LACRI  Lacrimal
+     LAM  Lamella
+     INSTL  Intestine, Large
+     LARYN  Larynx
+     LEG  Leg
+     LENS  Lens
+     WBC  Leukocytes
+     LING  Lingual
+     LINGU  Lingula
+     LIP  Lip
+     STOOLL  Liquid Stool
+     LIVER  Liver
+     LOBE  Lobe
+     LOCH  Lochia
+     ISH  Loop, Ishial
+     LUMBA  Lumbar
+     LMN  Lumen
+     LUNG  Lung
+     LN  Lymph Node
+     LNG  Lymph Node, Groin
+     LYM  Lymphocytes
+     MAC  Macrophages
+     MALLE  Malleolus
+     MANDI  Mandible/Mandibular
+     MAR  Marrow
+     MAST  Mastoid
+     MAXIL  Maxilla/Maxillary
+     MAXS  Maxillary Sinus
+     MEATU  Meatus
+     MEC  Meconium
+     MEDST  Mediastinum
+     MEDU  Medullary
+     MOU  Membrane
+     MPB  Meninges
+     METAC  Metacarpal
+     METAT  Metatarsal
+     MILK  Milk, Breast
+     MITRL  Mitral Valve
+     MOLAR  Molar
+     MP  Mons Pubis
+     MONSU  Mons Ureteris
+     MONSV  Mons Veneris(Mons Pubis)
+     MOUTH  Mouth
+     MRSA2  Mrsa:
+     MYO  Myocardium
+     NAIL  Nail
+     NAILB  Nail Bed
+     NAILF  Nail, Finger
+     NAILT  Nail, Toe
+     NARES  Nares
+     NASL  Nasal
+     NSS  Nasal Septum
+     NLACR  Nasolacrimal
+     NP  Nasopharyngeal/Nasopharynx
+     NTRAC  Nasotracheal
+     NAVEL  Navel
+     NECK  Neck
+     NERVE  Nerve
+     NIPPL  Nipple
+     NOS  Nose (Nasal Passage)
+     NOSE  Nose/Nose(outside)
+     NOSTR  Nostril
+     OCCIP  Occipital
+     OLECR  Olecranon
+     OMEN  Omentum
+     ORBIT  Orbit/Orbital
+     ORO  Oropharynx
+     OSCOX  Os coxa (pelvic girdle)
+     OVARY  Ovary
+     PALAT  Palate
+     PLATH  Palate, Hard
+     PLATS  Palate, Soft
+     PALM  Palm
+     PANCR  Pancreas
+     PAFL  Pancreatic Fluid
+     PAS  Parasternal
+     PARAT  Paratracheal
+     PARIE  Parietal
+     PARON  Paronychia
+     PAROT  Parotid/Parotid Gland
+     PATEL  Patella
+     PELV  Pelvis
+     PENSH  Penile Shaft
+     PENIS  Penis
+     PANAL  Perianal/Perirectal
+     PERI  Pericardial Fluid
+     PCARD  Pericardium
+     PCLIT  Periclitoral
+     PERIH  Perihepatic
+     PNEAL  Perineal
+     PERIN  Perineal Abscess
+     PNEPH  Perinephric
+     PNM  Perineum
+     PORBI  Periorbital
+     PERRA  Perirectal
+     PERIS  Perisplenic
+     PER  Peritoneal
+     PERT  Peritoneal Fluid
+     PERIT  Peritoneum
+     PTONS  Peritonsillar
+     PERIU  Periurethal
+     PERIV  Perivesicular
+     PHALA  Phalanyx
+     PILO  Pilonidal
+     PINNA  Pinna
+     PLC  Placenta
+     PLACF  Placenta (Fetal Side)
+     PLACM  Placenta (Maternal Side)
+     PLANT  Plantar
+     PLEUR  Pleura
+     PLEU  Pleural Fluid
+     PLR  Pleural Fluid (Thoracentesis Fld)
+     POPLI  Popliteal
+     PREAU  Preauricular
+     PRERE  Prerenal
+     PRST  Prostate Gland
+     PROS  Prostatic Fluid
+     PUBIC  Pubic
+     PUL  Pulmonary Artery
+     RADI  Radial
+     RADIUS  Radius
+     RECTL  Rectal
+     RECTU  Rectum
+     RBC  Red Blood Cells
+     RENL  Renal
+     RNP  Renal Pelvis
+     RPERI  Retroperitoneal
+     RIB  Rib
+     SACRA  Sacral
+     SACRO  Sacrococcygeal
+     SACIL  Sacroiliac
+     SACRU  Sacrum
+     SALGL  Salivary Gland
+     SCALP  Scalp
+     SCAPU  Scapula/Scapular
+     SCLER  Sclera
+     SCROT  Scrotum/Scrotal
+     SEMN  Semen
+     SEM  Seminal Fluid
+     SEPTU  Septum/Septal
+     SEROM  Seroma
+     SHIN  Shin
+     SHOLJ  Sholder Joint
+     SHOL  Shoulder
+     SIGMO  Sigmoid
+     SINUS  Sinus
+     SKM  Skeletal Muscle
+     SKENE  Skene's Gland
+     SKULL  Skull
+     INSTS  Intestine, Small
+     SOLE  Sole
+     SPRM  Spermatozoa
+     SPHEN  Sphenoid
+     SPCOR  Spinal Cord
+     SPLN  Spleen
+     STER  Sternum/Sternal
+     STOM  Stoma
+     USTOM  Stoma, Urinary
+     STOMA  Stomach
+     STUMP  Stump
+     SCLV  Sub Clavian
+     SDP  Subdiaphramatic
+     SUB  Subdural
+     SUBD  Subdural Fluid
+     SGF  Subgaleal Fluid
+     SUBM  Submandibular
+     SUBX  Submaxillary
+     SUBME  Submental
+     SUBPH  Subphrenic
+     SPX  Supra Cervical
+     SCLAV  Supraclavicle/Supraclavicular
+     SUPRA  Suprapubic
+     SUPB  Suprapubic Specimen
+     SWT  Sweat
+     SWTG  Sweat Gland
+     SYNOL  Synovial
+     SYN  Synovial Fluid
+     SYNOV  Synovium
+     TARS  Tarsal
+     TDUCT  Tear Duct
+     TEAR  Tears
+     TEMPL  Temple
+     TEMPO  Temporal
+     TML  Temporal Lobe
+     TESTI  Testicle(Testis)
+     THIGH  Thigh
+     THORA  Thorax/Thoracic/Thoracentesis
+     THRB  Throat
+     THUMB  Thumb
+     TNL  Thumbnail
+     THM  Thymus
+     THYRD  Thyroid
+     TIBIA  Tibia
+     TOE  Toe
+     TOEN  Toe Nail
+     TONG  Tongue
+     TONS  Tonsil
+     TOOTH  Tooth
+     TSK  Tooth Socket
+     TRCHE  Trachea/Tracheal
+     TBRON  Transbronchial
+     TCN  Transcarina Asp
+     ULNA  Ulna/Ulnar
+     UMB  Umbilical Blood
+     UMBL  Umbilicus/Umbilical
+     URET  Ureter
+     URTH  Urethra
+     UTERI  Uterine
+     SAC  Uterine Cul/De/Sac
+     UTER  Uterus
+     VAGIN  Vagina/Vaginal
+     VCUFF  Vaginal Cuff
+     VGV  Vaginal Vault
+     VAL  Valve
+     VAS  Vas Deferens
+     VASTL  Vastus Lateralis
+     VAULT  Vault
+     VEIN  Vein
+     VENTG  Ventragluteal
+     VCSF  Ventricular CSF
+     VERMI  Vermis Cerebelli
+     VERTC  Vertebra, cervical
+     VERTL  Vertebra, lumbar
+     VERTT  Vertebra, thoracic
+     VESI  Vesicle
+     VESCL  Vesicular
+     VESFLD  Vesicular Fluid
+     VESTI  Vestibule(Genital)
+     VITR  Vitreous Fluid
+     VOC  Vocal Cord
+     VULVA  Vulva
+     WRIST  Wrist
+     """
+
+
+     JUGE = "JUGE"
+     ADB = "ADB"
+     ACET = "ACET"
+     ACHIL = "ACHIL"
+     ADE = "ADE"
+     ADR = "ADR"
+     AMN = "AMN"
+     AMS = "AMS"
+     ANAL = "ANAL"
+     ANKL = "ANKL"
+     ANTEC = "ANTEC"
+     ANTECF = "ANTECF"
+     ANTR = "ANTR"
+     ANUS = "ANUS"
+     AORTA = "AORTA"
+     AR = "AR"
+     AV = "AV"
+     APDX = "APDX"
+     AREO = "AREO"
+     ARM = "ARM"
+     ARTE = "ARTE"
+     ASCIT = "ASCIT"
+     ASCT = "ASCT"
+     ATR = "ATR"
+     AURI = "AURI"
+     AXI = "AXI"
+     BACK = "BACK"
+     BARTD = "BARTD"
+     BARTG = "BARTG"
+     BRTGF = "BRTGF"
+     BPH = "BPH"
+     BID = "BID"
+     BIFL = "BIFL"
+     BLAD = "BLAD"
+     BLOOD = "BLOOD"
+     BLDA = "BLDA"
+     BLDC = "BLDC"
+     BLDV = "BLDV"
+     CBLD = "CBLD"
+     BLD = "BLD"
+     BDY = "BDY"
+     BON = "BON"
+     BMAR = "BMAR"
+     BOWEL = "BOWEL"
+     BOWLA = "BOWLA"
+     BOWSM = "BOWSM"
+     BRA = "BRA"
+     BRAIN = "BRAIN"
+     BCYS = "BCYS"
+     BRST = "BRST"
+     BRSTFL = "BRSTFL"
+     BRO = "BRO"
+     BROCH = "BROCH"
+     BRONC = "BRONC"
+     BRV = "BRV"
+     BUCCA = "BUCCA"
+     BURSA = "BURSA"
+     BURSF = "BURSF"
+     BUTT = "BUTT"
+     CALF = "CALF"
+     CANAL = "CANAL"
+     CANLI = "CANLI"
+     CNL = "CNL"
+     CANTH = "CANTH"
+     CDM = "CDM"
+     CARO = "CARO"
+     CARP = "CARP"
+     CAVIT = "CAVIT"
+     CHE = "CHE"
+     CECUM = "CECUM"
+     CSF = "CSF"
+     CVX = "CVX"
+     CERVUT = "CERVUT"
+     CHEEK = "CHEEK"
+     CHES = "CHES"
+     CHESTÂ  = "CHESTÂ "
+     CHIN = "CHIN"
+     CIRCU = "CIRCU"
+     CLAVI = "CLAVI"
+     CLITO = "CLITO"
+     CLIT = "CLIT"
+     COCCG = "COCCG"
+     COCCY = "COCCY"
+     COLON = "COLON"
+     COLOS = "COLOS"
+     COS = "COS"
+     CDUCT = "CDUCT"
+     CONJ = "CONJ"
+     CORAL = "CORAL"
+     COR = "COR"
+     CORD = "CORD"
+     CORN = "CORN"
+     CRANE = "CRANE"
+     CRANF = "CRANF"
+     CRANO = "CRANO"
+     CRANP = "CRANP"
+     CRANS = "CRANS"
+     CRANT = "CRANT"
+     CUBIT = "CUBIT"
+     CUFF = "CUFF"
+     CULD = "CULD"
+     CULDO = "CULDO"
+     DELT = "DELT"
+     DENTA = "DENTA"
+     DEN = "DEN"
+     DIAF = "DIAF"
+     DPH = "DPH"
+     DIGIT = "DIGIT"
+     DISC = "DISC"
+     DORS = "DORS"
+     DUFL = "DUFL"
+     DUODE = "DUODE"
+     DUR = "DUR"
+     EAR = "EAR"
+     EARBI = "EARBI"
+     EARBM = "EARBM"
+     EARBS = "EARBS"
+     EARLO = "EARLO"
+     ELBOW = "ELBOW"
+     ELBOWJ = "ELBOWJ"
+     ENDC = "ENDC"
+     EC = "EC"
+     EOLPH = "EOLPH"
+     ENDM = "ENDM"
+     ET = "ET"
+     EUR = "EUR"
+     EOS = "EOS"
+     EPICA = "EPICA"
+     EPICM = "EPICM"
+     EPD = "EPD"
+     EPIDU = "EPIDU"
+     EPIGL = "EPIGL"
+     ESOPG = "ESOPG"
+     ESO = "ESO"
+     ETHMO = "ETHMO"
+     Â  = "Â "
+     EYE = "EYE"
+     BROW = "BROW"
+     EYELI = "EYELI"
+     FACE = "FACE"
+     FBINC = "FBINC"
+     FBLAC = "FBLAC"
+     FBMAX = "FBMAX"
+     FBNAS = "FBNAS"
+     FBPAL = "FBPAL"
+     FBVOM = "FBVOM"
+     FBZYG = "FBZYG"
+     FALLT = "FALLT"
+     FEMOR = "FEMOR"
+     FMH = "FMH"
+     FEMUR = "FEMUR"
+     FET = "FET"
+     FIBU = "FIBU"
+     FING = "FING"
+     FINGN = "FINGN"
+     FOL = "FOL"
+     FOOT = "FOOT"
+     FOREA = "FOREA"
+     FOREH = "FOREH"
+     FORES = "FORES"
+     FOURC = "FOURC"
+     GB = "GB"
+     GEN = "GEN"
+     GVU = "GVU"
+     GENC = "GENC"
+     GL = "GL"
+     GENL = "GENL"
+     GLAND = "GLAND"
+     GLANS = "GLANS"
+     GLUTE = "GLUTE"
+     GLUT = "GLUT"
+     GLUTM = "GLUTM"
+     GROIN = "GROIN"
+     GUM = "GUM"
+     HAR = "HAR"
+     HAL = "HAL"
+     HAND = "HAND"
+     HEAD = "HEAD"
+     HART = "HART"
+     HV = "HV"
+     HVB = "HVB"
+     HVT = "HVT"
+     HEEL = "HEEL"
+     HEM = "HEM"
+     HIP = "HIP"
+     HIPJ = "HIPJ"
+     HUMER = "HUMER"
+     HYMEN = "HYMEN"
+     ILC = "ILC"
+     ILE = "ILE"
+     ILEOS = "ILEOS"
+     ILEUM = "ILEUM"
+     ILIAC = "ILIAC"
+     ILCR = "ILCR"
+     ILCON = "ILCON"
+     INGUI = "INGUI"
+     JUGI = "JUGI"
+     INT = "INT"
+     ICX = "ICX"
+     INASA = "INASA"
+     INTRU = "INTRU"
+     INTRO = "INTRO"
+     ISCHI = "ISCHI"
+     JAW = "JAW"
+     KIDNÂ  = "KIDNÂ "
+     KNEE = "KNEE"
+     KNEEF = "KNEEF"
+     KNEEJ = "KNEEJ"
+     LABIA = "LABIA"
+     LABMA = "LABMA"
+     LABMI = "LABMI"
+     LACRI = "LACRI"
+     LAM = "LAM"
+     INSTL = "INSTL"
+     LARYN = "LARYN"
+     LEG = "LEG"
+     LENS = "LENS"
+     WBC = "WBC"
+     LING = "LING"
+     LINGU = "LINGU"
+     LIP = "LIP"
+     STOOLL = "STOOLL"
+     LIVER = "LIVER"
+     LOBE = "LOBE"
+     LOCH = "LOCH"
+     ISH = "ISH"
+     LUMBA = "LUMBA"
+     LMN = "LMN"
+     LUNG = "LUNG"
+     LN = "LN"
+     LNG = "LNG"
+     LYM = "LYM"
+     MAC = "MAC"
+     MALLE = "MALLE"
+     MANDI = "MANDI"
+     MAR = "MAR"
+     MAST = "MAST"
+     MAXIL = "MAXIL"
+     MAXS = "MAXS"
+     MEATU = "MEATU"
+     MEC = "MEC"
+     MEDST = "MEDST"
+     MEDU = "MEDU"
+     MOU = "MOU"
+     MPB = "MPB"
+     METAC = "METAC"
+     METAT = "METAT"
+     MILK = "MILK"
+     MITRL = "MITRL"
+     MOLAR = "MOLAR"
+     MP = "MP"
+     MONSU = "MONSU"
+     MONSV = "MONSV"
+     MOUTH = "MOUTH"
+     MRSA2 = "MRSA2"
+     MYO = "MYO"
+     NAIL = "NAIL"
+     NAILB = "NAILB"
+     NAILF = "NAILF"
+     NAILT = "NAILT"
+     NARES = "NARES"
+     NASL = "NASL"
+     NSS = "NSS"
+     NLACR = "NLACR"
+     NP = "NP"
+     NTRAC = "NTRAC"
+     NAVEL = "NAVEL"
+     NECK = "NECK"
+     NERVE = "NERVE"
+     NIPPL = "NIPPL"
+     NOS = "NOS"
+     NOSE = "NOSE"
+     NOSTR = "NOSTR"
+     OCCIP = "OCCIP"
+     OLECR = "OLECR"
+     OMEN = "OMEN"
+     ORBIT = "ORBIT"
+     ORO = "ORO"
+     OSCOX = "OSCOX"
+     OVARY = "OVARY"
+     PALAT = "PALAT"
+     PLATH = "PLATH"
+     PLATS = "PLATS"
+     PALM = "PALM"
+     PANCR = "PANCR"
+     PAFL = "PAFL"
+     PAS = "PAS"
+     PARAT = "PARAT"
+     PARIE = "PARIE"
+     PARON = "PARON"
+     PAROT = "PAROT"
+     PATEL = "PATEL"
+     PELV = "PELV"
+     PENSH = "PENSH"
+     PENIS = "PENIS"
+     PANAL = "PANAL"
+     PERI = "PERI"
+     PCARD = "PCARD"
+     PCLIT = "PCLIT"
+     PERIH = "PERIH"
+     PNEAL = "PNEAL"
+     PERIN = "PERIN"
+     PNEPH = "PNEPH"
+     PNM = "PNM"
+     PORBI = "PORBI"
+     PERRA = "PERRA"
+     PERIS = "PERIS"
+     PER = "PER"
+     PERT = "PERT"
+     PERIT = "PERIT"
+     PTONS = "PTONS"
+     PERIU = "PERIU"
+     PERIV = "PERIV"
+     PHALA = "PHALA"
+     PILO = "PILO"
+     PINNA = "PINNA"
+     PLC = "PLC"
+     PLACF = "PLACF"
+     PLACM = "PLACM"
+     PLANT = "PLANT"
+     PLEUR = "PLEUR"
+     PLEU = "PLEU"
+     PLR = "PLR"
+     POPLI = "POPLI"
+     PREAU = "PREAU"
+     PRERE = "PRERE"
+     PRST = "PRST"
+     PROS = "PROS"
+     PUBIC = "PUBIC"
+     PUL = "PUL"
+     RADI = "RADI"
+     RADIUS = "RADIUS"
+     RECTL = "RECTL"
+     RECTU = "RECTU"
+     RBC = "RBC"
+     RENL = "RENL"
+     RNP = "RNP"
+     RPERI = "RPERI"
+     RIB = "RIB"
+     SACRA = "SACRA"
+     SACRO = "SACRO"
+     SACIL = "SACIL"
+     SACRU = "SACRU"
+     SALGL = "SALGL"
+     SCALP = "SCALP"
+     SCAPU = "SCAPU"
+     SCLER = "SCLER"
+     SCROT = "SCROT"
+     SEMN = "SEMN"
+     SEM = "SEM"
+     SEPTU = "SEPTU"
+     SEROM = "SEROM"
+     SHIN = "SHIN"
+     SHOLJ = "SHOLJ"
+     SHOL = "SHOL"
+     SIGMO = "SIGMO"
+     SINUS = "SINUS"
+     SKM = "SKM"
+     SKENE = "SKENE"
+     SKULL = "SKULL"
+     INSTS = "INSTS"
+     SOLE = "SOLE"
+     SPRM = "SPRM"
+     SPHEN = "SPHEN"
+     SPCOR = "SPCOR"
+     SPLN = "SPLN"
+     STER = "STER"
+     STOM = "STOM"
+     USTOM = "USTOM"
+     STOMA = "STOMA"
+     STUMP = "STUMP"
+     SCLV = "SCLV"
+     SDP = "SDP"
+     SUB = "SUB"
+     SUBD = "SUBD"
+     SGF = "SGF"
+     SUBM = "SUBM"
+     SUBX = "SUBX"
+     SUBME = "SUBME"
+     SUBPH = "SUBPH"
+     SPX = "SPX"
+     SCLAV = "SCLAV"
+     SUPRA = "SUPRA"
+     SUPB = "SUPB"
+     SWT = "SWT"
+     SWTG = "SWTG"
+     SYNOL = "SYNOL"
+     SYN = "SYN"
+     SYNOV = "SYNOV"
+     TARS = "TARS"
+     TDUCT = "TDUCT"
+     TEAR = "TEAR"
+     TEMPL = "TEMPL"
+     TEMPO = "TEMPO"
+     TML = "TML"
+     TESTI = "TESTI"
+     THIGH = "THIGH"
+     THORA = "THORA"
+     THRB = "THRB"
+     THUMB = "THUMB"
+     TNL = "TNL"
+     THM = "THM"
+     THYRD = "THYRD"
+     TIBIA = "TIBIA"
+     TOE = "TOE"
+     TOEN = "TOEN"
+     TONG = "TONG"
+     TONS = "TONS"
+     TOOTH = "TOOTH"
+     TSK = "TSK"
+     TRCHE = "TRCHE"
+     TBRON = "TBRON"
+     TCN = "TCN"
+     ULNA = "ULNA"
+     UMB = "UMB"
+     UMBL = "UMBL"
+     URET = "URET"
+     URTH = "URTH"
+     UTERI = "UTERI"
+     SAC = "SAC"
+     UTER = "UTER"
+     VAGIN = "VAGIN"
+     VCUFF = "VCUFF"
+     VGV = "VGV"
+     VAL = "VAL"
+     VAS = "VAS"
+     VASTL = "VASTL"
+     VAULT = "VAULT"
+     VEIN = "VEIN"
+     VENTG = "VENTG"
+     VCSF = "VCSF"
+     VERMI = "VERMI"
+     VERTC = "VERTC"
+     VERTL = "VERTL"
+     VERTT = "VERTT"
+     VESI = "VESI"
+     VESCL = "VESCL"
+     VESFLD = "VESFLD"
+     VESTI = "VESTI"
+     VITR = "VITR"
+     VOC = "VOC"
+     VULVA = "VULVA"
+     WRIST = "WRIST"

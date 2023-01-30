@@ -1,0 +1,21 @@
+
+
+class LivingArrangement(str, Enum):
+     """
+     220 - Living Arrangement
+
+     A  Alone
+     F  Family
+     I  Institution
+     R  Relative
+     U  Unknown
+     S  Spouse Only
+     """
+
+
+     A = "A"
+     F = "F"
+     I = "I"
+     R = "R"
+     U = "U"
+     S = "S"

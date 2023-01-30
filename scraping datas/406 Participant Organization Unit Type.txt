@@ -1,0 +1,23 @@
+
+
+class ParticipantOrganizationUnitType(str, Enum):
+     """
+     406 - Participant Organization Unit Type
+
+     H  Home
+     O  Office
+     1  Hospital
+     2  Physician Clinic
+     3  Long Term Care
+     4  Acute Care
+     5  Other
+     """
+
+
+     H = "H"
+     O = "O"
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"

@@ -1,0 +1,13 @@
+
+
+class MoneyorPercentageIndicator(str, Enum):
+     """
+     148 - Money or Percentage Indicator
+
+     AT  Currency amount
+     PC  Percentage
+     """
+
+
+     AT = "AT"
+     PC = "PC"

@@ -1,0 +1,11 @@
+
+
+class HealthCareProviderClassification(str, Enum):
+     """
+     453 - Health Care Provider Classification
+
+     SUGGESTION  ANSI ASC X12 Health Care Provider Taxonomy, Level 2 -  Classification
+     """
+
+
+     SUGGESTION = "SUGGESTION"

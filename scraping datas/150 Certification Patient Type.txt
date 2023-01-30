@@ -1,0 +1,17 @@
+
+
+class CertificationPatientType(str, Enum):
+     """
+     150 - Certification Patient Type
+
+     ER  Emergency
+     IPE  Inpatient elective
+     OPE  Outpatient elective
+     UR  Urgent
+     """
+
+
+     ER = "ER"
+     IPE = "IPE"
+     OPE = "OPE"
+     UR = "UR"

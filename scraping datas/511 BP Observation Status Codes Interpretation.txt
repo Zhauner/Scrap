@@ -1,0 +1,21 @@
+
+
+class BPObservationStatusCodesInterpretation(str, Enum):
+     """
+     511 - BP Observation Status Codes Interpretation
+
+     C  Record coming over is a correction and thus replaces a final status
+     D  Deletes the BPX record
+     F  Final status; Can only be changed with a corrected status
+     O  Order detail description only (no status)
+     P  Preliminary status
+     W  Post original as wrong, e.g., transmitted for wrong patient
+     """
+
+
+     C = "C"
+     D = "D"
+     F = "F"
+     O = "O"
+     P = "P"
+     W = "W"

@@ -1,0 +1,13 @@
+
+
+class BolusType(str, Enum):
+     """
+     917 - Bolus Type
+
+     C  Supplemental
+     L  Loading
+     """
+
+
+     C = "C"
+     L = "L"

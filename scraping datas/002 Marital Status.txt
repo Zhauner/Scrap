@@ -1,0 +1,41 @@
+
+
+class MaritalStatus(str, Enum):
+     """
+     002 - Marital Status
+
+     A  Separated
+     D  Divorced
+     M  Married
+     S  Single
+     W  Widowed
+     C  Common law
+     G  Living together
+     P  Domestic partner
+     R  Registered domestic partner
+     E  Legally Separated
+     N  Annulled
+     I  Interlocutory
+     B  Unmarried
+     U  Unknown
+     O  Other
+     T  Unreported
+     """
+
+
+     A = "A"
+     D = "D"
+     M = "M"
+     S = "S"
+     W = "W"
+     C = "C"
+     G = "G"
+     P = "P"
+     R = "R"
+     E = "E"
+     N = "N"
+     I = "I"
+     B = "B"
+     U = "U"
+     O = "O"
+     T = "T"

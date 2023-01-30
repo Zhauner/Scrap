@@ -1,0 +1,13 @@
+
+
+class OutlierType(str, Enum):
+     """
+     083 - Outlier Type
+
+     D  Outlier days
+     C  Outlier cost
+     """
+
+
+     D = "D"
+     C = "C"

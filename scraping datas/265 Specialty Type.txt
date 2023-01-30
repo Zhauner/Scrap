@@ -1,0 +1,61 @@
+
+
+class SpecialtyType(str, Enum):
+     """
+     265 - Specialty Type
+
+     AMB  Ambulatory
+     PSY  Psychiatric
+     PPS  Pediatric psychiatric
+     REH  Rehabilitation
+     PRE  Pediatric rehabilitation
+     ISO  Isolation
+     OBG  Obstetrics, gynecology
+     PIN  Pediatric/neonatal intensive care
+     INT  Intensive care
+     SUR  Surgery
+     PSI  Psychiatric intensive care
+     EDI  Education
+     CAR  Coronary/cardiac care
+     NBI  Newborn, nursery, infants
+     CCR  Critical care
+     PED  Pediatrics
+     EMR  Emergency
+     OBS  Observation
+     WIC  Walk-in clinic
+     PHY  General/family practice
+     ALC  Allergy
+     FPC  Family planning
+     CHI  Chiropractic
+     CAN  Cancer
+     NAT  Naturopathic
+     OTH  Other specialty
+     """
+
+
+     AMB = "AMB"
+     PSY = "PSY"
+     PPS = "PPS"
+     REH = "REH"
+     PRE = "PRE"
+     ISO = "ISO"
+     OBG = "OBG"
+     PIN = "PIN"
+     INT = "INT"
+     SUR = "SUR"
+     PSI = "PSI"
+     EDI = "EDI"
+     CAR = "CAR"
+     NBI = "NBI"
+     CCR = "CCR"
+     PED = "PED"
+     EMR = "EMR"
+     OBS = "OBS"
+     WIC = "WIC"
+     PHY = "PHY"
+     ALC = "ALC"
+     FPC = "FPC"
+     CHI = "CHI"
+     CAN = "CAN"
+     NAT = "NAT"
+     OTH = "OTH"

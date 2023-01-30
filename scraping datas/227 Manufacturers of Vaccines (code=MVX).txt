@@ -1,0 +1,119 @@
+
+
+class ManufacturersofVaccines(code=MVX)(str, Enum):
+     """
+     227 - Manufacturers of Vaccines (code=MVX)
+
+     AB  Abbott Laboratories
+     AD  Adams Laboratories, Inc.
+     ALP  Alpha Therapeutic Corporation
+     AR  Armour
+     AVB  Aventis Behring L.L.C.
+     AVI  Aviron
+     BA  Baxter Healthcare Corporation
+     BAH  Baxter Healthcare Corporation
+     BAY  Bayer Corporation
+     BP  Berna Products
+     BPC  Berna Products Corporation
+     MIP  Bioport Corporation
+     CNJ  Cangene Corporation
+     CMP  Celltech Medeva Pharmaceuticals
+     CEN  Centeon L.L.C.
+     CHI  Chiron Corporation
+     CON  Connaught
+     DVC  DynPort Vaccine Company, LLC
+     EVN  Evans Medical Limited
+     GEO  GeoVax Labs, Inc.
+     SKB  GlaxoSmithKline
+     GRE  Greer Laboratories, Inc.
+     IAG  Immuno International AG
+     IUS  Immuno-U.S., Inc.
+     KGC  Korea Green Cross Corporation
+     LED  Lederle
+     MBL  Massachusetts Biologic Laboratories
+     MA  Massachusetts Public Health Biologic Laboratories
+     MED  MedImmune, Inc.
+     MSD  Merck & Co., Inc.
+     IM  Merieux
+     MIL  Miles
+     NAB  NABI
+     NYB  New York Blood Center
+     NAV  North American Vaccine, Inc.
+     NOV  Novartis Pharmaceutical Corporation
+     NVX  Novavax, Inc.
+     OTC  Organon Teknika Corporation
+     ORT  Ortho-Clinical Diagnostics
+     PD  Parkedale Pharmaceuticals
+     PWJ  PowderJect Pharmaceuticals
+     PRX  Praxis Biologics
+     PMC  sanofi pasteur
+     JPN  The Research Foundation for Microbial Diseases of Osaka University
+     SCL  Sclavo, Inc.
+     SOL  Solvay Pharmaceuticals
+     SI  Swiss Serum and Vaccine Inst.
+     TAL  Talecris Biotherapeutics
+     USA  United States Army Medical Research and Material Command
+     VXG  VaxGen
+     WA  Wyeth-Ayerst
+     WAL  Wyeth-Ayerst
+     ZLB  ZLB Behring
+     OTH  Other manufacturer
+     UNK  Unknown manufacturer
+     """
+
+
+     AB = "AB"
+     AD = "AD"
+     ALP = "ALP"
+     AR = "AR"
+     AVB = "AVB"
+     AVI = "AVI"
+     BA = "BA"
+     BAH = "BAH"
+     BAY = "BAY"
+     BP = "BP"
+     BPC = "BPC"
+     MIP = "MIP"
+     CNJ = "CNJ"
+     CMP = "CMP"
+     CEN = "CEN"
+     CHI = "CHI"
+     CON = "CON"
+     DVC = "DVC"
+     EVN = "EVN"
+     GEO = "GEO"
+     SKB = "SKB"
+     GRE = "GRE"
+     IAG = "IAG"
+     IUS = "IUS"
+     KGC = "KGC"
+     LED = "LED"
+     MBL = "MBL"
+     MA = "MA"
+     MED = "MED"
+     MSD = "MSD"
+     IM = "IM"
+     MIL = "MIL"
+     NAB = "NAB"
+     NYB = "NYB"
+     NAV = "NAV"
+     NOV = "NOV"
+     NVX = "NVX"
+     OTC = "OTC"
+     ORT = "ORT"
+     PD = "PD"
+     PWJ = "PWJ"
+     PRX = "PRX"
+     PMC = "PMC"
+     JPN = "JPN"
+     SCL = "SCL"
+     SOL = "SOL"
+     SI = "SI"
+     TAL = "TAL"
+     USA = "USA"
+     VXG = "VXG"
+     WA = "WA"
+     WAL = "WAL"
+     ZLB = "ZLB"
+     OTH = "OTH"
+     UNK = "UNK"

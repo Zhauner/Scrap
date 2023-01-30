@@ -1,0 +1,21 @@
+
+
+class LanguageProficiency(str, Enum):
+     """
+     404 - Language Proficiency
+
+     1  Excellent
+     2  Good
+     3  Fair
+     4  Poor
+     5  Some (level unknown)
+     6  None
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"
+     _6 = "6"

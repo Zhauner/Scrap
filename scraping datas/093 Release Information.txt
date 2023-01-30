@@ -1,0 +1,14 @@
+
+
+class ReleaseInformation(str, Enum):
+     """
+     093 - Release Information
+
+     Y  Yes
+     N  No
+1312
+     """
+
+
+     Y = "Y"
+     N = "N"

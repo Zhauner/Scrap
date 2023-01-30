@@ -1,0 +1,19 @@
+
+
+class RootCause(str, Enum):
+     """
+     914 - Root Cause
+
+     AP  Analysis Process
+     IM  Information Management
+     L  Laboratory
+     NA  Not Applicable
+     PD  Placer Data
+     """
+
+
+     AP = "AP"
+     IM = "IM"
+     L = "L"
+     NA = "NA"
+     PD = "PD"

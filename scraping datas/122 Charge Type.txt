@@ -1,0 +1,25 @@
+
+
+class ChargeType(str, Enum):
+     """
+     122 - Charge Type
+
+     CH  Charge
+     CO  Contract
+     CR  Credit
+     DP  Department
+     GR  Grant
+     NC  No Charge
+     PC  Professional
+     RS  Research
+     """
+
+
+     CH = "CH"
+     CO = "CO"
+     CR = "CR"
+     DP = "DP"
+     GR = "GR"
+     NC = "NC"
+     PC = "PC"
+     RS = "RS"

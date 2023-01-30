@@ -1,0 +1,13 @@
+
+
+class ArtificialBlood(str, Enum):
+     """
+     375 - Artificial Blood
+
+     SFHB  Stromal free hemoglobin preparations
+     FLUR  Fluorocarbons
+     """
+
+
+     SFHB = "SFHB"
+     FLUR = "FLUR"

@@ -1,0 +1,17 @@
+
+
+class FormularyStatus(str, Enum):
+     """
+     473 - Formulary Status
+
+     G  This observation/service is on the formulary, and has guidelines
+     N  This observation/service is not on the formulary
+     R  This observation/service is on the formulary, but is restricted
+     Y  This observation/service is on the formulary
+     """
+
+
+     G = "G"
+     N = "N"
+     R = "R"
+     Y = "Y"

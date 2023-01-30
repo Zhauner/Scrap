@@ -1,0 +1,25 @@
+
+
+class RelationalOperator(str, Enum):
+     """
+     209 - Relational Operator
+
+     EQ  Equal
+     NE  Not Equal
+     LT  Less than
+     GT  Greater than
+     LE  Less than or equal
+     GE  Greater than or equal
+     CT  Contains
+     GN  Generic
+     """
+
+
+     EQ = "EQ"
+     NE = "NE"
+     LT = "LT"
+     GT = "GT"
+     LE = "LE"
+     GE = "GE"
+     CT = "CT"
+     GN = "GN"

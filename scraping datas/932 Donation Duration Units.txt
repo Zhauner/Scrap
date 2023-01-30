@@ -1,0 +1,13 @@
+
+
+class DonationDurationUnits(str, Enum):
+     """
+     932 - Donation Duration Units
+
+     min  Minutes
+     s  Seconds
+     """
+
+
+     min = "min"
+     s = "s"

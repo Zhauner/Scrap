@@ -1,0 +1,19 @@
+
+
+class ItemType(str, Enum):
+     """
+     778 - Item Type
+
+     EQP  Equipment
+     SUP  Supply
+     IMP  Implant
+     MED  Medication
+     TDC  Tubes, Drains, and Catheters
+     """
+
+
+     EQP = "EQP"
+     SUP = "SUP"
+     IMP = "IMP"
+     MED = "MED"
+     TDC = "TDC"

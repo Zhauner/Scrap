@@ -1,0 +1,15 @@
+
+
+class IncidentTypeCode(str, Enum):
+     """
+     428 - Incident Type Code
+
+     P  Preventable
+     U  User Error
+     O  Other
+     """
+
+
+     P = "P"
+     U = "U"
+     O = "O"

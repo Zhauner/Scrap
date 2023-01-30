@@ -1,0 +1,15 @@
+
+
+class AlertDeviceCode(str, Enum):
+     """
+     437 - Alert Device Code
+
+     B  Bracelet
+     N  Necklace
+     W  Wallet Card
+     """
+
+
+     B = "B"
+     N = "N"
+     W = "W"

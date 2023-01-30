@@ -1,0 +1,13 @@
+
+
+class Taxstatus(str, Enum):
+     """
+     572 - Tax status
+
+     RVAT  Registered in VAT register
+     UVAT  Unregistered in VAT register
+     """
+
+
+     RVAT = "RVAT"
+     UVAT = "UVAT"

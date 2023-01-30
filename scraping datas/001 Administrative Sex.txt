@@ -1,0 +1,21 @@
+
+
+class AdministrativeSex(str, Enum):
+     """
+     001 - Administrative Sex
+
+     F  Female
+     M  Male
+     O  Other
+     U  Unknown
+     A  Ambiguous
+     N  Not applicable
+     """
+
+
+     F = "F"
+     M = "M"
+     O = "O"
+     U = "U"
+     A = "A"
+     N = "N"

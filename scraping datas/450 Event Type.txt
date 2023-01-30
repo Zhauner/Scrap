@@ -1,0 +1,13 @@
+
+
+class EventType(str, Enum):
+     """
+     450 - Event Type
+
+     LOG  Log Event
+     SER  Service Event
+     """
+
+
+     LOG = "LOG"
+     SER = "SER"

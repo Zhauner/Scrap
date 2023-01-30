@@ -1,0 +1,43 @@
+
+
+class SpecialHandlingCode(str, Enum):
+     """
+     376 - Special Handling Code
+
+     C37  Body temperature
+     AMB  Ambient temperature
+     CAMB  Critical ambient temperature
+     REF  Refrigerated temperature
+     CREF  Critical refrigerated temperature
+     FRZ  Frozen temperature
+     CFRZ  Critical frozen temperature
+     DFRZ  Deep frozen
+     UFRZ  Ultra frozen
+     NTR  Liquid nitrogen
+     PRTL  Protect from light
+     CATM  Protect from air
+     DRY  Dry
+     PSO  No shock
+     PSA  Do not shake
+     UPR  Upright
+     MTLF  Metal Free
+     """
+
+
+     C37 = "C37"
+     AMB = "AMB"
+     CAMB = "CAMB"
+     REF = "REF"
+     CREF = "CREF"
+     FRZ = "FRZ"
+     CFRZ = "CFRZ"
+     DFRZ = "DFRZ"
+     UFRZ = "UFRZ"
+     NTR = "NTR"
+     PRTL = "PRTL"
+     CATM = "CATM"
+     DRY = "DRY"
+     PSO = "PSO"
+     PSA = "PSA"
+     UPR = "UPR"
+     MTLF = "MTLF"

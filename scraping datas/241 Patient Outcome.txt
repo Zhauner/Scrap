@@ -1,0 +1,23 @@
+
+
+class PatientOutcome(str, Enum):
+     """
+     241 - Patient Outcome
+
+     D  Died
+     R  Recovering
+     N  Not recovering/unchanged
+     W  Worsening
+     S  Sequelae
+     F  Fully recovered
+     U  Unknown
+     """
+
+
+     D = "D"
+     R = "R"
+     N = "N"
+     W = "W"
+     S = "S"
+     F = "F"
+     U = "U"

@@ -1,0 +1,19 @@
+
+
+class IndirectExposureMechanism(str, Enum):
+     """
+     253 - Indirect Exposure Mechanism
+
+     B  Breast milk
+     P  Transplacental
+     F  Father
+     X  Blood product
+     O  Other
+     """
+
+
+     B = "B"
+     P = "P"
+     F = "F"
+     X = "X"
+     O = "O"

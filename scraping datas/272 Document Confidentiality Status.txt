@@ -1,0 +1,15 @@
+
+
+class DocumentConfidentialityStatus(str, Enum):
+     """
+     272 - Document Confidentiality Status
+
+     V  Very restricted
+     R  Restricted
+     U  Usual control
+     """
+
+
+     V = "V"
+     R = "R"
+     U = "U"

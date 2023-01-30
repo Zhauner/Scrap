@@ -1,0 +1,13 @@
+
+
+class Yes_noIndicator(str, Enum):
+     """
+     136 - Yes-no Indicator
+
+     Y  Yes
+     N  No
+     """
+
+
+     Y = "Y"
+     N = "N"

@@ -1,0 +1,17 @@
+
+
+class PayeeRelationshiptoInvoice(str, Enum):
+     """
+     558 - Payee Relationship to Invoice
+
+     PT  Patient
+     FM  Family Member
+     SB  Subscriber
+     GT  Guarantor
+     """
+
+
+     PT = "PT"
+     FM = "FM"
+     SB = "SB"
+     GT = "GT"

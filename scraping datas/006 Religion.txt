@@ -1,0 +1,179 @@
+
+
+class Religion(str, Enum):
+     """
+     006 - Religion
+
+     AGN  Agnostic
+     ATH  Atheist
+     BAH  Baha'i
+     BRE  Brethren
+     BUD  Buddhist
+     BMA  Buddhist: Mahayana
+     BTH  Buddhist: Theravada
+     BTA  Buddhist: Tantrayana
+     BOT  Buddhist: Other
+     CFR  Chinese Folk Religionist
+     CHR  Christian
+     ABC  Christian: American Baptist Church
+     AMT  Christian: African Methodist Episcopal
+     AME  Christian: African Methodist Episcopal Zion
+     ANG  Christian: Anglican
+     AOG  Christian: Assembly of God
+     BAP  Christian: Baptist
+     CRR  Christian: Christian Reformed
+     CHS  Christian: Christian Science
+     CMA  Christian: Christian Missionary Alliance
+     COC  Christian: Church of Christ
+     COG  Christian: Church of God
+     COI  Christian: Church of God in Christ
+     COM  Christian: Community
+     COL  Christian: Congregational
+     EOT  Christian: Eastern Orthodox
+     EVC  Christian: Evangelical Church
+     EPI  Christian: Episcopalian
+     FWB  Christian: Free Will Baptist
+     FRQ  Christian: Friends
+     FUL  Christian: Full Gospel
+     GRE  Christian: Greek Orthodox
+     JWN  Christian: Jehovah's Witness
+     MOM  Christian: Latter-day Saints
+     LUT  Christian: Lutheran
+     LMS  Christian: Lutheran Missouri Synod
+     MEN  Christian: Mennonite
+     MET  Christian: Methodist
+     NAZ  Christian: Church of the Nazarene
+     ORT  Christian: Orthodox
+     PEN  Christian: Pentecostal
+     COP  Christian: Other Pentecostal
+     PRE  Christian: Presbyterian
+     PRO  Christian: Protestant
+     PRC  Christian: Other Protestant
+     REC  Christian: Reformed Church
+     REO  Christian: Reorganized Church of Jesus Christ-LDS
+     CAT  Christian: Roman Catholic
+     SAA  Christian: Salvation Army
+     SEV  Christian: Seventh Day Adventist
+     SOU  Christian: Southern Baptist
+     UCC  Christian: United Church of Christ
+     UMD  Christian: United Methodist
+     UNI  Christian: Unitarian
+     UNU  Christian: Unitarian Universalist
+     WES  Christian: Wesleyan
+     WMC  Christian: Wesleyan Methodist
+     COT  Christian: Other
+     CNF  Confucian
+     DOC  Disciples of Christ
+     ERL  Ethnic Religionist
+     HIN  Hindu
+     HSH  Hindu: Shaivites
+     HVA  Hindu: Vaishnavites
+     HOT  Hindu: Other
+     JAI  Jain
+     JEW  Jewish
+     JCO  Jewish: Conservative
+     JOR  Jewish: Orthodox
+     JRC  Jewish: Reconstructionist
+     JRF  Jewish: Reform
+     JRN  Jewish: Renewal
+     JOT  Jewish: Other
+     MOS  Muslim
+     MSH  Muslim: Shiite
+     MSU  Muslim: Sunni
+     MOT  Muslim: Other
+     NAM  Native American
+     NRL  New Religionist
+     NOE  Nonreligious
+     SHN  Shintoist
+     SIK  Sikh
+     SPI  Spiritist
+     OTH  Other
+     VAR  Unknown
+     """
+
+
+     AGN = "AGN"
+     ATH = "ATH"
+     BAH = "BAH"
+     BRE = "BRE"
+     BUD = "BUD"
+     BMA = "BMA"
+     BTH = "BTH"
+     BTA = "BTA"
+     BOT = "BOT"
+     CFR = "CFR"
+     CHR = "CHR"
+     ABC = "ABC"
+     AMT = "AMT"
+     AME = "AME"
+     ANG = "ANG"
+     AOG = "AOG"
+     BAP = "BAP"
+     CRR = "CRR"
+     CHS = "CHS"
+     CMA = "CMA"
+     COC = "COC"
+     COG = "COG"
+     COI = "COI"
+     COM = "COM"
+     COL = "COL"
+     EOT = "EOT"
+     EVC = "EVC"
+     EPI = "EPI"
+     FWB = "FWB"
+     FRQ = "FRQ"
+     FUL = "FUL"
+     GRE = "GRE"
+     JWN = "JWN"
+     MOM = "MOM"
+     LUT = "LUT"
+     LMS = "LMS"
+     MEN = "MEN"
+     MET = "MET"
+     NAZ = "NAZ"
+     ORT = "ORT"
+     PEN = "PEN"
+     COP = "COP"
+     PRE = "PRE"
+     PRO = "PRO"
+     PRC = "PRC"
+     REC = "REC"
+     REO = "REO"
+     CAT = "CAT"
+     SAA = "SAA"
+     SEV = "SEV"
+     SOU = "SOU"
+     UCC = "UCC"
+     UMD = "UMD"
+     UNI = "UNI"
+     UNU = "UNU"
+     WES = "WES"
+     WMC = "WMC"
+     COT = "COT"
+     CNF = "CNF"
+     DOC = "DOC"
+     ERL = "ERL"
+     HIN = "HIN"
+     HSH = "HSH"
+     HVA = "HVA"
+     HOT = "HOT"
+     JAI = "JAI"
+     JEW = "JEW"
+     JCO = "JCO"
+     JOR = "JOR"
+     JRC = "JRC"
+     JRF = "JRF"
+     JRN = "JRN"
+     JOT = "JOT"
+     MOS = "MOS"
+     MSH = "MSH"
+     MSU = "MSU"
+     MOT = "MOT"
+     NAM = "NAM"
+     NRL = "NRL"
+     NOE = "NOE"
+     SHN = "SHN"
+     SIK = "SIK"
+     SPI = "SPI"
+     OTH = "OTH"
+     VAR = "VAR"

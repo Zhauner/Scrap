@@ -1,0 +1,19 @@
+
+
+class QuantityLimitedRequest(str, Enum):
+     """
+     126 - Quantity Limited Request
+
+     CH  Characters
+     LI  Lines
+     PG  Pages
+     RD  Records
+     ZO  Locally defined
+     """
+
+
+     CH = "CH"
+     LI = "LI"
+     PG = "PG"
+     RD = "RD"
+     ZO = "ZO"

@@ -1,0 +1,23 @@
+
+
+class DocumentCompletionStatus(str, Enum):
+     """
+     271 - Document Completion Status
+
+     DI  Dictated
+     DO  Documented
+     IP  In Progress
+     IN  Incomplete
+     PA  Pre-authenticated
+     AU  Authenticated
+     LA  Legally authenticated
+     """
+
+
+     DI = "DI"
+     DO = "DO"
+     IP = "IP"
+     IN = "IN"
+     PA = "PA"
+     AU = "AU"
+     LA = "LA"

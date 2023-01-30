@@ -1,0 +1,13 @@
+
+
+class CyclicEntry_ExitIndicator(str, Enum):
+     """
+     505 - Cyclic Entry-Exit Indicator
+
+     *  The first service request in a cyclic group
+     #  The last service request in a cyclic group.
+     """
+
+
+     star = "*"
+     hashtag = "#"

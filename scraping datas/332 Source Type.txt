@@ -1,0 +1,13 @@
+
+
+class SourceType(str, Enum):
+     """
+     332 - Source Type
+
+     I  Initiate
+     A  Accept
+     """
+
+
+     I = "I"
+     A = "A"

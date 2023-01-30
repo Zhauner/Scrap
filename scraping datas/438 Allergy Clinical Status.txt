@@ -1,0 +1,23 @@
+
+
+class AllergyClinicalStatus(str, Enum):
+     """
+     438 - Allergy Clinical Status
+
+     U  Unconfirmed
+     P  Pending
+     S  Suspect
+     C  Confirmed or verified
+     I  Confirmed but inactive
+     E  Erroneous
+     D  Doubt raised
+     """
+
+
+     U = "U"
+     P = "P"
+     S = "S"
+     C = "C"
+     I = "I"
+     E = "E"
+     D = "D"

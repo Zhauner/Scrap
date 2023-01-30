@@ -1,0 +1,13 @@
+
+
+class NameAssemblyOrder(str, Enum):
+     """
+     444 - Name Assembly Order
+
+     G  Prefix Given Middle Family Suffix
+     F  Prefix Family Middle Given Suffix
+     """
+
+
+     G = "G"
+     F = "F"

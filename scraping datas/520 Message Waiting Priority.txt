@@ -1,0 +1,15 @@
+
+
+class MessageWaitingPriority(str, Enum):
+     """
+     520 - Message Waiting Priority
+
+     H  High
+     M  Medium
+     L  Low
+     """
+
+
+     H = "H"
+     M = "M"
+     L = "L"

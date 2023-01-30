@@ -1,0 +1,23 @@
+
+
+class EligibilitySource(str, Enum):
+     """
+     144 - Eligibility Source
+
+     1  Insurance company
+     2  Employer
+     3  Insured presented policy
+     4  Insured presented card
+     5  Signed statement on file
+     6  Verbal information
+     7  None
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"
+     _6 = "6"
+     _7 = "7"

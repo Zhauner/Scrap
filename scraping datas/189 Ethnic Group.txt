@@ -1,0 +1,15 @@
+
+
+class EthnicGroup(str, Enum):
+     """
+     189 - Ethnic Group
+
+     H  Hispanic or Latino
+     N  Not Hispanic or Latino
+     U  Unknown
+     """
+
+
+     H = "H"
+     N = "N"
+     U = "U"

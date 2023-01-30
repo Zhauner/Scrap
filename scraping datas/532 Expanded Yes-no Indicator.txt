@@ -1,0 +1,27 @@
+
+
+class ExpandedYes_noIndicator(str, Enum):
+     """
+     532 - Expanded Yes-no Indicator
+
+     Y  Yes
+     N  No
+     NI  No Information
+     NA  not applicable
+     UNK  unknown
+     NASK  not asked
+     ASKU  asked but unknown
+     NAV  temporarily unavailable
+     NP  not present
+     """
+
+
+     Y = "Y"
+     N = "N"
+     NI = "NI"
+     NA = "NA"
+     UNK = "UNK"
+     NASK = "NASK"
+     ASKU = "ASKU"
+     NAV = "NAV"
+     NP = "NP"

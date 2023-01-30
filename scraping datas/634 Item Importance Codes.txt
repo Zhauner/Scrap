@@ -1,0 +1,11 @@
+
+
+class ItemImportanceCodes(str, Enum):
+     """
+     634 - Item Importance Codes
+
+     CRT  Critical
+     """
+
+
+     CRT = "CRT"

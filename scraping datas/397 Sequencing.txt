@@ -1,0 +1,19 @@
+
+
+class Sequencing(str, Enum):
+     """
+     397 - Sequencing
+
+     A  Ascending
+     AN  Ascending, case insensitive
+     D  Descending
+     DN  Descending, case insensitive
+     N  None
+     """
+
+
+     A = "A"
+     AN = "AN"
+     D = "D"
+     DN = "DN"
+     N = "N"

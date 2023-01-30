@@ -1,0 +1,257 @@
+
+
+class Vaccinesadministered(str, Enum):
+     """
+     292 - Vaccines administered
+
+     54  adenovirus, type 4
+     55  adenovirus, type 7
+     82  adenovirus, NOS1
+     24  anthrax
+     19  BCG
+     27  botulinum antitoxin
+     26  cholera
+     29  CMVIG
+     56  dengue fever
+     12  diphtheria antitoxin
+     28  DT (pediatric)
+     20  DTaP
+     106  DTaP, 5 pertussis antigens6
+     107  DTaP, NOS
+     110  DTaP-Hep B-IPV
+     50  DTaP-Hib
+     120  DTaP-Hib-IPV
+     01  DTP
+     22  DTP-Hib
+     102  DTP-Hib-Hep B
+     57  hantavirus
+     52  Hep A, adult
+     83  Hep A, ped/adol, 2 dose
+     84  Hep A, ped/adol, 3 dose
+     31  Hep A, pediatric, NOS
+     85  Hep A, NOS
+     104  Hep A-Hep B
+     30  HBIG
+     08  Hep B, adolescent or pediatric
+     42  Hep B, adolescent/high risk infant2
+     43  Hep B, adult4
+     44  Hep B, dialysis
+     45  Hep B, NOS
+     58  Hep C
+     59  Hep E
+     60  herpes simplex 2
+     46  Hib (PRP-D)
+     47  Hib (HbOC)
+     48  Hib (PRP-T)
+     49  Hib (PRP-OMP)
+     17  Hib, NOS
+     51  Hib-Hep B
+     61  HIV
+     118  HPV, bivalent
+     62  HPV, quadrivalent
+     86  IG
+     87  IGIV
+     14  IG, NOS
+     111  influenza, live, intranasal
+     15  influenza, split (incl. purified surface antigen)
+     16  influenza, whole
+     88  influenza, NOS
+     10  IPV
+     02  OPV
+     89  polio, NOS
+     39  Japanese encephalitis
+     63  Junin virus
+     64  leishmaniasis
+     65  leprosy
+     66  Lyme disease
+     03  MMR
+     04  M/R
+     94  MMRV
+     67  malaria
+     05  measles
+     68  melanoma
+     32  meningococcal
+     103  meningococcal C conjugate
+     114  meningococcal A,C,Y,W-135 diphtheria conjugate
+     108  meningococcal, NOS
+     07  mumps
+     69  parainfluenza-3
+     11  pertussis
+     23  plague
+     33  pneumococcal
+     100  pneumococcal conjugate
+     109  pneumococcal, NOS
+     70  Q fever
+     18  rabies, intramuscular injection
+     40  rabies, intradermal injection
+     90  rabies, NOS
+     72  rheumatic fever
+     73  Rift Valley fever
+     34  RIG
+     119  rotavirus, monovalent
+     122  rotavirus, NOS1
+     116  rotavirus, pentavalent
+     74  rotavirus, tetravalent
+     71  RSV-IGIV
+     93  RSV-MAb
+     06  rubella
+     38  rubella/mumps
+     76  Staphylococcus bacterio lysate
+     113  Td (adult)
+     09  Td (adult)
+     115  Tdap
+     35  tetanus toxoid
+     112  tetanus toxoid, NOS
+     77  tick-borne encephalitis
+     13  TIG
+     95  TST-OT tine test
+     96  TST-PPD intradermal
+     97  TST-PPD tine test
+     98  TST, NOS
+     78  tularemia vaccine
+     91  typhoid, NOS
+     25  typhoid, oral
+     41  typhoid, parenteral
+     53  typhoid, parenteral, AKD (U.S. military)
+     101  typhoid, ViCPs
+     75  vaccinia (smallpox)
+     105  vaccinia (smallpox) diluted
+     79  vaccinia immune globulin
+     21  varicella
+     81  VEE, inactivated
+     80  VEE, live
+     92  VEE, NOS
+     36  VZIG
+     117  VZIG (IND)
+     37  yellow fever
+     121  zoster
+     998  no vaccine administered5
+     999  unknown
+     99  RESERVED - do not use3
+     """
+
+
+     _54 = "54"
+     _55 = "55"
+     _82 = "82"
+     _24 = "24"
+     _19 = "19"
+     _27 = "27"
+     _26 = "26"
+     _29 = "29"
+     _56 = "56"
+     _12 = "12"
+     _28 = "28"
+     _20 = "20"
+     _106 = "106"
+     _107 = "107"
+     _110 = "110"
+     _50 = "50"
+     _120 = "120"
+     _01 = "01"
+     _22 = "22"
+     _102 = "102"
+     _57 = "57"
+     _52 = "52"
+     _83 = "83"
+     _84 = "84"
+     _31 = "31"
+     _85 = "85"
+     _104 = "104"
+     _30 = "30"
+     _08 = "08"
+     _42 = "42"
+     _43 = "43"
+     _44 = "44"
+     _45 = "45"
+     _58 = "58"
+     _59 = "59"
+     _60 = "60"
+     _46 = "46"
+     _47 = "47"
+     _48 = "48"
+     _49 = "49"
+     _17 = "17"
+     _51 = "51"
+     _61 = "61"
+     _118 = "118"
+     _62 = "62"
+     _86 = "86"
+     _87 = "87"
+     _14 = "14"
+     _111 = "111"
+     _15 = "15"
+     _16 = "16"
+     _88 = "88"
+     _10 = "10"
+     _02 = "02"
+     _89 = "89"
+     _39 = "39"
+     _63 = "63"
+     _64 = "64"
+     _65 = "65"
+     _66 = "66"
+     _03 = "03"
+     _04 = "04"
+     _94 = "94"
+     _67 = "67"
+     _05 = "05"
+     _68 = "68"
+     _32 = "32"
+     _103 = "103"
+     _114 = "114"
+     _108 = "108"
+     _07 = "07"
+     _69 = "69"
+     _11 = "11"
+     _23 = "23"
+     _33 = "33"
+     _100 = "100"
+     _109 = "109"
+     _70 = "70"
+     _18 = "18"
+     _40 = "40"
+     _90 = "90"
+     _72 = "72"
+     _73 = "73"
+     _34 = "34"
+     _119 = "119"
+     _122 = "122"
+     _116 = "116"
+     _74 = "74"
+     _71 = "71"
+     _93 = "93"
+     _06 = "06"
+     _38 = "38"
+     _76 = "76"
+     _113 = "113"
+     _09 = "09"
+     _115 = "115"
+     _35 = "35"
+     _112 = "112"
+     _77 = "77"
+     _13 = "13"
+     _95 = "95"
+     _96 = "96"
+     _97 = "97"
+     _98 = "98"
+     _78 = "78"
+     _91 = "91"
+     _25 = "25"
+     _41 = "41"
+     _53 = "53"
+     _101 = "101"
+     _75 = "75"
+     _105 = "105"
+     _79 = "79"
+     _21 = "21"
+     _81 = "81"
+     _80 = "80"
+     _92 = "92"
+     _36 = "36"
+     _117 = "117"
+     _37 = "37"
+     _121 = "121"
+     _998 = "998"
+     _999 = "999"
+     _99 = "99"

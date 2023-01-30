@@ -1,0 +1,17 @@
+
+
+class AnalyteRepeatStatus(str, Enum):
+     """
+     389 - Analyte Repeat Status
+
+     O  Original, first run
+     R  Repeated without dilution
+     D  Repeated with dilution
+     F  Reflex test
+     """
+
+
+     O = "O"
+     R = "R"
+     D = "D"
+     F = "F"

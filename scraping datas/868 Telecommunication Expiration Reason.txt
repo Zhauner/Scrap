@@ -1,0 +1,19 @@
+
+
+class TelecommunicationExpirationReason(str, Enum):
+     """
+     868 - Telecommunication Expiration Reason
+
+     M  Moved
+     E  Added in error
+     R  On request
+     C  Corrected
+     N  No longer in service
+     """
+
+
+     M = "M"
+     E = "E"
+     R = "R"
+     C = "C"
+     N = "N"

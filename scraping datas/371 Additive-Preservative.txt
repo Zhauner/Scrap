@@ -1,0 +1,123 @@
+
+
+class Additive_Preservative(str, Enum):
+     """
+     371 - Additive-Preservative
+
+     F10  10% Formalin
+     C32  3.2%  Citrate
+     C38  3.8% Citrate
+     HCL6  6N HCL
+     ACDA  ACD Solution A
+     ACDB  ACD Solution B
+     ACET  Acetic Acid
+     AMIES  Amies transport medium
+     HEPA  Ammonium heparin
+     BACTM  Bacterial Transport medium
+     BOR  Borate Boric Acid
+     BOUIN  Bouin's solution
+     BF10  Buffered 10% formalin
+     WEST  Buffered Citrate (Westergren Sedimentation Rate)
+     BSKM  Buffered skim milk
+     CARS  Carson's Modified 10% formalin
+     CARY  Cary Blair Medium
+     CHLTM  Chlamydia transport medium
+     CTAD  CTAD (this should be spelled out if not universally understood)
+     ENT  Enteric bacteria transport medium
+     ENT+  Enteric plus
+     JKM  Jones Kendrick Medium
+     KARN  Karnovsky's fixative
+     LIA  Lithium iodoacetate
+     HEPL  Lithium/Li  Heparin
+     M4  M4
+     M4RT  M4-RT
+     M5  M5
+     MICHTM  Michel's transport medium
+     MMDTM  MMD transport medium
+     HNO3  Nitric Acid
+     NONE  None
+     PAGE  Pages's Saline
+     PHENOL  Phenol
+     KOX  Potassium Oxalate
+     EDTK  Potassium/K EDTA
+     EDTK15  Potassium/K EDTA 15%
+     EDTK75  Potassium/K EDTA 7.5%
+     PVA  PVA (polyvinylalcohol)
+     RLM  Reagan Lowe Medium
+     SST  Serum Separator Tube (Polymer Gel)
+     SILICA  Siliceous earth, 12 mg
+     NAF  Sodium Fluoride
+     FL100  Sodium Fluoride, 100mg
+     FL10  Sodium Fluoride, 10mg
+     NAPS  Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride
+     HEPN  Sodium/Na  Heparin
+     EDTN  Sodium/Na EDTA
+     SPS  SPS(this should be spelled out if not universally understood)
+     STUTM  Stuart transport medium
+     THROM  Thrombin
+     FDP  Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)
+     THYMOL  Thymol
+     THYO  Thyoglycollate broth
+     TOLU  Toluene
+     URETM  Ureaplasma transport medium
+     VIRTM  Viral Transport medium
+     """
+
+
+     F10 = "F10"
+     C32 = "C32"
+     C38 = "C38"
+     HCL6 = "HCL6"
+     ACDA = "ACDA"
+     ACDB = "ACDB"
+     ACET = "ACET"
+     AMIES = "AMIES"
+     HEPA = "HEPA"
+     BACTM = "BACTM"
+     BOR = "BOR"
+     BOUIN = "BOUIN"
+     BF10 = "BF10"
+     WEST = "WEST"
+     BSKM = "BSKM"
+     CARS = "CARS"
+     CARY = "CARY"
+     CHLTM = "CHLTM"
+     CTAD = "CTAD"
+     ENT = "ENT"
+     ENT_ = "ENT+"
+     JKM = "JKM"
+     KARN = "KARN"
+     LIA = "LIA"
+     HEPL = "HEPL"
+     M4 = "M4"
+     M4RT = "M4RT"
+     M5 = "M5"
+     MICHTM = "MICHTM"
+     MMDTM = "MMDTM"
+     HNO3 = "HNO3"
+     NONE = "NONE"
+     PAGE = "PAGE"
+     PHENOL = "PHENOL"
+     KOX = "KOX"
+     EDTK = "EDTK"
+     EDTK15 = "EDTK15"
+     EDTK75 = "EDTK75"
+     PVA = "PVA"
+     RLM = "RLM"
+     SST = "SST"
+     SILICA = "SILICA"
+     NAF = "NAF"
+     FL100 = "FL100"
+     FL10 = "FL10"
+     NAPS = "NAPS"
+     HEPN = "HEPN"
+     EDTN = "EDTN"
+     SPS = "SPS"
+     STUTM = "STUTM"
+     THROM = "THROM"
+     FDP = "FDP"
+     THYMOL = "THYMOL"
+     THYO = "THYO"
+     TOLU = "TOLU"
+     URETM = "URETM"
+     VIRTM = "VIRTM"

@@ -1,0 +1,21 @@
+
+
+class PatientConditionCode(str, Enum):
+     """
+     434 - Patient Condition Code
+
+     A  Satisfactory
+     C  Critical
+     P  Poor
+     S  Stable
+     O  Other
+     U  Unknown
+     """
+
+
+     A = "A"
+     C = "C"
+     P = "P"
+     S = "S"
+     O = "O"
+     U = "U"

@@ -1,0 +1,15 @@
+
+
+class EventExpected(str, Enum):
+     """
+     239 - Event Expected
+
+     Y  Yes
+     N  No
+     U  Unknown
+     """
+
+
+     Y = "Y"
+     N = "N"
+     U = "U"

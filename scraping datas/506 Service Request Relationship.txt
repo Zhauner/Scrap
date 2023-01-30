@@ -1,0 +1,19 @@
+
+
+class ServiceRequestRelationship(str, Enum):
+     """
+     506 - Service Request Relationship
+
+     N  Nurse prerogative
+     C  Compound
+     T  Tapering
+     E  Exclusive
+     S  Simultaneous
+     """
+
+
+     N = "N"
+     C = "C"
+     T = "T"
+     E = "E"
+     S = "S"

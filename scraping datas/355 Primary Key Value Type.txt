@@ -1,0 +1,15 @@
+
+
+class PrimaryKeyValueType(str, Enum):
+     """
+     355 - Primary Key Value Type
+
+     PL  Person location
+     CE  Coded element
+     CWE  Coded with Exceptions
+     """
+
+
+     PL = "PL"
+     CE = "CE"
+     CWE = "CWE"

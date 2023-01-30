@@ -1,0 +1,15 @@
+
+
+class StatusWeightAtBirth(str, Enum):
+     """
+     755 - Status Weight At Birth
+
+     0  No weight reported at admission used for grouping
+     1  Weight reported at admission used for grouping
+     2  Default weight (>2499g) used for grouping
+     """
+
+
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"

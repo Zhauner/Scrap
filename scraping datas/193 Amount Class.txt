@@ -1,0 +1,17 @@
+
+
+class AmountClass(str, Enum):
+     """
+     193 - Amount Class
+
+     AT  Amount
+     LM  Limit
+     PC  Percentage
+     UL  Unlimited
+     """
+
+
+     AT = "AT"
+     LM = "LM"
+     PC = "PC"
+     UL = "UL"

@@ -1,0 +1,15 @@
+
+
+class EventSeriousness(str, Enum):
+     """
+     238 - Event Seriousness
+
+     Y  Yes
+     S  Significant
+     N  No
+     """
+
+
+     Y = "Y"
+     S = "S"
+     N = "N"

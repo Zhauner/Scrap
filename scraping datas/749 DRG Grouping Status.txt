@@ -1,0 +1,17 @@
+
+
+class DRGGroupingStatus(str, Enum):
+     """
+     749 - DRG Grouping Status
+
+     0  Valid code; not used for grouping
+     1  Valid code; used for grouping
+     2  Invalid code; not used for grouping
+     3  Invalid code; code is relevant for grouping
+     """
+
+
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"

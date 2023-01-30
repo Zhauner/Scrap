@@ -1,0 +1,11 @@
+
+
+class Re_AdmissionIndicator(str, Enum):
+     """
+     092 - Re-Admission Indicator
+
+     R  Re-admission
+     """
+
+
+     R = "R"

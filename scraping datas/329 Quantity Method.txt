@@ -1,0 +1,13 @@
+
+
+class QuantityMethod(str, Enum):
+     """
+     329 - Quantity Method
+
+     A  Actual count
+     E  Estimated (see comment)
+     """
+
+
+     A = "A"
+     E = "E"

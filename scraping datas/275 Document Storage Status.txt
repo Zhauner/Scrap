@@ -1,0 +1,17 @@
+
+
+class DocumentStorageStatus(str, Enum):
+     """
+     275 - Document Storage Status
+
+     AC  Active
+     AA  Active and archived
+     AR  Archived (not active)
+     PU  Purged
+     """
+
+
+     AC = "AC"
+     AA = "AA"
+     AR = "AR"
+     PU = "PU"

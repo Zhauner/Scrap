@@ -1,0 +1,19 @@
+
+
+class TrayType(str, Enum):
+     """
+     160 - Tray Type
+
+     EARLY  Early tray
+     LATE  Late tray
+     GUEST  Guest tray
+     NO  No tray
+     MSG  Tray message only
+     """
+
+
+     EARLY = "EARLY"
+     LATE = "LATE"
+     GUEST = "GUEST"
+     NO = "NO"
+     MSG = "MSG"

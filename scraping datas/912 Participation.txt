@@ -1,0 +1,79 @@
+
+
+class Participation(str, Enum):
+     """
+     912 - Participation
+
+     AAP  Alert Acknowledging Provider
+     AC  Person that cosigned the prescription
+     AD  Admitting Provider
+     AI  Assistant/Alternate Interpreter
+     AP  Administering Provider
+     ARI  Assistant Result Interpreter
+     AT  Attending Provider
+     AUT  AUT Author/Event Initiator
+     CP  Consulting Provider
+     DP  Dispensing Provider
+     EP  Entering Provider (probably not the same as transcriptionist)
+     EQUIP  Equipment
+     FHCP  Family Health Care Professional
+     MDIR  Medical Director
+     OP  Ordering Provider
+     PB  Packed by
+     PH  Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)
+     PI  Primary Interpreter
+     PO  Performing Organization
+     POMD  Performing Organization Medical Director
+     PP  Primary Care Provider
+     PRI  Principal Result Interpreter
+     RCT  Results Copies To
+     RO  Responsible Observer
+     RP  Referring Provider
+     RT  Referred to Provider
+     SB  Send by
+     SC  Specimen Collector
+     TN  Technician
+     TR  Transcriptionist
+     VP  Verifying Provider
+     VPS  Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)
+     VTS  Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)
+     WAY  Waypoint
+     WAYR  Waypoint Recipient
+     """
+
+
+     AAP = "AAP"
+     AC = "AC"
+     AD = "AD"
+     AI = "AI"
+     AP = "AP"
+     ARI = "ARI"
+     AT = "AT"
+     AUT = "AUT"
+     CP = "CP"
+     DP = "DP"
+     EP = "EP"
+     EQUIP = "EQUIP"
+     FHCP = "FHCP"
+     MDIR = "MDIR"
+     OP = "OP"
+     PB = "PB"
+     PH = "PH"
+     PI = "PI"
+     PO = "PO"
+     POMD = "POMD"
+     PP = "PP"
+     PRI = "PRI"
+     RCT = "RCT"
+     RO = "RO"
+     RP = "RP"
+     RT = "RT"
+     SB = "SB"
+     SC = "SC"
+     TN = "TN"
+     TR = "TR"
+     VP = "VP"
+     VPS = "VPS"
+     VTS = "VTS"
+     WAY = "WAY"
+     WAYR = "WAYR"

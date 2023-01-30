@@ -1,0 +1,21 @@
+
+
+class PrivacyLevel(str, Enum):
+     """
+     262 - Privacy Level
+
+     F  Isolation
+     P  Private room
+     J  Private room - medically justified
+     Q  Private room - due to overflow
+     S  Semi-private room
+     W  Ward
+     """
+
+
+     F = "F"
+     P = "P"
+     J = "J"
+     Q = "Q"
+     S = "S"
+     W = "W"

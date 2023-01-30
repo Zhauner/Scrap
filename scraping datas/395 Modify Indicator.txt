@@ -1,0 +1,13 @@
+
+
+class ModifyIndicator(str, Enum):
+     """
+     395 - Modify Indicator
+
+     N  New Subscription
+     M  Modified Subscription
+     """
+
+
+     N = "N"
+     M = "M"

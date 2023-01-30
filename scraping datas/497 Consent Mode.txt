@@ -1,0 +1,15 @@
+
+
+class ConsentMode(str, Enum):
+     """
+     497 - Consent Mode
+
+     V  Verbal
+     W  Written
+     T  Telephone
+     """
+
+
+     V = "V"
+     W = "W"
+     T = "T"

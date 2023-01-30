@@ -1,0 +1,16 @@
+
+
+class AmbulatoryPaymentClassificationCode(str, Enum):
+     """
+     466 - Ambulatory Payment Classification Code
+
+     031  Dental procedures
+     163  Excision/biopsy
+     181  Level 1 skin repair.
+1312
+     """
+
+
+     _031 = "031"
+     _163 = "163"
+     _181 = "181"

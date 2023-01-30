@@ -1,0 +1,25 @@
+
+
+class PatientLocationType(str, Enum):
+     """
+     260 - Patient Location Type
+
+     N  Nursing Unit
+     R  Room
+     B  Bed
+     E  Exam Room
+     O  Operating Room
+     C  Clinic
+     D  Department
+     L  Other Location
+     """
+
+
+     N = "N"
+     R = "R"
+     B = "B"
+     E = "E"
+     O = "O"
+     C = "C"
+     D = "D"
+     L = "L"

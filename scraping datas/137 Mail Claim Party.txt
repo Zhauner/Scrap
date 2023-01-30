@@ -1,0 +1,19 @@
+
+
+class MailClaimParty(str, Enum):
+     """
+     137 - Mail Claim Party
+
+     E  Employer
+     G  Guarantor
+     I  Insurance company
+     O  Other
+     P  Patient
+     """
+
+
+     E = "E"
+     G = "G"
+     I = "I"
+     O = "O"
+     P = "P"

@@ -1,0 +1,17 @@
+
+
+class ProductSource(str, Enum):
+     """
+     248 - Product Source
+
+     A  Actual product involved in incident was evaluated
+     L  A product from the same lot as the actual product involved was evaluated
+     R  A product from a reserve sample was evaluated
+     N  A product from a controlled/non-related inventory was evaluated
+     """
+
+
+     A = "A"
+     L = "L"
+     R = "R"
+     N = "N"

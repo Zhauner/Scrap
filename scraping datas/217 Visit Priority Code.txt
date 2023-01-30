@@ -1,0 +1,15 @@
+
+
+class VisitPriorityCode(str, Enum):
+     """
+     217 - Visit Priority Code
+
+     1  Emergency
+     2  Urgent
+     3  Elective
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"

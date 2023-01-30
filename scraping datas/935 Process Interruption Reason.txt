@@ -1,0 +1,27 @@
+
+
+class ProcessInterruptionReason(str, Enum):
+     """
+     935 - Process Interruption Reason
+
+     NRG  No reason given, donor decided to stop without giving a reason
+     PCD  Phone Call-Donor
+     DCW  Couldn't wait
+     CFT  Couldn't follow through with donation (scared)
+     DBB  Bathroom
+     DNI  Phlebotomy Issue
+     ASC  Apheresis Software Crash
+     BSC  Manufacturing Software Crash
+     GFE  General Facility Emergency
+     """
+
+
+     NRG = "NRG"
+     PCD = "PCD"
+     DCW = "DCW"
+     CFT = "CFT"
+     DBB = "DBB"
+     DNI = "DNI"
+     ASC = "ASC"
+     BSC = "BSC"
+     GFE = "GFE"

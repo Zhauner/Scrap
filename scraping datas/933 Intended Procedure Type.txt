@@ -1,0 +1,35 @@
+
+
+class IntendedProcedureType(str, Enum):
+     """
+     933 - Intended Procedure Type
+
+     WBL  Whole Blood
+     2RC  Double Red Cells
+     PLS  Plasma
+     PLT  Platelets
+     PNP  Platelets and Plasma
+     PNR  Platelets and Red Cells
+     PPR  Platelets, Plasma, and Red Cells
+     GRN  Granulocytes
+     HEM  Hemachromatosis
+     HPC  Hematopoietic Progenitor Cells
+     LYM  Lymphocytes
+     THA  Therapeutic Apheresis
+     THW  Therapeutic Whole Blood
+     """
+
+
+     WBL = "WBL"
+     _2RC = "2RC"
+     PLS = "PLS"
+     PLT = "PLT"
+     PNP = "PNP"
+     PNR = "PNR"
+     PPR = "PPR"
+     GRN = "GRN"
+     HEM = "HEM"
+     HPC = "HPC"
+     LYM = "LYM"
+     THA = "THA"
+     THW = "THW"

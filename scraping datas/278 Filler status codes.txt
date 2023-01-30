@@ -1,0 +1,31 @@
+
+
+class Fillerstatuscodes(str, Enum):
+     """
+     278 - Filler status codes
+
+     Pending  Appointment has not yet been confirmed
+     Waitlist  Appointment has been placed on a waiting list for a particular slot, or set of slots
+     Booked  The indicated appointment is booked
+     Started  The indicated appointment has begun and is currently in progress
+     Complete  The indicated appointment has completed normally (was not discontinued, canceled, or deleted)
+     Cancelled  The indicated appointment was stopped from occurring (canceled prior to starting)
+     Discontinued  The indicated appointment was discontinued (DC'ed while in progress, discontinued parent appointment, or discontinued child appointment)
+     Deleted  The indicated appointment was deleted from the filler application
+     Blocked  The indicated time slot(s) is(are) blocked
+     Overbook  The appointment has been confirmed; however it is confirmed in an overbooked state
+     Noshow  The patient did not show up for the appointment
+     """
+
+
+     Pending = "Pending"
+     Waitlist = "Waitlist"
+     Booked = "Booked"
+     Started = "Started"
+     Complete = "Complete"
+     Cancelled = "Cancelled"
+     Discontinued = "Discontinued"
+     Deleted = "Deleted"
+     Blocked = "Blocked"
+     Overbook = "Overbook"
+     Noshow = "Noshow"

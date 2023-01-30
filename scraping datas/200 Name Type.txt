@@ -1,0 +1,53 @@
+
+
+class NameType(str, Enum):
+     """
+     200 - Name Type
+
+     A  Assigned
+     B  Birth name
+     BAD  Bad Name
+     C  Adopted Name
+     D  Customary Name
+     F  Fathers Name
+     I  Licensing Name
+     K  Business name
+     L  Official Registry Name
+     M  Maiden Name
+     MSK  Masked
+     N  Nickname
+     NAV  Temporarily Unavailable
+     NB  Newborn Name
+     NOUSE  No Longer To Be Used
+     P  Name of Partner/Spouse
+     R  Registered Name
+     REL  Religious
+     S  Pseudonym
+     T  Indigenous/Tribal
+     TEMP  Temporary Name
+     U  Unknown
+     """
+
+
+     A = "A"
+     B = "B"
+     BAD = "BAD"
+     C = "C"
+     D = "D"
+     F = "F"
+     I = "I"
+     K = "K"
+     L = "L"
+     M = "M"
+     MSK = "MSK"
+     N = "N"
+     NAV = "NAV"
+     NB = "NB"
+     NOUSE = "NOUSE"
+     P = "P"
+     R = "R"
+     REL = "REL"
+     S = "S"
+     T = "T"
+     TEMP = "TEMP"
+     U = "U"

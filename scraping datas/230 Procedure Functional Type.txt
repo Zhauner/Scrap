@@ -1,0 +1,17 @@
+
+
+class ProcedureFunctionalType(str, Enum):
+     """
+     230 - Procedure Functional Type
+
+     A  Anesthesia
+     P  Procedure for treatment (therapeutic, including operations)
+     I  Invasive procedure not classified elsewhere (e.g., IV, catheter, etc.)
+     D  Diagnostic procedure
+     """
+
+
+     A = "A"
+     P = "P"
+     I = "I"
+     D = "D"

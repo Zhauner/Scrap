@@ -1,0 +1,13 @@
+
+
+class LaborCalculationType(str, Enum):
+     """
+     651 - Labor Calculation Type
+
+     TME  Time
+     CST  Cost
+     """
+
+
+     TME = "TME"
+     CST = "CST"

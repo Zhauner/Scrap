@@ -1,0 +1,35 @@
+
+
+class AccessRestrictionValue(str, Enum):
+     """
+     717 - Access Restriction Value
+
+     ALL  All
+     DEM  All demographic data
+     LOC  Patient Location
+     PID-7  Date of Birth
+     PID-17  Religion
+     HIV  HIV status and results
+     STD  Sexually transmitted diseases
+     PSY  Psychiatric Mental health
+     DRG  Drug
+     SMD  Sensitive medical data
+     NO  None
+     OO  Opt out all registries (HIPAA)
+     OI  Opt in all registries (HIPAA)
+     """
+
+
+     ALL = "ALL"
+     DEM = "DEM"
+     LOC = "LOC"
+     PID_7 = "PID-7"
+     PID_17 = "PID-17"
+     HIV = "HIV"
+     STD = "STD"
+     PSY = "PSY"
+     DRG = "DRG"
+     SMD = "SMD"
+     NO = "NO"
+     OO = "OO"
+     OI = "OI"

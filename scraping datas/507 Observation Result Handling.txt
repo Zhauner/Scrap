@@ -1,0 +1,15 @@
+
+
+class ObservationResultHandling(str, Enum):
+     """
+     507 - Observation Result Handling
+
+     F  Film-with-patient
+     N  Notify provider when ready
+     A  Alert provider when abnormal
+     """
+
+
+     F = "F"
+     N = "N"
+     A = "A"

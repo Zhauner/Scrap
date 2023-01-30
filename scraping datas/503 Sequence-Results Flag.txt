@@ -1,0 +1,15 @@
+
+
+class Sequence_ResultsFlag(str, Enum):
+     """
+     503 - Sequence-Results Flag
+
+     S  Sequential
+     C  Cyclical
+     R  Reserved for future use
+     """
+
+
+     S = "S"
+     C = "C"
+     R = "R"

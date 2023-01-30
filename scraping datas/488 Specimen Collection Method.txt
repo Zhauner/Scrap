@@ -1,0 +1,93 @@
+
+
+class SpecimenCollectionMethod(str, Enum):
+     """
+     488 - Specimen Collection Method
+
+     FNA  Aspiration, Fine Needle
+     PNA  Arterial puncture
+     BIO  Biopsy
+     BCAE  Blood Culture, Aerobic Bottle
+     BCAN  Blood Culture, Anaerobic Bottle
+     BCPD  Blood Culture, Pediatric Bottle
+     CAP  Capillary Specimen
+     CATH  Catheterized
+     EPLA  Environmental, Plate
+     ESWA  Environmental, Swab
+     LNA  Line, Arterial
+     CVP  Line, CVP
+     LNV  Line, Venous
+     MARTL  Martin-Lewis Agar
+     ML11  Mod. Martin-Lewis Agar
+     PACE  Pace, Gen-Probe
+     PIN  Pinworm Prep
+     KOFFP  Plate, Cough
+     MLP  Plate, Martin-Lewis
+     NYP  Plate, New York City
+     TMP  Plate, Thayer-Martin
+     ANP  Plates, Anaerobic
+     BAP  Plates, Blood Agar
+     PRIME  Pump Prime
+     PUMP  Pump Specimen
+     QC5  Quality Control For Micro
+     SCLP  Scalp, Fetal Vein
+     SCRAPS  Scrapings
+     SHA  Shaving
+     SWA  Swab
+     SWD  Swab, Dacron tipped
+     WOOD  Swab, Wooden Shaft
+     TMOT  Transport Media,
+     TMAN  Transport Media, Anaerobic
+     TMCH  Transport Media, Chalamydia
+     TMM4  Transport Media, M4
+     TMMY  Transport Media, Mycoplasma
+     TMPV  Transport Media, PVA
+     TMSC  Transport Media, Stool Culture
+     TMUP  Transport Media, Ureaplasma
+     TMVI  Transport Media, Viral
+     VENIP  Venipuncture
+     """
+
+
+     FNA = "FNA"
+     PNA = "PNA"
+     BIO = "BIO"
+     BCAE = "BCAE"
+     BCAN = "BCAN"
+     BCPD = "BCPD"
+     CAP = "CAP"
+     CATH = "CATH"
+     EPLA = "EPLA"
+     ESWA = "ESWA"
+     LNA = "LNA"
+     CVP = "CVP"
+     LNV = "LNV"
+     MARTL = "MARTL"
+     ML11 = "ML11"
+     PACE = "PACE"
+     PIN = "PIN"
+     KOFFP = "KOFFP"
+     MLP = "MLP"
+     NYP = "NYP"
+     TMP = "TMP"
+     ANP = "ANP"
+     BAP = "BAP"
+     PRIME = "PRIME"
+     PUMP = "PUMP"
+     QC5 = "QC5"
+     SCLP = "SCLP"
+     SCRAPS = "SCRAPS"
+     SHA = "SHA"
+     SWA = "SWA"
+     SWD = "SWD"
+     WOOD = "WOOD"
+     TMOT = "TMOT"
+     TMAN = "TMAN"
+     TMCH = "TMCH"
+     TMM4 = "TMM4"
+     TMMY = "TMMY"
+     TMPV = "TMPV"
+     TMSC = "TMSC"
+     TMUP = "TMUP"
+     TMVI = "TMVI"
+     VENIP = "VENIP"

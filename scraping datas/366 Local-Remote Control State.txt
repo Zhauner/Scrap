@@ -1,0 +1,13 @@
+
+
+class Local_RemoteControlState(str, Enum):
+     """
+     366 - Local-Remote Control State
+
+     L  Local
+     R  Remote
+     """
+
+
+     L = "L"
+     R = "R"

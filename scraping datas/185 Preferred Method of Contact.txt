@@ -1,0 +1,21 @@
+
+
+class PreferredMethodofContact(str, Enum):
+     """
+     185 - Preferred Method of Contact
+
+     B  Beeper Number
+     C  Cellular Phone Number
+     E  E-Mail Address (for backward compatibility)
+     F  FAX Number
+     H  Home Phone Number
+     O  Office Phone Number
+     """
+
+
+     B = "B"
+     C = "C"
+     E = "E"
+     F = "F"
+     H = "H"
+     O = "O"

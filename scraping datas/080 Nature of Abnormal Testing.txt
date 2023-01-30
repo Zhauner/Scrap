@@ -1,0 +1,23 @@
+
+
+class NatureofAbnormalTesting(str, Enum):
+     """
+     080 - Nature of Abnormal Testing
+
+     A  An age-based population
+     N  None - generic normal range
+     R  A race-based population
+     S  A sex-based population
+     SP  Species
+     B  Breed
+     ST  Strain
+     """
+
+
+     A = "A"
+     N = "N"
+     R = "R"
+     S = "S"
+     SP = "SP"
+     B = "B"
+     ST = "ST"

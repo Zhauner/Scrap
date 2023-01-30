@@ -1,0 +1,15 @@
+
+
+class DeviceType(str, Enum):
+     """
+     657 - Device Type
+
+     1  EO Gas Sterilizer
+     2  Steam Sterilizer
+     3  Peracetic Acid
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"

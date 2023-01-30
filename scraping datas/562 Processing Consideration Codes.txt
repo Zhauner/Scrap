@@ -1,0 +1,21 @@
+
+
+class ProcessingConsiderationCodes(str, Enum):
+     """
+     562 - Processing Consideration Codes
+
+     PAPER  Paper documentation to follow
+     EFORM  Electronic form to follow
+     FAX  Fax to follow
+     RTADJ  Real Time Adjudication Processing
+     DFADJ  Deferred Adjudication Processing
+     PYRDELAY  Delayed by a Previous Payer
+     """
+
+
+     PAPER = "PAPER"
+     EFORM = "EFORM"
+     FAX = "FAX"
+     RTADJ = "RTADJ"
+     DFADJ = "DFADJ"
+     PYRDELAY = "PYRDELAY"

@@ -1,0 +1,15 @@
+
+
+class PharmacyOrderTypes(str, Enum):
+     """
+     480 - Pharmacy Order Types
+
+     M  Medication
+     S  IV Large Volume Solutions
+     O  Other solution as medication orders
+     """
+
+
+     M = "M"
+     S = "S"
+     O = "O"

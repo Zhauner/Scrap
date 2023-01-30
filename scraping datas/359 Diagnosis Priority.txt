@@ -1,0 +1,16 @@
+
+
+class DiagnosisPriority(str, Enum):
+     """
+     359 - Diagnosis Priority
+
+     0  Not included in diagnosis ranking
+     1  The primary diagnosis
+     2  For ranked secondary diagnosis
+1312
+     """
+
+
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"

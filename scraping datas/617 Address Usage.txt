@@ -1,0 +1,15 @@
+
+
+class AddressUsage(str, Enum):
+     """
+     617 - Address Usage
+
+     M  Mailing
+     V  Visit
+     C  Classification
+     """
+
+
+     M = "M"
+     V = "V"
+     C = "C"

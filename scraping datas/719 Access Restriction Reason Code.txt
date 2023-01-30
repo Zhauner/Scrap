@@ -1,0 +1,23 @@
+
+
+class AccessRestrictionReasonCode(str, Enum):
+     """
+     719 - Access Restriction Reason Code
+
+     PAT  Patient Request
+     PHY  Physician Request
+     REG  Regulatory requirement
+     ORG  Organizational policy or requirement
+     EMP  Employee of this organization
+     DIA  Diagnosis-related
+     VIP  Very important person or celebrity
+     """
+
+
+     PAT = "PAT"
+     PHY = "PHY"
+     REG = "REG"
+     ORG = "ORG"
+     EMP = "EMP"
+     DIA = "DIA"
+     VIP = "VIP"

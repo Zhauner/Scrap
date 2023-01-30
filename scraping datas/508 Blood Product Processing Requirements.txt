@@ -1,0 +1,31 @@
+
+
+class BloodProductProcessingRequirements(str, Enum):
+     """
+     508 - Blood Product Processing Requirements
+
+     LR  Leukoreduced
+     IR  Irradiated
+     CS  CMV Safe
+     FR  Fresh unit
+     AU  Autologous Unit
+     DI  Directed Unit
+     HL  HLA Matched
+     CM  CMV Negative
+     HB  Hemoglobin S Negative
+     WA  Washed
+     IG  IgA Deficient
+     """
+
+
+     LR = "LR"
+     IR = "IR"
+     CS = "CS"
+     FR = "FR"
+     AU = "AU"
+     DI = "DI"
+     HL = "HL"
+     CM = "CM"
+     HB = "HB"
+     WA = "WA"
+     IG = "IG"

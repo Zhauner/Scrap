@@ -1,0 +1,19 @@
+
+
+class ChargeTypeReason(str, Enum):
+     """
+     475 - Charge Type Reason
+
+     01  Allergy
+     02  Intolerance
+     03  Treatment Failure
+     04  Patient Request
+     05  No Exception
+     """
+
+
+     _01 = "01"
+     _02 = "02"
+     _03 = "03"
+     _04 = "04"
+     _05 = "05"

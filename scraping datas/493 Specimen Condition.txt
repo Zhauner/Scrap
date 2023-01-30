@@ -1,0 +1,29 @@
+
+
+class SpecimenCondition(str, Enum):
+     """
+     493 - Specimen Condition
+
+     AUT  Autolyzed
+     CLOT  Clotted
+     CON  Contaminated
+     COOL  Cool
+     FROZ  Frozen
+     HEM  Hemolyzed
+     LIVE  Live
+     ROOM  Room temperature
+     SNR  Sample not received
+     CFU  Centrifuged
+     """
+
+
+     AUT = "AUT"
+     CLOT = "CLOT"
+     CON = "CON"
+     COOL = "COOL"
+     FROZ = "FROZ"
+     HEM = "HEM"
+     LIVE = "LIVE"
+     ROOM = "ROOM"
+     SNR = "SNR"
+     CFU = "CFU"

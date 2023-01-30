@@ -1,0 +1,17 @@
+
+
+class Package(str, Enum):
+     """
+     818 - Package
+
+     CS  Case
+     BX  Box
+     EA  Each
+     SET  Set
+     """
+
+
+     CS = "CS"
+     BX = "BX"
+     EA = "EA"
+     SET = "SET"

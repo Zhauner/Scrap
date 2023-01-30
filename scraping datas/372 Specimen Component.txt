@@ -1,0 +1,25 @@
+
+
+class SpecimenComponent(str, Enum):
+     """
+     372 - Specimen Component
+
+     SUP  Supernatant
+     SED  Sediment
+     BLD  Whole blood, homogeneous
+     BSEP  Whole blood, separated
+     PRP  Platelet rich plasma
+     PPP  Platelet poor plasma
+     SER  Serum, NOS (not otherwise specified)
+     PLAS  Plasma, NOS (not otherwise specified)
+     """
+
+
+     SUP = "SUP"
+     SED = "SED"
+     BLD = "BLD"
+     BSEP = "BSEP"
+     PRP = "PRP"
+     PPP = "PPP"
+     SER = "SER"
+     PLAS = "PLAS"

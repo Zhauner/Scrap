@@ -1,0 +1,21 @@
+
+
+class BedStatus(str, Enum):
+     """
+     116 - Bed Status
+
+     C  Closed
+     H  Housekeeping
+     O  Occupied
+     U  Unoccupied
+     K  Contaminated
+     I  Isolated
+     """
+
+
+     C = "C"
+     H = "H"
+     O = "O"
+     U = "U"
+     K = "K"
+     I = "I"

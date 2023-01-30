@@ -1,0 +1,27 @@
+
+
+class PrecautionCode(str, Enum):
+     """
+     433 - Precaution Code
+
+     A  Aggressive
+     B  Blind
+     C  Confused
+     D  Deaf
+     I  On IV
+     N  "No-code" (i.e. Do not resuscitate)
+     P  Paraplegic
+     O  Other
+     U  Unknown
+     """
+
+
+     A = "A"
+     B = "B"
+     C = "C"
+     D = "D"
+     I = "I"
+     N = "N"
+     P = "P"
+     O = "O"
+     U = "U"

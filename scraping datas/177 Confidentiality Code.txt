@@ -1,0 +1,29 @@
+
+
+class ConfidentialityCode(str, Enum):
+     """
+     177 - Confidentiality Code
+
+     V  Very restricted
+     R  Restricted
+     U  Usual control
+     EMP  Employee
+     UWM  Unwed mother
+     VIP  Very important person or celebrity
+     PSY  Psychiatric patient
+     AID  AIDS patient
+     HIV  HIV(+) patient
+     ETH  Alcohol/drug treatment patient
+     """
+
+
+     V = "V"
+     R = "R"
+     U = "U"
+     EMP = "EMP"
+     UWM = "UWM"
+     VIP = "VIP"
+     PSY = "PSY"
+     AID = "AID"
+     HIV = "HIV"
+     ETH = "ETH"

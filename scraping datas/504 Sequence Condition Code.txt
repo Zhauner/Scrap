@@ -1,0 +1,17 @@
+
+
+class SequenceConditionCode(str, Enum):
+     """
+     504 - Sequence Condition Code
+
+     EE  End related service request(s), end current service request.
+     ES  End related service request(s), start current service request.
+     SS  Start related service request(s), start current service request.
+     SE  Start related service request(s), end current service request.
+     """
+
+
+     EE = "EE"
+     ES = "ES"
+     SS = "SS"
+     SE = "SE"

@@ -1,0 +1,13 @@
+
+
+class QueryPriority(str, Enum):
+     """
+     091 - Query Priority
+
+     D  Deferred
+     I  Immediate
+     """
+
+
+     D = "D"
+     I = "I"

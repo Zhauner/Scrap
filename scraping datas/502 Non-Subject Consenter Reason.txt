@@ -1,0 +1,15 @@
+
+
+class Non_SubjectConsenterReason(str, Enum):
+     """
+     502 - Non-Subject Consenter Reason
+
+     MIN  Subject is a minor
+     NC  Subject is not competent to consent
+     LM  Legally mandated
+     """
+
+
+     MIN = "MIN"
+     NC = "NC"
+     LM = "LM"

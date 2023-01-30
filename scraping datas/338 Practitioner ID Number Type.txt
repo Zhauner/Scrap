@@ -1,0 +1,33 @@
+
+
+class PractitionerIDNumberType(str, Enum):
+     """
+     338 - Practitioner ID Number Type
+
+     CY  County number
+     DEA  Drug Enforcement Agency no.
+     GL  General ledger number
+     LI  Labor and industries number
+     L&I  Labor and industries number
+     MCD  Medicaid number
+     MCR  Medicare number
+     QA  QA number
+     SL  State license number
+     TAX  Tax ID number
+     TRL  Training license number
+     UPIN  Unique physician ID no.
+     """
+
+
+     CY = "CY"
+     DEA = "DEA"
+     GL = "GL"
+     LI = "LI"
+     L_I = "L&I"
+     MCD = "MCD"
+     MCR = "MCR"
+     QA = "QA"
+     SL = "SL"
+     TAX = "TAX"
+     TRL = "TRL"
+     UPIN = "UPIN"

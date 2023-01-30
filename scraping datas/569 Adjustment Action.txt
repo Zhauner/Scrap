@@ -1,0 +1,15 @@
+
+
+class AdjustmentAction(str, Enum):
+     """
+     569 - Adjustment Action
+
+     EOB  Print on EOB
+     PAT  Inform Patient
+     PRO  Inform Provider
+     """
+
+
+     EOB = "EOB"
+     PAT = "PAT"
+     PRO = "PRO"

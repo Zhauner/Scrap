@@ -1,0 +1,15 @@
+
+
+class ItemStatusCodes(str, Enum):
+     """
+     625 - Item Status Codes
+
+     1  Active
+     2  Pending Inactive
+     3  Inactive
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"

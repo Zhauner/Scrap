@@ -1,0 +1,19 @@
+
+
+class RelatednessAssessment(str, Enum):
+     """
+     250 - Relatedness Assessment
+
+     H  Highly probable
+     M  Moderately probable
+     S  Somewhat probable
+     I  Improbable
+     N  Not related
+     """
+
+
+     H = "H"
+     M = "M"
+     S = "S"
+     I = "I"
+     N = "N"

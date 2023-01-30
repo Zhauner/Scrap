@@ -1,0 +1,17 @@
+
+
+class WeightUnits(str, Enum):
+     """
+     929 - Weight Units
+
+     [lb_av]  Pound
+     [oz_av]  Ounce
+     kg  Kilogram
+     g  Gram
+     """
+
+
+     [lb_av] = "[lb_av]"
+     [oz_av] = "[oz_av]"
+     kg = "kg"
+     g = "g"

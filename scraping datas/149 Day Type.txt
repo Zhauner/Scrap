@@ -1,0 +1,15 @@
+
+
+class DayType(str, Enum):
+     """
+     149 - Day Type
+
+     AP  Approved
+     DE  Denied
+     PE  Pending
+     """
+
+
+     AP = "AP"
+     DE = "DE"
+     PE = "PE"

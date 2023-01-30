@@ -1,0 +1,15 @@
+
+
+class Override(str, Enum):
+     """
+     268 - Override
+
+     X  Override not allowed
+     A  Override allowed
+     R  Override required
+     """
+
+
+     X = "X"
+     A = "A"
+     R = "R"

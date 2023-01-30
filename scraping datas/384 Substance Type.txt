@@ -1,0 +1,33 @@
+
+
+class SubstanceType(str, Enum):
+     """
+     384 - Substance Type
+
+     SR  Single Test Reagent
+     MR  Multiple Test Reagent
+     DI  Diluent
+     PT  Pretreatment
+     RC  Reagent Calibrator
+     CO  Control
+     PW  Purified Water
+     LW  Liquid Waste
+     SW  Solid Waste
+     SC  Countable Solid Item
+     LI  Measurable Liquid Item
+     OT  Other
+     """
+
+
+     SR = "SR"
+     MR = "MR"
+     DI = "DI"
+     PT = "PT"
+     RC = "RC"
+     CO = "CO"
+     PW = "PW"
+     LW = "LW"
+     SW = "SW"
+     SC = "SC"
+     LI = "LI"
+     OT = "OT"

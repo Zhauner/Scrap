@@ -1,0 +1,17 @@
+
+
+class ReferralCategory(str, Enum):
+     """
+     284 - Referral Category
+
+     I  Inpatient
+     O  Outpatient
+     A  Ambulatory
+     E  Emergency
+     """
+
+
+     I = "I"
+     O = "O"
+     A = "A"
+     E = "E"

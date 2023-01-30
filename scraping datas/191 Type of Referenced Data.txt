@@ -1,0 +1,29 @@
+
+
+class TypeofReferencedData(str, Enum):
+     """
+     191 - Type of Referenced Data
+
+     AP  Other application data, typically uninterpreted binary data (HL7 V2.3 and later)
+     AU  Audio data (HL7 V2.3 and later)
+     FT  Formatted text (HL7 V2.2 only)
+     IM  Image data (HL7 V2.3 and later)
+     multipart  MIME multipart package
+     NS  Non-scanned image (HL7 V2.2 only)
+     SD  Scanned document (HL7 V2.2 only)
+     SI  Scanned image (HL7 V2.2 only)
+     TEXT  Machine readable text document (HL7 V2.3.1 and later)
+     TX  Machine readable text document (HL7 V2.2 only)
+     """
+
+
+     AP = "AP"
+     AU = "AU"
+     FT = "FT"
+     IM = "IM"
+     multipart = "multipart"
+     NS = "NS"
+     SD = "SD"
+     SI = "SI"
+     TEXT = "TEXT"
+     TX = "TX"

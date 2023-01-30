@@ -1,0 +1,11 @@
+
+
+class SystemInducedContaminants(str, Enum):
+     """
+     374 - System Induced Contaminants
+
+     CNTM  Present, type of contamination unspecified
+     """
+
+
+     CNTM = "CNTM"

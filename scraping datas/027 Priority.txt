@@ -1,0 +1,19 @@
+
+
+class Priority(str, Enum):
+     """
+     027 - Priority
+
+     S  Stat (do immediately)
+     A  As soon as possible (a priority lower than stat)
+     R  Routine
+     P  Preoperative (to be done prior to surgery)
+     T  Timing critical (do as near as possible to requested time)
+     """
+
+
+     S = "S"
+     A = "A"
+     R = "R"
+     P = "P"
+     T = "T"

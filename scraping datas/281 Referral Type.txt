@@ -1,0 +1,21 @@
+
+
+class ReferralType(str, Enum):
+     """
+     281 - Referral Type
+
+     Lab  Laboratory
+     Rad  Radiology
+     Med  Medical
+     Skn  Skilled Nursing
+     Psy  Psychiatric
+     Hom  Home Care
+     """
+
+
+     Lab = "Lab"
+     Rad = "Rad"
+     Med = "Med"
+     Skn = "Skn"
+     Psy = "Psy"
+     Hom = "Hom"

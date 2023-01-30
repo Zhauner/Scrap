@@ -1,0 +1,15 @@
+
+
+class AllowSubstitution(str, Enum):
+     """
+     161 - Allow Substitution
+
+     N  Substitutions are NOT authorized.  (This is the default - null.)
+     G  Allow generic substitutions.
+     T  Allow therapeutic substitutions
+     """
+
+
+     N = "N"
+     G = "G"
+     T = "T"

@@ -1,0 +1,15 @@
+
+
+class DRGStatusPatient(str, Enum):
+     """
+     739 - DRG Status Patient
+
+     1  Normal length of stay
+     2  Short length of stay
+     3  Long length of stay
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"

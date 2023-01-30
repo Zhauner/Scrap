@@ -1,0 +1,23 @@
+
+
+class LocationRelationshipID(str, Enum):
+     """
+     325 - Location Relationship ID
+
+     RX  Nearest  pharmacy
+     RX2  Second nearest pharmacy
+     LAB  Nearest  lab
+     LB2  Second nearest lab
+     DTY  Nearest  dietary location
+     ALI  Location Alias(es)
+     PAR  Parent location
+     """
+
+
+     RX = "RX"
+     RX2 = "RX2"
+     LAB = "LAB"
+     LB2 = "LB2"
+     DTY = "DTY"
+     ALI = "ALI"
+     PAR = "PAR"

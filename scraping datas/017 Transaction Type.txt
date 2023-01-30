@@ -1,0 +1,19 @@
+
+
+class TransactionType(str, Enum):
+     """
+     017 - Transaction Type
+
+     CG  Charge
+     CD  Credit
+     PY  Payment
+     AJ  Adjustment
+     CO  Co-payment
+     """
+
+
+     CG = "CG"
+     CD = "CD"
+     PY = "PY"
+     AJ = "AJ"
+     CO = "CO"

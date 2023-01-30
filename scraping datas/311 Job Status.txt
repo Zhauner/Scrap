@@ -1,0 +1,17 @@
+
+
+class JobStatus(str, Enum):
+     """
+     311 - Job Status
+
+     P  Permanent
+     T  Temporary
+     O  Other
+     U  Unknown
+     """
+
+
+     P = "P"
+     T = "T"
+     O = "O"
+     U = "U"

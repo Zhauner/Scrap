@@ -1,0 +1,19 @@
+
+
+class ProcedureDRGType(str, Enum):
+     """
+     416 - Procedure DRG Type
+
+     1  1st non-Operative
+     2  2nd non-Operative
+     3  Major Operative
+     4  2nd Operative
+     5  3rd Operative
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"

@@ -1,0 +1,73 @@
+
+
+class InterpretationCodes(str, Enum):
+     """
+     078 - Interpretation Codes
+
+     L  Below low normal
+     H  Above high normal
+     LL  Below lower panic limits
+     HH  Above upper panic limits
+     <  Below absolute low-off instrument scale
+     >  Above absolute high-off instrument scale
+     N  Normal (applies to non-numeric results)
+     A  Abnormal (applies to non-numeric results)
+     AA  Very abnormal (applies to non-numeric units, analogous to panic limits for numeric units)
+     null  No range defined, or normal ranges don't apply
+     U  Significant change up
+     D  Significant change down
+     B  Better-use when direction not relevant
+     W  Worse-use when direction not relevant
+     S  Susceptible. Indicates for microbiology susceptibilities only.
+     R  Resistant. Indicates for microbiology susceptibilities only.
+     I  Intermediate. Indicates for microbiology susceptibilities only.
+     MS  Moderately susceptible. Indicates for microbiology susceptibilities only.
+     VS  Very susceptible. Indicates for microbiology susceptibilities only.
+     POS  Positive
+     NEG  Negative
+     IND  Indeterminate
+     DET  Detected
+     ND  Not Detected
+     AC  Anti-complementary substances present
+     TOX  Cytotoxic substance present
+     QCF  Quality Control Failure
+     RR  Reactive
+     WR  Weakly reactive
+     NR  Non-reactive
+     OBX  Interpretation qualifiers in separate OBX segments
+     HM  Hold for Medical Review
+     """
+
+
+     L = "L"
+     H = "H"
+     LL = "LL"
+     HH = "HH"
+     _ = "<"
+     _ = ">"
+     N = "N"
+     A = "A"
+     AA = "AA"
+     null = "null"
+     U = "U"
+     D = "D"
+     B = "B"
+     W = "W"
+     S = "S"
+     R = "R"
+     I = "I"
+     MS = "MS"
+     VS = "VS"
+     POS = "POS"
+     NEG = "NEG"
+     IND = "IND"
+     DET = "DET"
+     ND = "ND"
+     AC = "AC"
+     TOX = "TOX"
+     QCF = "QCF"
+     RR = "RR"
+     WR = "WR"
+     NR = "NR"
+     OBX = "OBX"
+     HM = "HM"

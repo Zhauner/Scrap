@@ -1,0 +1,51 @@
+
+
+class RemoteControlCommand(str, Enum):
+     """
+     368 - Remote Control Command
+
+     SA  Sampling
+     LO  Load
+     UN  Unload
+     LK  Lock
+     UC  Unlock
+     TT  Transport To
+     CN  Clear Notification
+     IN  Initialize/Initiate
+     SU  Setup
+     CL  Clear
+     PA  Pause
+     RE  Resume
+     ES  Emergency -stop
+     LC  Local Control Request
+     RC  Remote Control Request
+     AB  Abort
+     EN  Enable Sending Events
+     DI  Disable Sending Events
+     EX  Execute (command specified in field Parameters (ST) 01394)
+     AF  Aliquot From container
+     AT  Aliquot To container
+     """
+
+
+     SA = "SA"
+     LO = "LO"
+     UN = "UN"
+     LK = "LK"
+     UC = "UC"
+     TT = "TT"
+     CN = "CN"
+     IN = "IN"
+     SU = "SU"
+     CL = "CL"
+     PA = "PA"
+     RE = "RE"
+     ES = "ES"
+     LC = "LC"
+     RC = "RC"
+     AB = "AB"
+     EN = "EN"
+     DI = "DI"
+     EX = "EX"
+     AF = "AF"
+     AT = "AT"

@@ -1,0 +1,59 @@
+
+
+class MilitaryRank_Grade(str, Enum):
+     """
+     141 - Military Rank-Grade
+
+     O3  Officers
+     O1  Officers
+     O2  Officers
+     W4  
+     O4  Officers
+     O5  Officers
+     O6  Officers
+     O8  Officers
+     O9  Officers
+     W1  
+     W2  
+     W3  
+     O7  Officers
+     E9  Enlisted
+     E1... E9  Enlisted
+     E2  Enlisted
+     E3  Enlisted
+     E4  Enlisted
+     E5  Enlisted
+     E6  Enlisted
+     E8  Enlisted
+     E1  Enlisted
+     E7  Enlisted
+     O1 ... O9  Officers
+     W1 ... W4  Warrant Officers
+     """
+
+
+     O3 = "O3"
+     O1 = "O1"
+     O2 = "O2"
+     W4 = "W4"
+     O4 = "O4"
+     O5 = "O5"
+     O6 = "O6"
+     O8 = "O8"
+     O9 = "O9"
+     W1 = "W1"
+     W2 = "W2"
+     W3 = "W3"
+     O7 = "O7"
+     E9 = "E9"
+     E1____E9 = "E1... E9"
+     E2 = "E2"
+     E3 = "E3"
+     E4 = "E4"
+     E5 = "E5"
+     E6 = "E6"
+     E8 = "E8"
+     E1 = "E1"
+     E7 = "E7"
+     O1_____O9 = "O1 ... O9"
+     W1_____W4 = "W1 ... W4"

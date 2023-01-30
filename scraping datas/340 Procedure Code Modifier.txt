@@ -1,0 +1,13 @@
+
+
+class ProcedureCodeModifier(str, Enum):
+     """
+     340 - Procedure Code Modifier
+
+     HPC  
+     CPTM  
+     """
+
+
+     HPC = "HPC"
+     CPTM = "CPTM"

@@ -1,0 +1,37 @@
+
+
+class SpecimenRejectReason(str, Enum):
+     """
+     490 - Specimen Reject Reason
+
+     EX  Expired
+     QS  Quantity not sufficient
+     RB  Broken container
+     RC  Clotting
+     RD  Missing collection date
+     RA  Missing patient ID number
+     RE  Missing patient name
+     RH  Hemolysis
+     RI  Identification problem
+     RM  Labeling
+     RN  Contamination
+     RP  Missing phlebotomist ID
+     RR  Improper storage
+     RS  Name misspelling
+     """
+
+
+     EX = "EX"
+     QS = "QS"
+     RB = "RB"
+     RC = "RC"
+     RD = "RD"
+     RA = "RA"
+     RE = "RE"
+     RH = "RH"
+     RI = "RI"
+     RM = "RM"
+     RN = "RN"
+     RP = "RP"
+     RR = "RR"
+     RS = "RS"

@@ -1,0 +1,13 @@
+
+
+class ApprovingRegulatoryAgency(str, Enum):
+     """
+     790 - Approving Regulatory Agency
+
+     FDA  Food and Drug Administration
+     AMA  American Medical Association
+     """
+
+
+     FDA = "FDA"
+     AMA = "AMA"

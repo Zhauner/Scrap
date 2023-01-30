@@ -1,0 +1,29 @@
+
+
+class TelecommunicationEquipmentType(str, Enum):
+     """
+     202 - Telecommunication Equipment Type
+
+     PH  Telephone
+     FX  Fax
+     MD  Modem
+     CP  Cellular or Mobile Phone
+     SAT  Satellite Phone
+     BP  Beeper
+     Internet  Internet Address
+     X.400  X.400 email address
+     TDD  Telecommunications Device for the Deaf
+     TTY  Teletypewriter
+     """
+
+
+     PH = "PH"
+     FX = "FX"
+     MD = "MD"
+     CP = "CP"
+     SAT = "SAT"
+     BP = "BP"
+     Internet = "Internet"
+     X_400 = "X.400"
+     TDD = "TDD"
+     TTY = "TTY"

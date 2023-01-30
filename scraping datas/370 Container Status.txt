@@ -1,0 +1,25 @@
+
+
+class ContainerStatus(str, Enum):
+     """
+     370 - Container Status
+
+     I  Identified
+     P  In Position
+     O  In Process
+     R  Process Completed
+     L  Left Equipment
+     M  Missing
+     X  Container Unavailable
+     U  Unknown
+     """
+
+
+     I = "I"
+     P = "P"
+     O = "O"
+     R = "R"
+     L = "L"
+     M = "M"
+     X = "X"
+     U = "U"

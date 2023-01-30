@@ -1,0 +1,19 @@
+
+
+class PaymentAdjustmentCode(str, Enum):
+     """
+     468 - Payment Adjustment Code
+
+     1  No payment adjustment
+     2  Designated current drug or biological payment adjustment applies to APC (status indicator G)
+     3  Designated new device payment adjustment applies to APC (status indicator H)
+     4  Designated new drug or new biological payment adjustment applies to APC (status indicator J)
+     5  Deductible not applicable (specific list of HCPCS codes)
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"

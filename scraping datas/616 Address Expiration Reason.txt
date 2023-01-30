@@ -1,0 +1,17 @@
+
+
+class AddressExpirationReason(str, Enum):
+     """
+     616 - Address Expiration Reason
+
+     M  Moved
+     E  Added in error
+     R  On request
+     C  Corrected
+     """
+
+
+     M = "M"
+     E = "E"
+     R = "R"
+     C = "C"

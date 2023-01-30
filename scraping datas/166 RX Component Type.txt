@@ -1,0 +1,13 @@
+
+
+class RXComponentType(str, Enum):
+     """
+     166 - RX Component Type
+
+     B  Base
+     A  Additive
+     """
+
+
+     B = "B"
+     A = "A"

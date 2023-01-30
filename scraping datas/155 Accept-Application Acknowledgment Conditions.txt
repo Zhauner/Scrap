@@ -1,0 +1,17 @@
+
+
+class Accept_ApplicationAcknowledgmentConditions(str, Enum):
+     """
+     155 - Accept-Application Acknowledgment Conditions
+
+     AL  Always
+     NE  Never
+     ER  Error/reject conditions only
+     SU  Successful completion only
+     """
+
+
+     AL = "AL"
+     NE = "NE"
+     ER = "ER"
+     SU = "SU"

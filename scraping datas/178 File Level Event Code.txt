@@ -1,0 +1,13 @@
+
+
+class FileLevelEventCode(str, Enum):
+     """
+     178 - File Level Event Code
+
+     REP  Replace current version of this master file with the version contained in this message
+     UPD  Change file records as defined in the record-level event codes for each record that follows
+     """
+
+
+     REP = "REP"
+     UPD = "UPD"

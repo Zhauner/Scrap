@@ -1,0 +1,15 @@
+
+
+class ReferralPriority(str, Enum):
+     """
+     280 - Referral Priority
+
+     S  STAT
+     A  ASAP
+     R  Routine
+     """
+
+
+     S = "S"
+     A = "A"
+     R = "R"

@@ -1,0 +1,15 @@
+
+
+class AppointmentTypeCodes(str, Enum):
+     """
+     277 - Appointment Type Codes
+
+     Normal  Routine schedule request type - default if not valued
+     Tentative  A request for a tentative (e.g., "penciled in") appointment
+     Complete  A request to add a completed appointment, used to maintain records of completed appointments that did not appear in the schedule (e.g., STAT, walk-in, etc.)
+     """
+
+
+     N_mal = "Normal"
+     Tentative = "Tentative"
+     Complete = "Complete"

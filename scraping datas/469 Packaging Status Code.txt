@@ -1,0 +1,15 @@
+
+
+class PackagingStatusCode(str, Enum):
+     """
+     469 - Packaging Status Code
+
+     0  Not packaged
+     1  Packaged service (status indicator N, or no HCPCS code and certain revenue codes)
+     2  Packaged as part of partial hospitalization per diem or daily mental health service per diem
+     """
+
+
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"

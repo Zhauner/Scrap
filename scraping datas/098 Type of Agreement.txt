@@ -1,0 +1,15 @@
+
+
+class TypeofAgreement(str, Enum):
+     """
+     098 - Type of Agreement
+
+     S  Standard
+     U  Unified
+     M  Maternity
+     """
+
+
+     S = "S"
+     U = "U"
+     M = "M"

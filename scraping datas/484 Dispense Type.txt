@@ -1,0 +1,27 @@
+
+
+class DispenseType(str, Enum):
+     """
+     484 - Dispense Type
+
+     B  Trial Quantity Balance
+     C  Compassionate Fill
+     N  New/Renew - Full Fill
+     P  New/Renew - Part Fill
+     Q  Refill - Part Fill
+     R  Refill - Full Fill
+     S  Manufacturer Sample
+     T  Trial Quantity
+     Z  Non-Prescription Fill
+     """
+
+
+     B = "B"
+     C = "C"
+     N = "N"
+     P = "P"
+     Q = "Q"
+     R = "R"
+     S = "S"
+     T = "T"
+     Z = "Z"

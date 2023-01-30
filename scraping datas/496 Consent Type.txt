@@ -1,0 +1,283 @@
+
+
+class ConsentType(str, Enum):
+     """
+     496 - Consent Type
+
+     001  Release of Information/MR / Authorization to Disclosure Protected Health Information
+     002  Medical Procedure (invasive)
+     003  Acknowledge Receipt of Privacy Notice
+     004  Abortion
+     005  Abortion/Laminaria
+     006  Accutane - Information
+     007  Accutane - Woman
+     008  Advanced Beneficiary Notice
+     009  AFP (Alpha Fetoprotein) Screening
+     010  Amniocentesis (consent & refusal)
+     011  Anatomical Gift (organ donation)
+     012  Anesthesia - Complications
+     013  Anesthesia - Questionnaire
+     014  Angiogram
+     015  Angioplasty
+     016  Anticancer Drugs
+     017  Antipsychotic Medications
+     018  Arthrogram
+     019  Autopsy
+     020  AZT Therapy
+     021  Biliary Drainage
+     022  Biliary Stone Extraction
+     023  Biopsy
+     024  Bleeding Time Test
+     025  Bronchogram
+     026  Cardiac Catheterization
+     027  Coronary Angiography
+     028  ""      "" w/o Surgery Capability
+     029  Cataract Op/Implant of FDA Aprvd Lens
+     030  Cataract Op/Implant of Investigational Lens
+     031  Cataract Surgery
+     032  Cholera Immunization
+     033  Cholesterol Screening
+     034  Circumcision - Newborn
+     035  Colonoscopy
+     036  Contact Lenses
+     037  CT Scan - Cervical & Lumbar
+     038  CT Scan w/ IV Contrast Media into Vein
+     039  CVS (Chorionic Villus) Sampling
+     040  Cystospy
+     041  Disclosure of Protected Health Information to Family/Friends
+     042  D & C and Conization
+     043  Dacryocystogram
+     044  Diagnostic Isotope
+     045  Drainage of an Abscess
+     046  Drug Screening
+     047  Electronic Monitoring of Labor - Refusal
+     048  Endometrial Biopsy
+     049  Endoscopy/Sclerosis of Esophageal Varices
+     050  ERCP
+     051  Exposure to reportable Communicable Disease
+     052  External Version
+     053  Fluorescein Angioscopy
+     054  Hepatitis B - Consent/Declination
+     055  Herniogram
+     056  HIV Test - Consent Refusal
+     057  HIV Test - Disclosure
+     058  HIV Test - Prenatal
+     059  Home IV Treatment Program
+     060  Home Parenteral Treatment Program
+     061  Hysterectomy
+     062  Hysterosalpingogram
+     063  Injection Slip/ Consent
+     064  Intrauterine Device
+     065  Intrauterine Device/Sterilization
+     066  Intravascular Infusion of Streptokinase/Urokinase
+     067  Intravenous Cholangiogram
+     068  Intravenous Digital Angiography
+     069  Iodine Administration
+     070  ISG
+     071  IVP
+     072  Laser Photocoagulation
+     073  Laser treatment
+     074  Lithium Carbonate
+     075  Liver Biopsy
+     076  Lumbar Puncture
+     077  Lymphangiogram
+     078  MAO Inhibitors
+     079  Med, Psych, and/or Drug/Alcohol
+     080  Medical Treatment - Refusal
+     081  Morning-after Pill
+     082  MRI - Adult
+     083  MRI - Pediatric
+     084  Myelogram
+     085  Needle Biopsy
+     086  Needle Biopsy of Lung
+     087  Newborn Treatment and Release
+     088  Norplant Subdermal Birth Control Implant
+     089  Operations, Anesthesia, Transfusions
+     090  Oral Contraceptives
+     091  Organ Donation
+     092  Patient Permits, Consents
+     093  Patient Treatment Permit, Release & Admission
+     094  Penile Injections
+     095  Percutaneous Nephrostomy
+     096  Percutaneous Transhepatic Cholangiogram
+     097  Photographs
+     098  Photographs - Employee
+     099  Photographs - Medical Research
+     100  Photographs - news Media
+     101  Psychiatric Admission - Next of Kin
+     102  Psychiatric Information During Hospital Stay
+     103  Public Release of Information
+     104  Radiologic Procedure
+     105  Refusal of Treatment
+     106  Release of Body
+     107  Release of Limb
+     108  Rh Immune Globulin
+     109  Rights of Medical Research Participants
+     110  Request to Restrict Access/Disclosure to Medical Record/Protected Health Information
+     111  Request for Remain Anonymous
+     112  Seat Belt Exemption
+     113  Sialogram
+     114  Sigmoidoscopy
+     115  Sterilization - Anesthesia & Medical Services
+     116  Sterilization -Federally Funded
+     117  Sterilization - Female
+     118  Sterilization - Laparoscopy/Pomeroy
+     119  Sterilization - Non-Federally Funded
+     120  Sterilization - Secondary
+     121  Tranquilizers
+     122  Transfer - Acknowledgement
+     123  Transfer - Authorization
+     124  Transfer Certification - Physician
+     125  Transfer/Discharge Request
+     126  Transfer for Non-Medical Reasons
+     127  Transfer - Interfaculty Neonatal
+     128  Transfer Refusal
+     129  Transfer Refusal of Further Treatment
+     130  Treadmill & EKG
+     131  Treadmill, Thallium-201
+     132  Typhoid
+     133  Use of Investigational Device
+     134  Use of Investigational Drug
+     135  Venogram
+     136  Videotape
+     1137  Voiding Cystogram
+     """
+
+
+     _001 = "001"
+     _002 = "002"
+     _003 = "003"
+     _004 = "004"
+     _005 = "005"
+     _006 = "006"
+     _007 = "007"
+     _008 = "008"
+     _009 = "009"
+     _010 = "010"
+     _011 = "011"
+     _012 = "012"
+     _013 = "013"
+     _014 = "014"
+     _015 = "015"
+     _016 = "016"
+     _017 = "017"
+     _018 = "018"
+     _019 = "019"
+     _020 = "020"
+     _021 = "021"
+     _022 = "022"
+     _023 = "023"
+     _024 = "024"
+     _025 = "025"
+     _026 = "026"
+     _027 = "027"
+     _028 = "028"
+     _029 = "029"
+     _030 = "030"
+     _031 = "031"
+     _032 = "032"
+     _033 = "033"
+     _034 = "034"
+     _035 = "035"
+     _036 = "036"
+     _037 = "037"
+     _038 = "038"
+     _039 = "039"
+     _040 = "040"
+     _041 = "041"
+     _042 = "042"
+     _043 = "043"
+     _044 = "044"
+     _045 = "045"
+     _046 = "046"
+     _047 = "047"
+     _048 = "048"
+     _049 = "049"
+     _050 = "050"
+     _051 = "051"
+     _052 = "052"
+     _053 = "053"
+     _054 = "054"
+     _055 = "055"
+     _056 = "056"
+     _057 = "057"
+     _058 = "058"
+     _059 = "059"
+     _060 = "060"
+     _061 = "061"
+     _062 = "062"
+     _063 = "063"
+     _064 = "064"
+     _065 = "065"
+     _066 = "066"
+     _067 = "067"
+     _068 = "068"
+     _069 = "069"
+     _070 = "070"
+     _071 = "071"
+     _072 = "072"
+     _073 = "073"
+     _074 = "074"
+     _075 = "075"
+     _076 = "076"
+     _077 = "077"
+     _078 = "078"
+     _079 = "079"
+     _080 = "080"
+     _081 = "081"
+     _082 = "082"
+     _083 = "083"
+     _084 = "084"
+     _085 = "085"
+     _086 = "086"
+     _087 = "087"
+     _088 = "088"
+     _089 = "089"
+     _090 = "090"
+     _091 = "091"
+     _092 = "092"
+     _093 = "093"
+     _094 = "094"
+     _095 = "095"
+     _096 = "096"
+     _097 = "097"
+     _098 = "098"
+     _099 = "099"
+     _100 = "100"
+     _101 = "101"
+     _102 = "102"
+     _103 = "103"
+     _104 = "104"
+     _105 = "105"
+     _106 = "106"
+     _107 = "107"
+     _108 = "108"
+     _109 = "109"
+     _110 = "110"
+     _111 = "111"
+     _112 = "112"
+     _113 = "113"
+     _114 = "114"
+     _115 = "115"
+     _116 = "116"
+     _117 = "117"
+     _118 = "118"
+     _119 = "119"
+     _120 = "120"
+     _121 = "121"
+     _122 = "122"
+     _123 = "123"
+     _124 = "124"
+     _125 = "125"
+     _126 = "126"
+     _127 = "127"
+     _128 = "128"
+     _129 = "129"
+     _130 = "130"
+     _131 = "131"
+     _132 = "132"
+     _133 = "133"
+     _134 = "134"
+     _135 = "135"
+     _136 = "136"
+     _1137 = "1137"

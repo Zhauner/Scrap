@@ -1,0 +1,19 @@
+
+
+class ProcessingMode(str, Enum):
+     """
+     207 - Processing Mode
+
+     A  Archive
+     R  Restore from archive
+     I  Initial load
+     T  Current processing, transmitted at intervals (scheduled or on demand)
+     Not present  Not present (the default, meaning current  processing)
+     """
+
+
+     A = "A"
+     R = "R"
+     I = "I"
+     T = "T"
+     Not_present = "Not present"

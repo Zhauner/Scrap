@@ -1,0 +1,31 @@
+
+
+class MilitaryService(str, Enum):
+     """
+     140 - Military Service
+
+     USA  US Army
+     USN  US Navy
+     USAF  US Air Force
+     USMC  US Marine Corps
+     USCG  US Coast Guard
+     USPHS  US Public Health Service
+     NOAA  National Oceanic and Atmospheric Administration
+     NATO  North Atlantic Treaty Organization
+     AUSA  Australian Army
+     AUSN  Australian Navy
+     AUSAF  Australian Air Force
+     """
+
+
+     USA = "USA"
+     USN = "USN"
+     USAF = "USAF"
+     USMC = "USMC"
+     USCG = "USCG"
+     USPHS = "USPHS"
+     NOAA = "NOAA"
+     NATO = "NATO"
+     AUSA = "AUSA"
+     AUSN = "AUSN"
+     AUSAF = "AUSAF"

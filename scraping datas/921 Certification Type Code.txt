@@ -1,0 +1,15 @@
+
+
+class CertificationTypeCode(str, Enum):
+     """
+     921 - Certification Type Code
+
+     ADM  Admitting
+     SERV  Service
+     PROC  Procedure
+     """
+
+
+     ADM = "ADM"
+     SERV = "SERV"
+     PROC = "PROC"

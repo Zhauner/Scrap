@@ -1,0 +1,19 @@
+
+
+class PractitionerOrganizationUnitType(str, Enum):
+     """
+     474 - Practitioner Organization Unit Type
+
+     D  Department
+     F  Facility
+     U  Subdepartment
+     S  Subdivision
+     V  Division
+     """
+
+
+     D = "D"
+     F = "F"
+     U = "U"
+     S = "S"
+     V = "V"

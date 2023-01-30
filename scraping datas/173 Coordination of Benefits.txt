@@ -1,0 +1,13 @@
+
+
+class CoordinationofBenefits(str, Enum):
+     """
+     173 - Coordination of Benefits
+
+     CO  Coordination
+     IN  Independent
+     """
+
+
+     CO = "CO"
+     IN = "IN"

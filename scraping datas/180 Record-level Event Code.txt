@@ -1,0 +1,19 @@
+
+
+class Record_levelEventCode(str, Enum):
+     """
+     180 - Record-level Event Code
+
+     MAD  Add record to master file
+     MDL  Delete record from master file
+     MUP  Update record for master file
+     MDC  Deactivate: discontinue using record in master file, but do not delete from database
+     MAC  Reactivate deactivated record
+     """
+
+
+     MAD = "MAD"
+     MDL = "MDL"
+     MUP = "MUP"
+     MDC = "MDC"
+     MAC = "MAC"

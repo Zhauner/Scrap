@@ -1,0 +1,15 @@
+
+
+class JurisdictionalBreadth(str, Enum):
+     """
+     547 - Jurisdictional Breadth
+
+     C  County/Parish
+     S  State/Province
+     N  Country
+     """
+
+
+     C = "C"
+     S = "S"
+     N = "N"

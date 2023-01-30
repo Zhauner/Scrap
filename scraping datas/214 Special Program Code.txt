@@ -1,0 +1,19 @@
+
+
+class SpecialProgramCode(str, Enum):
+     """
+     214 - Special Program Code
+
+     CH  Child Health Assistance
+     ES  Elective Surgery Program
+     FP  Family Planning
+     O  Other
+     U  Unknown
+     """
+
+
+     CH = "CH"
+     ES = "ES"
+     FP = "FP"
+     O = "O"
+     U = "U"

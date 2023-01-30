@@ -1,0 +1,13 @@
+
+
+class AdvanceDirectiveCode(str, Enum):
+     """
+     435 - Advance Directive Code
+
+     DNR  Do not resuscitate
+     N  No directive
+     """
+
+
+     DNR = "DNR"
+     N = "N"

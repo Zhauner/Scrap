@@ -1,0 +1,15 @@
+
+
+class ApplicationChangeType(str, Enum):
+     """
+     409 - Application Change Type
+
+     SU  Start up
+     SD  Shut down
+     M  Migrates to different CPU
+     """
+
+
+     SU = "SU"
+     SD = "SD"
+     M = "M"

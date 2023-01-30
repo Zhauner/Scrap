@@ -1,0 +1,15 @@
+
+
+class RoleExecutingPhysician(str, Enum):
+     """
+     881 - Role Executing Physician
+
+     T  Technical Part
+     P  Professional Part
+     B  Both
+     """
+
+
+     T = "T"
+     P = "P"
+     B = "B"

@@ -1,0 +1,13 @@
+
+
+class CertificationStatus(str, Enum):
+     """
+     337 - Certification Status
+
+     C  Certified
+     E  Eligible
+     """
+
+
+     C = "C"
+     E = "E"

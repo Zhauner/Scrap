@@ -1,0 +1,17 @@
+
+
+class OrganizationalNameType(str, Enum):
+     """
+     204 - Organizational Name Type
+
+     A  Alias name
+     L  Legal name
+     D  Display name
+     SL  Stock exchange listing name
+     """
+
+
+     A = "A"
+     L = "L"
+     D = "D"
+     SL = "SL"

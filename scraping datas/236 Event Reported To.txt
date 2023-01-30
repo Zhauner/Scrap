@@ -1,0 +1,17 @@
+
+
+class EventReportedTo(str, Enum):
+     """
+     236 - Event Reported To
+
+     M  Manufacturer
+     L  Local facility/user facility
+     R  Regulatory agency
+     D  Distributor
+     """
+
+
+     M = "M"
+     L = "L"
+     R = "R"
+     D = "D"

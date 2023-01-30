@@ -1,0 +1,19 @@
+
+
+class NotifyClergyCode(str, Enum):
+     """
+     534 - Notify Clergy Code
+
+     Y  Yes
+     N  No
+     L  Last Rites only
+     O  Other
+     U  Unknown
+     """
+
+
+     Y = "Y"
+     N = "N"
+     L = "L"
+     O = "O"
+     U = "U"

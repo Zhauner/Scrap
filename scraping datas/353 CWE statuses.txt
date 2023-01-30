@@ -1,0 +1,19 @@
+
+
+class CWEstatuses(str, Enum):
+     """
+     353 - CWE statuses
+
+     U  Unknown
+     UASK  Asked but Unknown
+     NAV  Not available
+     NA  Not applicable
+     NASK  Not asked
+     """
+
+
+     U = "U"
+     UASK = "UASK"
+     NAV = "NAV"
+     NA = "NA"
+     NASK = "NASK"

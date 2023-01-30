@@ -1,0 +1,65 @@
+
+
+class RepeatPattern(str, Enum):
+     """
+     335 - Repeat Pattern
+
+     Q<integer>S  every  seconds
+     Q<integer>M  every  minutes
+     Q<integer>H  every  hours
+     Q<integer>D  every  days
+     Q<integer>W  every  weeks
+     Q<integer>L  every  months (Lunar cycle)
+     Q<integer>J<day#>  repeats on a particular day of the week,
+     BID  twice a day at institution-specified times
+     TID  three times a day at institution-specified times
+     QID  four times a day at institution-specified times
+     xID  "X" times per day at institution-specified times, where X is a numeral 5 or greater.
+     QAM  in the morning at institution-specified time
+     QSHIFT  during each of three eight-hour shifts at institution-specified times
+     QOD  every other day
+     QHS  every day before the hour of sleep
+     QPM  in the evening at institution-specified time
+     C  service is provided continuously between start time and stop time
+     U <spec>  for future use, where  is an interval specification as defined by the UNIX cron specification.
+     PRN  given as needed
+     PRNxxx  where xxx is some frequency code
+     Once  one time only.
+     Meal Related Timings  C ("cum")
+     A  Ante (before)
+     P  Post (after)
+     I  Inter
+     M  Cibus Matutinus (breakfast)
+     D  Cibus Diurnus (lunch)
+     V  Cibus Vespertinus (dinner)
+     """
+
+
+     Q_integer_S = "Q<integer>S"
+     Q_integer_M = "Q<integer>M"
+     Q_integer_H = "Q<integer>H"
+     Q_integer_D = "Q<integer>D"
+     Q_integer_W = "Q<integer>W"
+     Q_integer_L = "Q<integer>L"
+     Q_integer_J_dayhashtag_ = "Q<integer>J<day#>"
+     BID = "BID"
+     TID = "TID"
+     QID = "QID"
+     xID = "xID"
+     QAM = "QAM"
+     QSHIFT = "QSHIFT"
+     QOD = "QOD"
+     QHS = "QHS"
+     QPM = "QPM"
+     C = "C"
+     U__spec_ = "U <spec>"
+     PRN = "PRN"
+     PRNxxx = "PRNxxx"
+     Once = "Once"
+     Meal_Related_Timings = "Meal Related Timings"
+     A = "A"
+     P = "P"
+     I = "I"
+     M = "M"
+     D = "D"
+     V = "V"

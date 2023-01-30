@@ -1,0 +1,21 @@
+
+
+class RoomType(str, Enum):
+     """
+     145 - Room Type
+
+     PRI  Private room
+     2PRI  Second private room
+     SPR  Semi-private room
+     2SPR  Second semi-private room
+     ICU  Intensive care unit
+     2ICU  Second intensive care unit
+     """
+
+
+     PRI = "PRI"
+     _2PRI = "2PRI"
+     SPR = "SPR"
+     _2SPR = "2SPR"
+     ICU = "ICU"
+     _2ICU = "2ICU"

@@ -1,0 +1,27 @@
+
+
+class EventConsequence(str, Enum):
+     """
+     240 - Event Consequence
+
+     D  Death
+     L  Life threatening
+     H  Caused hospitalized
+     P  Prolonged hospitalization
+     C  Congenital anomaly/birth defect
+     I  Incapacity which is significant, persistent or permanent
+     J  Disability which is significant, persistent or permanent
+     R  Required intervention to prevent permanent impairment/damage
+     O  Other
+     """
+
+
+     D = "D"
+     L = "L"
+     H = "H"
+     P = "P"
+     C = "C"
+     I = "I"
+     J = "J"
+     R = "R"
+     O = "O"

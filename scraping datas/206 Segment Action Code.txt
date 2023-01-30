@@ -1,0 +1,17 @@
+
+
+class SegmentActionCode(str, Enum):
+     """
+     206 - Segment Action Code
+
+     A  Add/Insert
+     D  Delete
+     U  Update
+     X  No Change
+     """
+
+
+     A = "A"
+     D = "D"
+     U = "U"
+     X = "X"

@@ -1,0 +1,15 @@
+
+
+class SpecimenAppropriateness(str, Enum):
+     """
+     492 - Specimen Appropriateness
+
+     P  Preferred
+     A  Appropriate
+     I  Inappropriate
+     """
+
+
+     P = "P"
+     A = "A"
+     I = "I"

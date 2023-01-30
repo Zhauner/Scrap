@@ -1,0 +1,11 @@
+
+
+class RulingAct(str, Enum):
+     """
+     793 - Ruling Act
+
+     SMDA  Safe Medical Devices Act
+     """
+
+
+     SMDA = "SMDA"

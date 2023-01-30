@@ -1,0 +1,17 @@
+
+
+class TransportationMode(str, Enum):
+     """
+     124 - Transportation Mode
+
+     CART  Cart - patient travels on cart or gurney
+     PORT  The examining device goes to patient's location
+     WALK  Patient walks to diagnostic service
+     WHLC  Wheelchair
+     """
+
+
+     CART = "CART"
+     PORT = "PORT"
+     WALK = "WALK"
+     WHLC = "WHLC"

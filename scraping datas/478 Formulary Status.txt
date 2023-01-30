@@ -1,0 +1,17 @@
+
+
+class FormularyStatus(str, Enum):
+     """
+     478 - Formulary Status
+
+     Y  Pharmaceutical substance is in the formulary
+     N  Pharmaceutical substance is NOT in the formulary
+     R  Pharmaceutical substance is in the formulary, but restrictions apply
+     G  Pharmaceutical substance is in the formulary, but guidelines apply
+     """
+
+
+     Y = "Y"
+     N = "N"
+     R = "R"
+     G = "G"

@@ -1,0 +1,27 @@
+
+
+class PatientClass(str, Enum):
+     """
+     004 - Patient Class
+
+     E  Emergency
+     I  Inpatient
+     O  Outpatient
+     P  Preadmit
+     R  Recurring patient
+     B  Obstetrics
+     C  Commercial Account
+     N  Not Applicable
+     U  Unknown
+     """
+
+
+     E = "E"
+     I = "I"
+     O = "O"
+     P = "P"
+     R = "R"
+     B = "B"
+     C = "C"
+     N = "N"
+     U = "U"

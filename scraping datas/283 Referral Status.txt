@@ -1,0 +1,17 @@
+
+
+class ReferralStatus(str, Enum):
+     """
+     283 - Referral Status
+
+     A  Accepted
+     P  Pending
+     R  Rejected
+     E  Expired
+     """
+
+
+     A = "A"
+     P = "P"
+     R = "R"
+     E = "E"

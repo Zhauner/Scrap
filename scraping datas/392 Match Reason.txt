@@ -1,0 +1,17 @@
+
+
+class MatchReason(str, Enum):
+     """
+     392 - Match Reason
+
+     DB  Match on Date of Birth
+     NA  Match on Name (Alpha Match)
+     NP  Match on Name (Phonetic Match)
+     SS  Match on Social Security Number
+     """
+
+
+     DB = "DB"
+     NA = "NA"
+     NP = "NP"
+     SS = "SS"

@@ -1,0 +1,29 @@
+
+
+class AuthorizationMode(str, Enum):
+     """
+     483 - Authorization Mode
+
+     EL  Electronic
+     EM  E-mail
+     FX  Fax
+     IP  In Person
+     MA  Mail
+     PA  Paper
+     PH  Phone
+     RE  Reflexive (Automated system)
+     VC  Video-conference
+     VO  Voice
+     """
+
+
+     EL = "EL"
+     EM = "EM"
+     FX = "FX"
+     IP = "IP"
+     MA = "MA"
+     PA = "PA"
+     PH = "PH"
+     RE = "RE"
+     VC = "VC"
+     VO = "VO"

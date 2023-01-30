@@ -1,0 +1,11 @@
+
+
+class CaseCategoryCode(str, Enum):
+     """
+     423 - Case Category Code
+
+     D  Doctor's Office Closed
+     """
+
+
+     D = "D"

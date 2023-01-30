@@ -1,0 +1,25 @@
+
+
+class DiagnosisClassification(str, Enum):
+     """
+     228 - Diagnosis Classification
+
+     C  Consultation
+     D  Diagnosis
+     M  Medication (antibiotic)
+     O  Other
+     R  Radiological scheduling (not using ICDA codes)
+     S  Sign and symptom
+     T  Tissue diagnosis
+     I  Invasive procedure not classified elsewhere (I.V., catheter, etc.)
+     """
+
+
+     C = "C"
+     D = "D"
+     M = "M"
+     O = "O"
+     R = "R"
+     S = "S"
+     T = "T"
+     I = "I"

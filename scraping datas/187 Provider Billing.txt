@@ -1,0 +1,13 @@
+
+
+class ProviderBilling(str, Enum):
+     """
+     187 - Provider Billing
+
+     I  Institution bills for provider
+     P  Provider does own billing
+     """
+
+
+     I = "I"
+     P = "P"

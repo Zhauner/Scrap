@@ -1,0 +1,15 @@
+
+
+class ConsentDisclosureLevel(str, Enum):
+     """
+     500 - Consent Disclosure Level
+
+     F  Full Disclosure
+     P  Partial Disclosure
+     N  No Disclosure
+     """
+
+
+     F = "F"
+     P = "P"
+     N = "N"

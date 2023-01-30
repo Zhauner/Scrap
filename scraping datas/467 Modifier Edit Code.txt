@@ -1,0 +1,21 @@
+
+
+class ModifierEditCode(str, Enum):
+     """
+     467 - Modifier Edit Code
+
+     0  Modifier does NOT exist
+     1  Modifier present, no errors
+     2  Modifier invalid
+     3  Modifier NOT approved for ASC/HOPD use
+     4  Modifier approved for ASC/HOPD use, inappropriate for code
+     U  Modifier edit code unknown
+     """
+
+
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     U = "U"

@@ -1,0 +1,17 @@
+
+
+class DispenseMethod(str, Enum):
+     """
+     321 - Dispense Method
+
+     TR  Traditional
+     UD  Unit Dose
+     F  Floor Stock
+     AD  Automatic Dispensing
+     """
+
+
+     TR = "TR"
+     UD = "UD"
+     F = "F"
+     AD = "AD"

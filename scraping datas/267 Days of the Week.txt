@@ -1,0 +1,23 @@
+
+
+class DaysoftheWeek(str, Enum):
+     """
+     267 - Days of the Week
+
+     SAT  Saturday
+     SUN  Sunday
+     MON  Monday
+     TUE  Tuesday
+     WED  Wednesday
+     THU  Thursday
+     FRI  Friday
+     """
+
+
+     SAT = "SAT"
+     SUN = "SUN"
+     MON = "MON"
+     TUE = "TUE"
+     WED = "WED"
+     THU = "THU"
+     FRI = "FRI"

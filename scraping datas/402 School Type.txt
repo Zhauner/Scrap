@@ -1,0 +1,17 @@
+
+
+class SchoolType(str, Enum):
+     """
+     402 - School Type
+
+     D  Dental
+     G  Graduate
+     M  Medical
+     U  Undergraduate
+     """
+
+
+     D = "D"
+     G = "G"
+     M = "M"
+     U = "U"

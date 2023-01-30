@@ -1,0 +1,11 @@
+
+
+class HealthCareProviderAreaofSpecialization(str, Enum):
+     """
+     454 - Health Care Provider Area of Specialization
+
+     SUGGESTION  ANSI ASC X12 Health Care Provider Taxonomy, Level 3 - specialization
+     """
+
+
+     SUGGESTION = "SUGGESTION"

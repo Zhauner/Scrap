@@ -1,0 +1,15 @@
+
+
+class TransportArranged(str, Enum):
+     """
+     224 - Transport Arranged
+
+     A  Arranged
+     N  Not Arranged
+     U  Unknown
+     """
+
+
+     A = "A"
+     N = "N"
+     U = "U"

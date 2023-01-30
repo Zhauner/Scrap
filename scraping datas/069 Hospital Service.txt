@@ -1,0 +1,19 @@
+
+
+class HospitalService(str, Enum):
+     """
+     069 - Hospital Service
+
+     MED  Medical Service
+     SUR  Surgical Service
+     URO  Urology Service
+     PUL  Pulmonary Service
+     CAR  Cardiac Service
+     """
+
+
+     MED = "MED"
+     SUR = "SUR"
+     URO = "URO"
+     PUL = "PUL"
+     CAR = "CAR"

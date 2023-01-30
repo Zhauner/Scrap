@@ -1,0 +1,15 @@
+
+
+class SourceofComment(str, Enum):
+     """
+     105 - Source of Comment
+
+     L  Ancillary (filler) department is source of comment
+     P  Orderer (placer) is source of comment
+     O  Other system is source of comment
+     """
+
+
+     L = "L"
+     P = "P"
+     O = "O"

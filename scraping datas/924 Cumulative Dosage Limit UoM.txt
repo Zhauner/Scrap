@@ -1,0 +1,21 @@
+
+
+class CumulativeDosageLimitUoM(str, Enum):
+     """
+     924 - Cumulative Dosage Limit UoM
+
+     A  Annual
+     D  Per Day
+     M  Per Month
+     O  Duration of the Order
+     PL  Patients Lifetime
+     WK  Per Week
+     """
+
+
+     A = "A"
+     D = "D"
+     M = "M"
+     O = "O"
+     PL = "PL"
+     WK = "WK"

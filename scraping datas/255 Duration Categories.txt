@@ -1,0 +1,61 @@
+
+
+class DurationCategories(str, Enum):
+     """
+     255 - Duration Categories
+
+     PT  To identify measures at a point in time.  This is a synonym for "spot" or "random" as applied to urine measurements.
+     *  (asterisk) Life of the "unit."  Used for blood products.
+     30M  30 minutes
+     1H  1 hour
+     2H  2 hours
+     2.5H  2 1/2 hours
+     3H  3 hours
+     4H  4 hours
+     5H  5 hours
+     6H  6 hours
+     7H  7 hours
+     8H  8 hours
+     12H  12 hours
+     24H  24 hours
+     2D  2 days
+     3D  3 days
+     4D  4 days
+     5D  5 days
+     6D  6 days
+     1W  1 week
+     2W  2 weeks
+     3W  3 weeks
+     4W  4 weeks
+     1L  1 months (30 days)
+     2L  2 months
+     3L  3 months
+     """
+
+
+     PT = "PT"
+     star = "*"
+     _30M = "30M"
+     _1H = "1H"
+     _2H = "2H"
+     _2_5H = "2.5H"
+     _3H = "3H"
+     _4H = "4H"
+     _5H = "5H"
+     _6H = "6H"
+     _7H = "7H"
+     _8H = "8H"
+     _12H = "12H"
+     _24H = "24H"
+     _2D = "2D"
+     _3D = "3D"
+     _4D = "4D"
+     _5D = "5D"
+     _6D = "6D"
+     _1W = "1W"
+     _2W = "2W"
+     _3W = "3W"
+     _4W = "4W"
+     _1L = "1L"
+     _2L = "2L"
+     _3L = "3L"

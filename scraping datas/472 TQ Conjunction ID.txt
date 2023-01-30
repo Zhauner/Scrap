@@ -1,0 +1,15 @@
+
+
+class TQConjunctionID(str, Enum):
+     """
+     472 - TQ Conjunction ID
+
+     S  Synchronous
+     A  Asynchronous
+     C  Actuation Time
+     """
+
+
+     S = "S"
+     A = "A"
+     C = "C"

@@ -1,0 +1,19 @@
+
+
+class Annotations(str, Enum):
+     """
+     317 - Annotations
+
+     9900  Pace spike
+     9901  SAS marker
+     9902  Sense marker
+     9903  Beat marker
+     9904  etc.
+     """
+
+
+     _9900 = "9900"
+     _9901 = "9901"
+     _9902 = "9902"
+     _9903 = "9903"
+     _9904 = "9904"

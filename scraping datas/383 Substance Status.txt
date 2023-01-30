@@ -1,0 +1,31 @@
+
+
+class SubstanceStatus(str, Enum):
+     """
+     383 - Substance Status
+
+     EW  Expired Warning
+     EE  Expired Error
+     CW  Calibration Warning
+     CE  Calibration Error
+     QW  QC Warning
+     QE  QC Error
+     NW  Not Available Warning
+     NE  Not Available Error
+     OW  Other Warning
+     OE  Other Error
+     OK  OK Status
+     """
+
+
+     EW = "EW"
+     EE = "EE"
+     CW = "CW"
+     CE = "CE"
+     QW = "QW"
+     QE = "QE"
+     NW = "NW"
+     NE = "NE"
+     OW = "OW"
+     OE = "OE"
+     OK = "OK"

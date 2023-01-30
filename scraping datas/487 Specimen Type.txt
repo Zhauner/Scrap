@@ -1,0 +1,551 @@
+
+
+class SpecimenType(str, Enum):
+     """
+     487 - Specimen Type
+
+     ABS  Abscess
+     PELVA  Abscess, Pelvic
+     PERIA  Abscess, Perianal
+     RECTA  Abscess, Rectal
+     SCROA  Abscess, Scrotal
+     SUBMA  Abscess, Submandibular
+     SUBMX  Abscess, Submaxillary
+     TSTES  Abscess, Testicular
+     AIRS  Air Sample
+     ALL  Allograft
+     AMP  Amputation
+     GASAN  Antrum, Gastric
+     ASP  Aspirate
+     ETA  Aspirate,  Endotrach
+     GASA  Aspirate, Gastric
+     NGASP  Aspirate, Nasogastric
+     TASP  Aspirate, Tracheal
+     TTRA  Aspirate, Transtracheal
+     AUTP  Autopsy
+     BX  Biopsy
+     GSPEC  Biopsy, Gastric
+     SKBP  Biopsy, Skin
+     CONE  Biospy, Cone
+     BITE  Bite
+     CBITE  Bite, Cat
+     DBITE  Bite, Dog
+     HBITE  Bite, Human
+     IBITE  Bite, Insect
+     RBITE  Bite, Reptile
+     BLEB  Bleb
+     BLIST  Blister
+     BBL  Blood bag
+     BPU  Blood product unit
+     HBLUD  Blood, Autopsy
+     CSVR  Blood, Cell Saver
+     FBLOOD  Blood, Fetal
+     MBLD  Blood, Menstrual
+     WB  Blood, Whole
+     BOIL  Boil
+     BON  Bone
+     BOWL  Bowel contents
+     BRTH  Breath (use EXHLD)
+     BRSH  Brush
+     EBRUSH  Brush, Esophageal
+     BRUS  Brushing
+     GASBR  Brushing, Gastric
+     BUB  Bubo
+     BULLA  Bulla/Bullae
+     BRN  Burn
+     CALC  Calculus (=Stone)
+     CARBU  Carbuncle
+     CAT  Catheter
+     CSITE  Catheter Insertion Site
+     CTP  Catheter tip
+     ANGI  Catheter Tip, Angio
+     ARTC  Catheter Tip, Arterial
+     CVPT  Catheter Tip, CVP
+     ETTP  Catheter Tip, Endotracheal
+     FOLEY  Catheter Tip, Foley
+     HEMAQ  Catheter Tip, Hemaquit
+     HEMO  Catheter Tip, Hemovac
+     IDC  Catheter Tip, Indwelling
+     INTRD  Catheter Tip, Introducer
+     IVCAT  Catheter Tip, IV
+     MAHUR  Catheter Tip, Makurkour
+     SCLV  Catheter Tip, Subclavian
+     SPRP  Catheter Tip, Suprapubic
+     SWGZ  Catheter Tip, Swan Gantz
+     VASTIP  Catheter Tip, Vas
+     VENT  Catheter Tip, Ventricular
+     GROSH  Catheter, Groshong
+     HIC  Catheter, Hickman
+     PORTA  Catheter, Porta
+     SPRPB  Cathether Tip, Suprapubic
+     TLC  Cathether Tip, Triple Lumen
+     CLIPP  Clippings
+     COL  Colostrum
+     CNJT  Conjunctiva
+     LENS1  Contact Lens
+     LENS2  Contact Lens Case
+     CYST  Cyst
+     BCYST  Cyst, Baker's
+     ICYST  Cyst, Inclusion
+     PILOC  Cyst, Pilonidal
+     RENALC  Cyst, Renal
+     DIA  Dialysate
+     DISCHG  Discharge
+     DIV  Diverticulum
+     DRN  Drain
+     HEV  Drain, Hemovac
+     GTUBE  Drainage Tube, Drainage (Gastrostomy)
+     GASD  Drainage, Gastric
+     ILEO  Drainage, Ileostomy
+     JP  Drainage, Jackson Pratt
+     JEJU  Drainage, Jejunal
+     NASDR  Drainage, Nasal
+     NGAST  Drainage, Nasogastric
+     PND  Drainage, Penile
+     DRNGP  Drainage, Penrose
+     RECT  Drainage, Rectal
+     SUMP  Drainage, Sump
+     DRNG  Drainage, Tube
+     EARW  Ear wax (cerumen)
+     EFFUS  Effusion
+     ELT  Electrode
+     ATTE  Environment, Attest
+     AUTOA  Environmental, Autoclave Ampule
+     AUTOC  Environmental, Autoclave Capsule
+     EFF  Environmental, Effluent
+     EEYE  Environmental, Eye Wash
+     EFOD  Environmental, Food
+     EISO  Environmental, Isolette
+     EOTH  Environmental, Other Substance
+     ESOI  Environmental, Soil
+     ESOS  Environmental, Solution (Sterile)
+     SPS  Environmental, Spore Strip
+     STER  Environmental, Sterrad
+     ENVIR  Environmental, Unidentified Substance
+     WWA  Environmental, Water
+     DEION  Environmental, Water  (Deionized)
+     WWT  Environmental, Water  (Tap)
+     FAW  Environmental, Water  (Well)
+     WWO  Environmental, Water (Ocean)
+     EWHI  Environmental, Whirlpool
+     EXUDTE  Exudate
+     FLT  Filter
+     FIST  Fistula
+     FLUID  Fluid
+     FGA  Fluid,  Abdomen
+     CSMY  Fluid,  Cystostomy Tube
+     ACNFLD  Fluid, Acne
+     FLU  Fluid, Body unsp
+     CST  Fluid, Cyst
+     HYDC  Fluid, Hydrocele
+     IVFLD  Fluid, IV
+     JNTFLD  Fluid, Joint
+     KIDFLD  Fluid, Kidney
+     LSAC  Fluid, Lumbar Sac
+     FLD  Fluid, Other
+     PCFL  Fluid, Pericardial
+     RENC  Fluid, Renal Cyst
+     FRS  Fluid, Respiratory
+     SHUNF  Fluid, Shunt
+     SNV  Fluid, synovial (Joint fluid)
+     GAST  Fluid/contents, Gastric
+     FUR  Furuncle
+     GAS  Gas
+     EXG  Gas, exhaled (=breath)
+     IHG  Gas, Inhaled
+     GENV  Genital vaginal
+     GRAFT  Graft
+     GRAFTS  Graft Site
+     POPGS  Graft Site, Popliteal
+     POPLG  Graft, Popliteal
+     GRANU  Granuloma
+     IMP  Implant
+     INFIL  Infiltrate
+     INS  Insect
+     IUD  Intrauterine Device
+     IT  Intubation tube
+     KELOI  Lavage
+     LAVG  Lavage, Bronhial
+     LAVGG  Lavage, Gastric
+     LAVGP  Lavage, Peritoneal
+     LAVPG  Lavage, Pre-Bronch
+     LESN  Lesion
+     ORL  Lesion, Oral
+     PENIL  Lesion, Penile
+     LIQO  Liquid, Other
+     LIQ  Liquid, Unspecified
+     MASS  Mass
+     SMM  Mass, Sub-Mandibular
+     MUCOS  Mucosa
+     MUCUS  Mucus
+     NEDL  Needle
+     NODUL  Nodule(s)
+     CYN  Nodule, Cystic
+     ORH  Other
+     PACEM  Pacemaker
+     PLAN  Plant Material
+     PLAS  Plasma
+     PLB  Plasma bag
+     PPP  Plasma, Platelet poor
+     PRP  Plasma, Platelet rich
+     POL  Polyps
+     PROST  Prosthetic Device
+     PSC  Pseudocyst
+     PUS  Pus
+     PUST  Pus
+     PUSFR  Pustule
+     QC3  Quality Control
+     RES  Respiratory
+     SAL  Saliva
+     FSCLP  Scalp, Fetal
+     CSCR  Scratch, Cat
+     SECRE  Secretion(s)
+     NSECR  Secretion, Nasal
+     SER  Serum
+     ASERU  Serum, Acute
+     CSERU  Serum, Convalescent
+     PLEVS  Serum, Peak Level
+     TSERU  Serum, Trough
+     SHUNT  Shunt
+     EXS  Shunt, External
+     SITE  Site
+     CVPS  Site, CVP
+     INCI  Site, Incision/Surgical
+     NGS  Site, Naso/Gastric
+     NEPH  Site, Nephrostomy
+     PIS  Site, Pacemaker Insetion
+     PDSIT  Site, Peritoneal Dialysis
+     PDTS  Site, Peritoneal Dialysis Tunnel
+     PINS  Site, Pin
+     POPLV  Site, Popliteal Vein
+     SHU  Site, Shunt
+     TRAC  Site, Tracheostomy
+     SKN  Skin
+     TZANC  Smear, Tzanck
+     GSOL  Solution, Gastrostomy
+     ILLEG  Source of Specimen Is Illegible
+     OTH  Source, Other
+     UDENT  Source, Unidentified
+     USPEC  Source, Unspecified
+     SPRM  Spermatozoa
+     SPT  Sputum
+     SPTC  Sputum - coughed
+     SPTT  Sputum - tracheal aspirate
+     DCS  Sputum, Deep Cough
+     SPUTIN  Sputum, Inducted
+     SPUT1  Sputum, Simulated
+     SPUTSP  Sputum, Spontaneous
+     STONE  Stone, Kidney
+     STL  Stool = Fecal
+     SUP  Suprapubic Tap
+     SUTUR  Suture
+     TISS  Tissue
+     TISU  Tissue ulcer
+     ACNE  Tissue, Acne
+     HERNI  Tissue, Herniated
+     SCAR  Tissue, Keloid (Scar)
+     TRANS  Transudate
+     ETTUB  Tube, Endotracheal
+     GT  Tube, Gastric
+     TUBES  Tubes
+     IVTIP  Tubing Tip, IV
+     TUMOR  Tumor
+     DEC  Ulcer, Decubitus
+     UR  Urine
+     URT  Urine catheter
+     URC  Urine clean catch
+     URINB  Urine, Bladder Washings
+     URINC  Urine, Catheterized
+     USCOP  Urine, Cystoscopy
+     URINM  Urine, Midstream
+     URINN  Urine, Nephrostomy
+     URINP  Urine, Pedibag
+     RANDU  Urine, Random
+     VITF  Vitreous Fluid
+     VOM  Vomitus
+     WRT  Wart
+     WASH  Wash
+     WASI  Washing, e.g. bronchial washing
+     WAT  Water
+     WEN  Wen
+     WICK  Wick
+     WORM  Worm
+     WND  Wound
+     WNDA  Wound abscess
+     WNDD  Wound drainage
+     WNDE  Wound exudate
+     PUNCT  Wound, Puncture
+     """
+
+
+     ABS = "ABS"
+     PELVA = "PELVA"
+     PERIA = "PERIA"
+     RECTA = "RECTA"
+     SCROA = "SCROA"
+     SUBMA = "SUBMA"
+     SUBMX = "SUBMX"
+     TSTES = "TSTES"
+     AIRS = "AIRS"
+     ALL = "ALL"
+     AMP = "AMP"
+     GASAN = "GASAN"
+     ASP = "ASP"
+     ETA = "ETA"
+     GASA = "GASA"
+     NGASP = "NGASP"
+     TASP = "TASP"
+     TTRA = "TTRA"
+     AUTP = "AUTP"
+     BX = "BX"
+     GSPEC = "GSPEC"
+     SKBP = "SKBP"
+     CONE = "CONE"
+     BITE = "BITE"
+     CBITE = "CBITE"
+     DBITE = "DBITE"
+     HBITE = "HBITE"
+     IBITE = "IBITE"
+     RBITE = "RBITE"
+     BLEB = "BLEB"
+     BLIST = "BLIST"
+     BBL = "BBL"
+     BPU = "BPU"
+     HBLUD = "HBLUD"
+     CSVR = "CSVR"
+     FBLOOD = "FBLOOD"
+     MBLD = "MBLD"
+     WB = "WB"
+     BOIL = "BOIL"
+     BON = "BON"
+     BOWL = "BOWL"
+     BRTH = "BRTH"
+     BRSH = "BRSH"
+     EBRUSH = "EBRUSH"
+     BRUS = "BRUS"
+     GASBR = "GASBR"
+     BUB = "BUB"
+     BULLA = "BULLA"
+     BRN = "BRN"
+     CALC = "CALC"
+     CARBU = "CARBU"
+     CAT = "CAT"
+     CSITE = "CSITE"
+     CTP = "CTP"
+     ANGI = "ANGI"
+     ARTC = "ARTC"
+     CVPT = "CVPT"
+     ETTP = "ETTP"
+     FOLEY = "FOLEY"
+     HEMAQ = "HEMAQ"
+     HEMO = "HEMO"
+     IDC = "IDC"
+     INTRD = "INTRD"
+     IVCAT = "IVCAT"
+     MAHUR = "MAHUR"
+     SCLV = "SCLV"
+     SPRP = "SPRP"
+     SWGZ = "SWGZ"
+     VASTIP = "VASTIP"
+     VENT = "VENT"
+     GROSH = "GROSH"
+     HIC = "HIC"
+     PORTA = "PORTA"
+     SPRPB = "SPRPB"
+     TLC = "TLC"
+     CLIPP = "CLIPP"
+     COL = "COL"
+     CNJT = "CNJT"
+     LENS1 = "LENS1"
+     LENS2 = "LENS2"
+     CYST = "CYST"
+     BCYST = "BCYST"
+     ICYST = "ICYST"
+     PILOC = "PILOC"
+     RENALC = "RENALC"
+     DIA = "DIA"
+     DISCHG = "DISCHG"
+     DIV = "DIV"
+     DRN = "DRN"
+     HEV = "HEV"
+     GTUBE = "GTUBE"
+     GASD = "GASD"
+     ILEO = "ILEO"
+     JP = "JP"
+     JEJU = "JEJU"
+     NASDR = "NASDR"
+     NGAST = "NGAST"
+     PND = "PND"
+     DRNGP = "DRNGP"
+     RECT = "RECT"
+     SUMP = "SUMP"
+     DRNG = "DRNG"
+     EARW = "EARW"
+     EFFUS = "EFFUS"
+     ELT = "ELT"
+     ATTE = "ATTE"
+     AUTOA = "AUTOA"
+     AUTOC = "AUTOC"
+     EFF = "EFF"
+     EEYE = "EEYE"
+     EFOD = "EFOD"
+     EISO = "EISO"
+     EOTH = "EOTH"
+     ESOI = "ESOI"
+     ESOS = "ESOS"
+     SPS = "SPS"
+     STER = "STER"
+     ENVIR = "ENVIR"
+     WWA = "WWA"
+     DEION = "DEION"
+     WWT = "WWT"
+     FAW = "FAW"
+     WWO = "WWO"
+     EWHI = "EWHI"
+     EXUDTE = "EXUDTE"
+     FLT = "FLT"
+     FIST = "FIST"
+     FLUID = "FLUID"
+     FGA = "FGA"
+     CSMY = "CSMY"
+     ACNFLD = "ACNFLD"
+     FLU = "FLU"
+     CST = "CST"
+     HYDC = "HYDC"
+     IVFLD = "IVFLD"
+     JNTFLD = "JNTFLD"
+     KIDFLD = "KIDFLD"
+     LSAC = "LSAC"
+     FLD = "FLD"
+     PCFL = "PCFL"
+     RENC = "RENC"
+     FRS = "FRS"
+     SHUNF = "SHUNF"
+     SNV = "SNV"
+     GAST = "GAST"
+     FUR = "FUR"
+     GAS = "GAS"
+     EXG = "EXG"
+     IHG = "IHG"
+     GENV = "GENV"
+     GRAFT = "GRAFT"
+     GRAFTS = "GRAFTS"
+     POPGS = "POPGS"
+     POPLG = "POPLG"
+     GRANU = "GRANU"
+     IMP = "IMP"
+     INFIL = "INFIL"
+     INS = "INS"
+     IUD = "IUD"
+     IT = "IT"
+     KELOI = "KELOI"
+     LAVG = "LAVG"
+     LAVGG = "LAVGG"
+     LAVGP = "LAVGP"
+     LAVPG = "LAVPG"
+     LESN = "LESN"
+     ORL = "ORL"
+     PENIL = "PENIL"
+     LIQO = "LIQO"
+     LIQ = "LIQ"
+     MASS = "MASS"
+     SMM = "SMM"
+     MUCOS = "MUCOS"
+     MUCUS = "MUCUS"
+     NEDL = "NEDL"
+     NODUL = "NODUL"
+     CYN = "CYN"
+     ORH = "ORH"
+     PACEM = "PACEM"
+     PLAN = "PLAN"
+     PLAS = "PLAS"
+     PLB = "PLB"
+     PPP = "PPP"
+     PRP = "PRP"
+     POL = "POL"
+     PROST = "PROST"
+     PSC = "PSC"
+     PUS = "PUS"
+     PUST = "PUST"
+     PUSFR = "PUSFR"
+     QC3 = "QC3"
+     RES = "RES"
+     SAL = "SAL"
+     FSCLP = "FSCLP"
+     CSCR = "CSCR"
+     SECRE = "SECRE"
+     NSECR = "NSECR"
+     SER = "SER"
+     ASERU = "ASERU"
+     CSERU = "CSERU"
+     PLEVS = "PLEVS"
+     TSERU = "TSERU"
+     SHUNT = "SHUNT"
+     EXS = "EXS"
+     SITE = "SITE"
+     CVPS = "CVPS"
+     INCI = "INCI"
+     NGS = "NGS"
+     NEPH = "NEPH"
+     PIS = "PIS"
+     PDSIT = "PDSIT"
+     PDTS = "PDTS"
+     PINS = "PINS"
+     POPLV = "POPLV"
+     SHU = "SHU"
+     TRAC = "TRAC"
+     SKN = "SKN"
+     TZANC = "TZANC"
+     GSOL = "GSOL"
+     ILLEG = "ILLEG"
+     OTH = "OTH"
+     UDENT = "UDENT"
+     USPEC = "USPEC"
+     SPRM = "SPRM"
+     SPT = "SPT"
+     SPTC = "SPTC"
+     SPTT = "SPTT"
+     DCS = "DCS"
+     SPUTIN = "SPUTIN"
+     SPUT1 = "SPUT1"
+     SPUTSP = "SPUTSP"
+     STONE = "STONE"
+     STL = "STL"
+     SUP = "SUP"
+     SUTUR = "SUTUR"
+     TISS = "TISS"
+     TISU = "TISU"
+     ACNE = "ACNE"
+     HERNI = "HERNI"
+     SCAR = "SCAR"
+     TRANS = "TRANS"
+     ETTUB = "ETTUB"
+     GT = "GT"
+     TUBES = "TUBES"
+     IVTIP = "IVTIP"
+     TUMOR = "TUMOR"
+     DEC = "DEC"
+     UR = "UR"
+     URT = "URT"
+     URC = "URC"
+     URINB = "URINB"
+     URINC = "URINC"
+     USCOP = "USCOP"
+     URINM = "URINM"
+     URINN = "URINN"
+     URINP = "URINP"
+     RANDU = "RANDU"
+     VITF = "VITF"
+     VOM = "VOM"
+     WRT = "WRT"
+     WASH = "WASH"
+     WASI = "WASI"
+     WAT = "WAT"
+     WEN = "WEN"
+     WICK = "WICK"
+     WORM = "WORM"
+     WND = "WND"
+     WNDA = "WNDA"
+     WNDD = "WNDD"
+     WNDE = "WNDE"
+     PUNCT = "PUNCT"

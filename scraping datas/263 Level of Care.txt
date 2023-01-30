@@ -1,0 +1,23 @@
+
+
+class LevelofCare(str, Enum):
+     """
+     263 - Level of Care
+
+     A  Ambulatory
+     E  Emergency
+     F  Isolation
+     N  Intensive care
+     C  Critical care
+     R  Routine
+     S  Surgery
+     """
+
+
+     A = "A"
+     E = "E"
+     F = "F"
+     N = "N"
+     C = "C"
+     R = "R"
+     S = "S"

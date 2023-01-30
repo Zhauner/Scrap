@@ -1,0 +1,43 @@
+
+
+class InvoiceControlCode(str, Enum):
+     """
+     553 - Invoice Control Code
+
+     OR  Original Invoice
+     CN  Cancel Invoice
+     CG  Cancel Invoice Product/Service Group
+     CL  Cancel Invoice Product/Service Line Item
+     PD  Pre-Determination Invoice
+     RA  Re-Assessment
+     OA  Original Authorization
+     SA  Special Authorization
+     AI  Combined Authorization and Adjudication request
+     PA  Pre-Authorization
+     AA  Authorization request for inpatient admission
+     EA  Authorization request for inpatient stay extension
+     RC  Referral Pre-Authorization
+     CA  Cancel Authorization request
+     CP  Copy of Invoice
+     CQ  Coverage Register Query
+     RU  Referral authorization
+     """
+
+
+     OR = "OR"
+     CN = "CN"
+     CG = "CG"
+     CL = "CL"
+     PD = "PD"
+     RA = "RA"
+     OA = "OA"
+     SA = "SA"
+     AI = "AI"
+     PA = "PA"
+     AA = "AA"
+     EA = "EA"
+     RC = "RC"
+     CA = "CA"
+     CP = "CP"
+     CQ = "CQ"
+     RU = "RU"

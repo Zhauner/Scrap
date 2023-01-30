@@ -1,0 +1,39 @@
+
+
+class BloodProductCode(str, Enum):
+     """
+     426 - Blood Product Code
+
+     CRYO  Cryoprecipitated AHF
+     CRYOP  Pooled Cryoprecipitate
+     FFP  Fresh Frozen Plasma
+     FFPTH  Fresh Frozen Plasma - Thawed
+     PC  Packed Cells
+     PCA  Autologous Packed Cells
+     PCNEO  Packed Cells - Neonatal
+     PCW  Washed Packed Cells
+     PLT  Platelet Concentrate
+     PLTNEO  Reduced Volume Platelets
+     PLTP  Pooled Platelets
+     PLTPH  Platelet Pheresis
+     PLTPHLR  Leukoreduced Platelet Pheresis
+     RWB  Reconstituted Whole Blood
+     WBA  Autologous Whole Blood
+     """
+
+
+     CRYO = "CRYO"
+     CRYOP = "CRYOP"
+     FFP = "FFP"
+     FFPTH = "FFPTH"
+     PC = "PC"
+     PCA = "PCA"
+     PCNEO = "PCNEO"
+     PCW = "PCW"
+     PLT = "PLT"
+     PLTNEO = "PLTNEO"
+     PLTP = "PLTP"
+     PLTPH = "PLTPH"
+     PLTPHLR = "PLTPHLR"
+     RWB = "RWB"
+     WBA = "WBA"

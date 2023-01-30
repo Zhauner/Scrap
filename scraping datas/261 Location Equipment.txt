@@ -1,0 +1,25 @@
+
+
+class LocationEquipment(str, Enum):
+     """
+     261 - Location Equipment
+
+     OXY  Oxygen
+     SUC  Suction
+     VIT  Vital signs monitor
+     INF  Infusion pump
+     IVP  IV pump
+     EEG  Electro-Encephalogram
+     EKG  Electro-Cardiogram
+     VEN  Ventilator
+     """
+
+
+     OXY = "OXY"
+     SUC = "SUC"
+     VIT = "VIT"
+     INF = "INF"
+     IVP = "IVP"
+     EEG = "EEG"
+     EKG = "EKG"
+     VEN = "VEN"

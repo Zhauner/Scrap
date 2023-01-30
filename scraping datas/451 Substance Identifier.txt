@@ -1,0 +1,11 @@
+
+
+class SubstanceIdentifier(str, Enum):
+     """
+     451 - Substance Identifier
+
+     ALL  Used for query of all inventory items
+     """
+
+
+     ALL = "ALL"

@@ -1,0 +1,19 @@
+
+
+class QuantityUnits(str, Enum):
+     """
+     560 - Quantity Units
+
+     FL  Units
+     HS  Hours
+     DY  Days
+     MN  Month
+     YY  Years
+     """
+
+
+     FL = "FL"
+     HS = "HS"
+     DY = "DY"
+     MN = "MN"
+     YY = "YY"

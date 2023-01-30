@@ -1,0 +1,19 @@
+
+
+class PolicyType(str, Enum):
+     """
+     147 - Policy Type
+
+     ANC  Ancillary
+     2ANC  Second ancillary
+     MMD  Major medical
+     2MMD  Second major medical
+     3MMD  Third major medical
+     """
+
+
+     ANC = "ANC"
+     _2ANC = "2ANC"
+     MMD = "MMD"
+     _2MMD = "2MMD"
+     _3MMD = "3MMD"

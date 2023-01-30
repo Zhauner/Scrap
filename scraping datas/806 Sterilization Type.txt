@@ -1,0 +1,15 @@
+
+
+class SterilizationType(str, Enum):
+     """
+     806 - Sterilization Type
+
+     EOG  Ethylene Oxide Gas
+     PCA  Peracetic acid
+     STM  Steam
+     """
+
+
+     EOG = "EOG"
+     PCA = "PCA"
+     STM = "STM"

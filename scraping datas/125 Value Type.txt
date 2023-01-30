@@ -1,0 +1,71 @@
+
+
+class ValueType(str, Enum):
+     """
+     125 - Value Type
+
+     AD  Address
+     CNE  Coded with No Exceptions
+     CWE  Coded Entry
+     CF  Coded Element With Formatted Values
+     CK  Composite ID With Check Digit
+     CN  Composite ID And Name
+     CP  Composite Price
+     CX  Extended Composite ID With Check Digit
+     DR  Date/Time Range
+     DT  Date
+     DTM  Time Stamp (Date & Time)
+     ED  Encapsulated Data
+     FT  Formatted Text (Display)
+     ID  Coded Value for HL7 Defined Tables
+     IS  Coded Value for User-Defined Tables
+     MA  Multiplexed Array
+     MO  Money
+     NA  Numeric Array
+     NM  Numeric
+     PN  Person Name
+     RP  Reference Pointer
+     SN  Structured Numeric
+     ST  String Data.
+     TM  Time
+     TN  Telephone Number
+     TX  Text Data (Display)
+     XAD  Extended Address
+     XCN  Extended Composite Name And Number For Persons
+     XON  Extended Composite Name And Number For Organizations
+     XPN  Extended Person Name
+     XTN  Extended Telecommunications Number
+     """
+
+
+     AD = "AD"
+     CNE = "CNE"
+     CWE = "CWE"
+     CF = "CF"
+     CK = "CK"
+     CN = "CN"
+     CP = "CP"
+     CX = "CX"
+     DR = "DR"
+     DT = "DT"
+     DTM = "DTM"
+     ED = "ED"
+     FT = "FT"
+     ID = "ID"
+     IS = "IS"
+     MA = "MA"
+     MO = "MO"
+     NA = "NA"
+     NM = "NM"
+     PN = "PN"
+     RP = "RP"
+     SN = "SN"
+     ST = "ST"
+     TM = "TM"
+     TN = "TN"
+     TX = "TX"
+     XAD = "XAD"
+     XCN = "XCN"
+     XON = "XON"
+     XPN = "XPN"
+     XTN = "XTN"

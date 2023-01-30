@@ -1,0 +1,21 @@
+
+
+class MarketingBasis(str, Enum):
+     """
+     330 - Marketing Basis
+
+     510K  510 (K)
+     510E  510 (K) exempt
+     PMA  Premarketing authorization
+     PRE  Preamendment
+     TXN  Transitional
+     522S  Post marketing study (522)
+     """
+
+
+     _510K = "510K"
+     _510E = "510E"
+     PMA = "PMA"
+     PRE = "PRE"
+     TXN = "TXN"
+     _522S = "522S"

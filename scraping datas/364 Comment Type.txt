@@ -1,0 +1,25 @@
+
+
+class CommentType(str, Enum):
+     """
+     364 - Comment Type
+
+     PI  Patient Instructions
+     AI  Ancillary Instructions
+     GI  General Instructions
+     1R  Primary Reason
+     2R  Secondary Reason
+     GR  General Reason
+     RE  Remark
+     DR  Duplicate/Interaction Reason
+     """
+
+
+     PI = "PI"
+     AI = "AI"
+     GI = "GI"
+     _1R = "1R"
+     _2R = "2R"
+     GR = "GR"
+     RE = "RE"
+     DR = "DR"

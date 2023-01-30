@@ -1,0 +1,17 @@
+
+
+class ReferralReason(str, Enum):
+     """
+     336 - Referral Reason
+
+     S  Second Opinion
+     P  Patient Preference
+     O  Provider Ordered
+     W  Work Load
+     """
+
+
+     S = "S"
+     P = "P"
+     O = "O"
+     W = "W"

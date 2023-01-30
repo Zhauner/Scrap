@@ -1,0 +1,15 @@
+
+
+class DiagnosisType(str, Enum):
+     """
+     052 - Diagnosis Type
+
+     A  Admitting
+     W  Working
+     F  Final
+     """
+
+
+     A = "A"
+     W = "W"
+     F = "F"

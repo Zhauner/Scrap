@@ -1,0 +1,17 @@
+
+
+class IdentityReliabilityCode(str, Enum):
+     """
+     445 - Identity Reliability Code
+
+     US  Unknown/Default Social Security Number
+     UD  Unknown/Default Date of Birth
+     UA  Unknown/Default Address
+     AL  Patient/Person Name is an Alias
+     """
+
+
+     US = "US"
+     UD = "UD"
+     UA = "UA"
+     AL = "AL"

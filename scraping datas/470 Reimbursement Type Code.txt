@@ -1,0 +1,29 @@
+
+
+class ReimbursementTypeCode(str, Enum):
+     """
+     470 - Reimbursement Type Code
+
+     OPPS  Outpatient Prospective Payment System
+     Pckg  Packaged APC
+     Lab  Clinical Laboratory APC
+     Thrpy  Therapy APC
+     DME  Durable Medical Equipment
+     EPO  Epotein
+     Mamm  Screening Mammography APC
+     PartH  Partial Hospitalization APC
+     Crnl  Corneal Tissue APC
+     NoPay  This APC is not paid
+     """
+
+
+     OPPS = "OPPS"
+     Pckg = "Pckg"
+     Lab = "Lab"
+     Thrpy = "Thrpy"
+     DME = "DME"
+     EPO = "EPO"
+     Mamm = "Mamm"
+     PartH = "PartH"
+     Crnl = "Crnl"
+     NoPay = "NoPay"

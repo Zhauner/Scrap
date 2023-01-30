@@ -1,0 +1,23 @@
+
+
+class ModeofArrivalCode(str, Enum):
+     """
+     430 - Mode of Arrival Code
+
+     A  Ambulance
+     C  Car
+     F  On foot
+     H  Helicopter
+     P  Public Transport
+     O  Other
+     U  Unknown
+     """
+
+
+     A = "A"
+     C = "C"
+     F = "F"
+     H = "H"
+     P = "P"
+     O = "O"
+     U = "U"

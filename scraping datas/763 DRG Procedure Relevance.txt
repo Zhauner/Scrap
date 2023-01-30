@@ -1,0 +1,15 @@
+
+
+class DRGProcedureRelevance(str, Enum):
+     """
+     763 - DRG Procedure Relevance
+
+     0  Neither operation relevant nor non-operation relevant procedure
+     1  Operation relevant procedure
+     2  Non-operation relevant procedure
+     """
+
+
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"

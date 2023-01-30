@@ -1,0 +1,15 @@
+
+
+class ConsentNon_DisclosureReason(str, Enum):
+     """
+     501 - Consent Non-Disclosure Reason
+
+     E  Emergency
+     RX  Rx Private
+     PR  Patient Request
+     """
+
+
+     E = "E"
+     RX = "RX"
+     PR = "PR"

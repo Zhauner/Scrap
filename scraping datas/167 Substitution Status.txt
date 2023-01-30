@@ -1,0 +1,31 @@
+
+
+class SubstitutionStatus(str, Enum):
+     """
+     167 - Substitution Status
+
+     N  No substitute was dispensed.  This is equivalent to the default (null) value.
+     G  A generic substitution was dispensed.
+     T  A therapeutic substitution was dispensed.
+     0  No product selection indicated
+     1  Substitution not allowed by prescriber
+     2  Substitution allowed - patient requested product dispensed
+     3  Substitution allowed - pharmacist selected product dispensed
+     4  Substitution allowed - generic drug not in stock
+     5  Substitution allowed - brand drug dispensed as a generic
+     7  Substitution not allowed - brand drug mandated by law
+     8  Substitution allowed - generic drug not available in marketplace
+     """
+
+
+     N = "N"
+     G = "G"
+     T = "T"
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"
+     _7 = "7"
+     _8 = "8"

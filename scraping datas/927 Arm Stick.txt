@@ -1,0 +1,15 @@
+
+
+class ArmStick(str, Enum):
+     """
+     927 - Arm Stick
+
+     L  Left Arm
+     R  Right Arm
+     B  Both Arms
+     """
+
+
+     L = "L"
+     R = "R"
+     B = "B"

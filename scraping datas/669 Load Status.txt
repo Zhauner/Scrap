@@ -1,0 +1,17 @@
+
+
+class LoadStatus(str, Enum):
+     """
+     669 - Load Status
+
+     LLD  Building a Load
+     LCP  Load In Process
+     LCC  Load is Complete
+     LCN  Load Canceled
+     """
+
+
+     LLD = "LLD"
+     LCP = "LCP"
+     LCC = "LCC"
+     LCN = "LCN"

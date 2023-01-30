@@ -1,0 +1,31 @@
+
+
+class CausalityObservations(str, Enum):
+     """
+     252 - Causality Observations
+
+     AW  Abatement of event after product withdrawn
+     BE  Event recurred after product reintroduced
+     LI  Literature reports association of product with event
+     IN  Event occurred after product introduced
+     EX  Alternative explanations for the event available
+     PL  Effect observed when patient receives placebo
+     TC  Toxic levels of product documented in blood or body fluids
+     DR  Dose response observed
+     SE  Similar events in past for this patient
+     OE  Occurrence of event was confirmed by objective evidence
+     OT  Other
+     """
+
+
+     AW = "AW"
+     BE = "BE"
+     LI = "LI"
+     IN = "IN"
+     EX = "EX"
+     PL = "PL"
+     TC = "TC"
+     DR = "DR"
+     SE = "SE"
+     OE = "OE"
+     OT = "OT"

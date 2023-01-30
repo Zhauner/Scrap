@@ -1,0 +1,13 @@
+
+
+class RelationalConjunction(str, Enum):
+     """
+     210 - Relational Conjunction
+
+     AND  Default
+     OR  
+     """
+
+
+     AND = "AND"
+     OR = "OR"

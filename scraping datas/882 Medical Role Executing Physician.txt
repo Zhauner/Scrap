@@ -1,0 +1,13 @@
+
+
+class MedicalRoleExecutingPhysician(str, Enum):
+     """
+     882 - Medical Role Executing Physician
+
+     E  Employed
+     SE  Self-employed
+     """
+
+
+     E = "E"
+     SE = "SE"

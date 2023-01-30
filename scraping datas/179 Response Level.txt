@@ -1,0 +1,17 @@
+
+
+class ResponseLevel(str, Enum):
+     """
+     179 - Response Level
+
+     NE  Never.  No application-level response needed
+     ER  Error/Reject conditions only.  Only MFA segments denoting errors must be returned via the application-level acknowledgment for this message
+     AL  Always.  All MFA segments (whether denoting errors or not) must be returned via the application-level acknowledgment message
+     SU  Success.  Only MFA segments denoting success must be returned via the application-level acknowledgment for this message
+     """
+
+
+     NE = "NE"
+     ER = "ER"
+     AL = "AL"
+     SU = "SU"

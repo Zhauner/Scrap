@@ -1,0 +1,15 @@
+
+
+class ProtectionCode(str, Enum):
+     """
+     618 - Protection Code
+
+     LI  Listed
+     UL  Unlisted (Should not appear in directories)
+     UP  Unpublished
+     """
+
+
+     LI = "LI"
+     UL = "UL"
+     UP = "UP"

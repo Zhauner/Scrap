@@ -1,0 +1,23 @@
+
+
+class PrimaryObserversQualification(str, Enum):
+     """
+     242 - Primary Observer s Qualification
+
+     P  Physician (osteopath, homeopath)
+     R  Pharmacist
+     M  Mid-level professional (nurse, nurse practitioner, physician's assistant)
+     H  Other health professional
+     C  Health care consumer/patient
+     L  Lawyer/attorney
+     O  Other non-health professional
+     """
+
+
+     P = "P"
+     R = "R"
+     M = "M"
+     H = "H"
+     C = "C"
+     L = "L"
+     O = "O"

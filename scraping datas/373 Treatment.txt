@@ -1,0 +1,25 @@
+
+
+class Treatment(str, Enum):
+     """
+     373 - Treatment
+
+     LDLP  LDL Precipitation
+     RECA  Recalification
+     DEFB  Defibrination
+     ACID  Acidification
+     NEUT  Neutralization
+     ALK  Alkalization
+     FILT  Filtration
+     UFIL  Ultrafiltration
+     """
+
+
+     LDLP = "LDLP"
+     RECA = "RECA"
+     DEFB = "DEFB"
+     ACID = "ACID"
+     NEUT = "NEUT"
+     ALK = "ALK"
+     FILT = "FILT"
+     UFIL = "UFIL"

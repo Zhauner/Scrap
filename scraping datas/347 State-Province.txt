@@ -1,0 +1,13 @@
+
+
+class State_Province(str, Enum):
+     """
+     347 - State-Province
+
+     AB  Alberta  (US and Canada)
+     MI  Michigan  (US)
+     """
+
+
+     AB = "AB"
+     MI = "MI"

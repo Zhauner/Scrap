@@ -1,0 +1,16 @@
+
+
+class ProcedurePriority(str, Enum):
+     """
+     418 - Procedure Priority
+
+     0  the admitting procedure
+     1  the primary procedure
+     2  for ranked secondary procedures
+1312
+     """
+
+
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"

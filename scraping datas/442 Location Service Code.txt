@@ -1,0 +1,17 @@
+
+
+class LocationServiceCode(str, Enum):
+     """
+     442 - Location Service Code
+
+     D  Diagnostic
+     T  Therapeutic
+     P  Primary Care
+     E  Emergency Room Casualty
+     """
+
+
+     D = "D"
+     T = "T"
+     P = "P"
+     E = "E"

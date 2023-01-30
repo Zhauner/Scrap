@@ -1,0 +1,13 @@
+
+
+class DeviceDataState(str, Enum):
+     """
+     667 - Device Data State
+
+     0  Real Time Values
+     1  Historic Values
+     """
+
+
+     _0 = "0"
+     _1 = "1"

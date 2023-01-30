@@ -1,0 +1,73 @@
+
+
+class CycleType(str, Enum):
+     """
+     702 - Cycle Type
+
+     FLS  Flash
+     PRV  Prevac
+     GRV  Gravity
+     LQD  Liquid
+     EXP  Express
+     DRT  Dart
+     DRW  Dart Warm-up Cycle
+     THR  Thermal
+     ISO  Isothermal
+     BWD  Bowie-Dick Test
+     LKT  Leak Test
+     WFP  Wrap/Steam Flush Pressure Pulse (Wrap/SFPP)
+     SFP  Steam Flush Pressure Pulse
+     CMW  Chemical Wash
+     PEA  Peracetic Acid
+     EOH  EO High Temperature
+     EOL  EO Low Temperature
+     CRT  Cart Wash
+     UTL  Utensil Wash
+     IST  Instrument Wash
+     GLS  Glassware
+     PLA  Plastic Goods Wash
+     ANR  Anesthesia/Respiratory
+     GTL  Gentle
+     OPW  Optional Wash
+     BDP  Bedpans
+     TRB  Tray/Basin
+     GNP  Gen. Purpose
+     COD  Code
+     RNS  Rinse
+     2RS  Second Rinse
+     DEC  Decontamination
+     """
+
+
+     FLS = "FLS"
+     PRV = "PRV"
+     GRV = "GRV"
+     LQD = "LQD"
+     EXP = "EXP"
+     DRT = "DRT"
+     DRW = "DRW"
+     THR = "THR"
+     ISO = "ISO"
+     BWD = "BWD"
+     LKT = "LKT"
+     WFP = "WFP"
+     SFP = "SFP"
+     CMW = "CMW"
+     PEA = "PEA"
+     EOH = "EOH"
+     EOL = "EOL"
+     CRT = "CRT"
+     UTL = "UTL"
+     IST = "IST"
+     GLS = "GLS"
+     PLA = "PLA"
+     ANR = "ANR"
+     GTL = "GTL"
+     OPW = "OPW"
+     BDP = "BDP"
+     TRB = "TRB"
+     GNP = "GNP"
+     COD = "COD"
+     RNS = "RNS"
+     _2RS = "2RS"
+     DEC = "DEC"

@@ -1,0 +1,19 @@
+
+
+class LanguageAbility(str, Enum):
+     """
+     403 - Language Ability
+
+     1  Read
+     2  Write
+     3  Speak
+     4  Understand
+     5  Sign
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"

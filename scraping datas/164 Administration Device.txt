@@ -1,0 +1,27 @@
+
+
+class AdministrationDevice(str, Enum):
+     """
+     164 - Administration Device
+
+     AP  Applicator
+     BT  Buretrol
+     HL  Heparin Lock
+     IPPB  IPPB
+     IVP  IV Pump
+     IVS  IV Soluset
+     MI  Metered Inhaler
+     NEB  Nebulizer
+     PCA  PCA Pump
+     """
+
+
+     AP = "AP"
+     BT = "BT"
+     HL = "HL"
+     IPPB = "IPPB"
+     IVP = "IVP"
+     IVS = "IVS"
+     MI = "MI"
+     NEB = "NEB"
+     PCA = "PCA"

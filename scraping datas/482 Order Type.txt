@@ -1,0 +1,13 @@
+
+
+class OrderType(str, Enum):
+     """
+     482 - Order Type
+
+     I  Inpatient Order
+     O  Outpatient Order
+     """
+
+
+     I = "I"
+     O = "O"

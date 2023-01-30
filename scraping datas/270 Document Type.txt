@@ -1,0 +1,37 @@
+
+
+class DocumentType(str, Enum):
+     """
+     270 - Document Type
+
+     AR  Autopsy report
+     CD  Cardiodiagnostics
+     CN  Consultation
+     DI  Diagnostic imaging
+     DS  Discharge summary
+     ED  Emergency department report
+     HP  History and physical examination
+     OP  Operative report
+     PC  Psychiatric consultation
+     PH  Psychiatric history and physical examination
+     PN  Procedure note
+     PR  Progress note
+     SP  Surgical pathology
+     TS  Transfer summary
+     """
+
+
+     AR = "AR"
+     CD = "CD"
+     CN = "CN"
+     DI = "DI"
+     DS = "DS"
+     ED = "ED"
+     HP = "HP"
+     OP = "OP"
+     PC = "PC"
+     PH = "PH"
+     PN = "PN"
+     PR = "PR"
+     SP = "SP"
+     TS = "TS"

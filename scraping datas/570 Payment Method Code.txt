@@ -1,0 +1,29 @@
+
+
+class PaymentMethodCode(str, Enum):
+     """
+     570 - Payment Method Code
+
+     CASH  Cash
+     CCCA  Credit Card
+     CCHK  Cashier's Check
+     CDAC  Credit/Debit Account
+     CHCK  Check
+     DDPO  Direct Deposit
+     DEBC  Debit Card
+     SWFT  Society for Worldwide Interbank Financial Telecommunications (S.W.I.F.T.)
+     TRAC  Traveler's Check
+     VISN  VISA Special Electronic Funds Transfer Network
+     """
+
+
+     CASH = "CASH"
+     CCCA = "CCCA"
+     CCHK = "CCHK"
+     CDAC = "CDAC"
+     CHCK = "CHCK"
+     DDPO = "DDPO"
+     DEBC = "DEBC"
+     SWFT = "SWFT"
+     TRAC = "TRAC"
+     VISN = "VISN"

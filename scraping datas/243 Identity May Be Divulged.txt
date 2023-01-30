@@ -1,0 +1,15 @@
+
+
+class IdentityMayBeDivulged(str, Enum):
+     """
+     243 - Identity May Be Divulged
+
+     Y  Yes
+     N  No
+     NA  Not applicable
+     """
+
+
+     Y = "Y"
+     N = "N"
+     NA = "NA"

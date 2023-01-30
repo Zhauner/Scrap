@@ -1,0 +1,19 @@
+
+
+class Invocationevent(str, Enum):
+     """
+     100 - Invocation event
+
+     D  On discharge
+     O  On receipt of order
+     R  At time service is completed
+     S  At time service is started
+     T  At a designated date/time
+     """
+
+
+     D = "D"
+     O = "O"
+     R = "R"
+     S = "S"
+     T = "T"

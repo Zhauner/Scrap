@@ -1,0 +1,13 @@
+
+
+class Sideofbody(str, Enum):
+     """
+     894 - Side of body
+
+     L  Left
+     R  Right
+     """
+
+
+     L = "L"
+     R = "R"

@@ -1,0 +1,17 @@
+
+
+class InformPersonCode(str, Enum):
+     """
+     517 - Inform Person Code
+
+     PAT  Inform patient
+     NPAT  Do NOT inform patient
+     USR  Inform User
+     HD  Inform help desk
+     """
+
+
+     PAT = "PAT"
+     NPAT = "NPAT"
+     USR = "USR"
+     HD = "HD"

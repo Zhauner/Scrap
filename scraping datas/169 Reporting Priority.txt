@@ -1,0 +1,13 @@
+
+
+class ReportingPriority(str, Enum):
+     """
+     169 - Reporting Priority
+
+     C  Call back results
+     R  Rush reporting
+     """
+
+
+     C = "C"
+     R = "R"

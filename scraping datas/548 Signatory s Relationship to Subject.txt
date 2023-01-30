@@ -1,0 +1,23 @@
+
+
+class SignatorysRelationshiptoSubject(str, Enum):
+     """
+     548 - Signatory s Relationship to Subject
+
+     1  Self
+     2  Parent
+     3  Next of Kin
+     4  Durable Power of Attorney in Healthcare Affairs
+     5  Conservator
+     6  Emergent Practitioner (practitioner judging case as emergency requiring care without a consent)
+     7  Non-Emergent Practitioner (i.e. medical ethics committee)
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"
+     _6 = "6"
+     _7 = "7"

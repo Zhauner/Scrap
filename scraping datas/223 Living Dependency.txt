@@ -1,0 +1,19 @@
+
+
+class LivingDependency(str, Enum):
+     """
+     223 - Living Dependency
+
+     S  Spouse Dependent
+     M  Medical Supervision Required
+     C  Small Children Dependent
+     O  Other
+     U  Unknown
+     """
+
+
+     S = "S"
+     M = "M"
+     C = "C"
+     O = "O"
+     U = "U"

@@ -1,0 +1,21 @@
+
+
+class OrganizationAgencyDepartment(str, Enum):
+     """
+     530 - Organization  Agency  Department
+
+     AE  American Express
+     DEA  Drug Enforcement Agency
+     DOD  Department of Defense
+     MC  Master Card
+     VA  Veterans Affairs
+     VI  Visa
+     """
+
+
+     AE = "AE"
+     DEA = "DEA"
+     DOD = "DOD"
+     MC = "MC"
+     VA = "VA"
+     VI = "VI"

@@ -1,0 +1,557 @@
+Administrative Sex
+Marital Status
+Event Type
+Patient Class
+Race
+Religion
+Admission Type
+Acknowledgment Code
+Ambulatory Status
+Physician ID
+Transaction Type
+Patient Type
+Anesthesia Code
+Bad Debt Agency Code
+Billing Status
+Admit Source
+Fee Schedule
+Priority
+Charge/Price Indicator
+Order status
+Company Plan Code
+Condition Code
+Contract Code
+Courtesy Code
+Credit Rating
+Department Code
+Accident Code
+Diagnosis Code
+Diagnosis Type
+Diagnosis Related Group
+DRG Grouper Review Code
+Consent Code
+Check Digit Scheme
+Event Reason
+Relationship
+Financial Class
+Specimen Action Code
+Employment Status
+Guarantor Type
+Hospital Service
+Insurance Plan ID
+Interest Rate Code
+Diagnostic Service Section ID
+Message Type
+Interpretation Codes
+Nature of Abnormal Testing
+Outlier Type
+Performed by
+Observation Result Status Codes Interpretation
+Plan ID
+Pre-Admit Test Indicator
+Procedure Code
+Query Priority
+Re-Admission Indicator
+Release Information
+Type of Agreement
+VIP Indicator
+Invocation event
+Processing ID
+Version ID
+Source of Comment
+Transfer to Bad Debt Code
+Delete Account Code
+Discharge Disposition
+Discharged to Location
+Diet Type
+Servicing Facilities
+Bed Status
+Account Status
+Major Diagnostic Category
+Order Control Codes
+Response Flag
+Charge Type
+Result Status
+Transportation Mode
+Value Type
+Quantity Limited Request
+Allergen Type
+Allergy Severity
+Accommodation Code
+Visit User Code
+Contact Role
+Transaction Code
+Assignment of Benefits
+Yes/no Indicator
+Mail Claim Party
+Employer Information Data
+Military Service
+Military Rank/Grade
+Military Status
+Non-covered Insurance Code
+Eligibility Source
+Room Type
+Amount Type
+Policy Type
+Money or Percentage Indicator
+Day Type
+Certification Patient Type
+Second Opinion Status
+Second Opinion Documentation Received
+Value Code
+Accept/Application Acknowledgment Conditions
+Diet Code Specification Type
+Tray Type
+Allow Substitution
+Route of Administration
+Body Site
+Administration Device
+Administration Method
+RX Component Type
+Substitution Status
+Processing Priority
+Reporting Priority
+Derived Specimen
+Citizenship
+Veterans Military Status
+Coordination of Benefits
+Nature of Service/Test/Observation
+Master File Identifier Code
+Confidentiality Code
+File Level Event Code
+Response Level
+Record-level Event Code
+MFN Record-level Error Return
+Staff type
+Active/Inactive
+Department
+Preferred Method of Contact
+Practitioner Category
+Provider Billing
+Operator ID
+Ethnic Group
+Address Type
+Type of Referenced Data
+Amount Class
+Name Type
+Telecommunication Use Code
+Telecommunication Equipment Type
+Identifier Type
+Organizational Name Type
+Price Type
+Segment Action Code
+Processing Mode
+Query Response Status
+Relational Operator
+Relational Conjunction
+Alternate Character Sets
+Nationality
+Purge Status Code
+Special Program Code
+Publicity Code
+Patient Status Code
+Visit Priority Code
+Patient Charge Adjustment
+Recurring Service Code
+Living Arrangement
+Contact Reason
+Living Dependency
+Transport Arranged
+Escort Required
+Manufacturers of Vaccines (code=MVX)
+Diagnosis Classification
+DRG Payor
+Procedure Functional Type
+Student Status
+Insurance Company Contact Reason
+Non-Concur Code/Description
+Report Timing
+Report Source
+Event Reported To
+Event Qualification
+Event Seriousness
+Event Expected
+Event Consequence
+Patient Outcome
+Primary Observer's Qualification
+Identity May Be Divulged
+Single Use Device
+Product Problem
+Product Available for Inspection
+Status of Evaluation
+Product Source
+Generic Product
+Relatedness Assessment
+Action Taken in Response to the Event
+Causality Observations
+Indirect Exposure Mechanism
+Kind of Quantity
+Duration Categories
+Time Delay Post Challenge
+Nature of Challenge
+Relationship Modifier
+Modality
+Patient Location Type
+Location Equipment
+Privacy Level
+Level of Care
+Location Department
+Specialty Type
+Days of the Week
+Override
+Charge On Indicator
+Document Type
+Document Completion Status
+Document Confidentiality Status
+Document Availability Status
+Document Storage Status
+Appointment reason codes
+Appointment Type Codes
+Filler status codes
+Allow Substitution Codes
+Referral Priority
+Referral Type
+Referral Disposition
+Referral Status
+Referral Category
+Insurance Company ID Codes
+Provider Role
+Problem/Goal Action Code
+Census Tract
+County/Parish
+Subtype of Referenced Data
+Vaccines administered
+Billing Category
+Time Selection Criteria Parameter Class Codes
+Handicap
+Primary Language
+CN ID Source
+CP Range Type
+Encoding
+Namespace ID
+Universal ID Type
+Point of Care
+Room
+Bed
+Person Location Type
+Location Status
+Building
+Floor
+Coverage Type
+Job Status
+Policy Scope
+Policy Source
+Living Will Code
+Organ Donor Code
+Annotations
+Department Cost Center
+Item Natural Account Code
+Dispense Method
+Completion Status
+Location Characteristic ID
+Location Relationship ID
+Visit Indicator
+Job Code
+Employee Classification
+Quantity Method
+Marketing Basis
+Facility Type
+Source Type
+Driver's License Issuing Authority
+Disabled Person Code
+Repeat Pattern
+Referral Reason
+Certification Status
+Practitioner ID Number Type
+Advanced Beneficiary Notice Code
+Procedure Code Modifier
+Guarantor Credit Rating Code
+Military Recipient
+Military Handicapped Program Code
+Patient's Relationship to Insured
+Appeal Reason
+Certification Agency
+State/Province
+Occurrence Code
+Occurrence Span
+CWE statuses
+Message Structure
+Primary Key Value Type
+Alternate Character Set Handling Scheme
+Message Error Condition Codes
+Practitioner Group
+Diagnosis Priority
+Degree/License/Certificate
+Application
+Facility
+Assigning Authority
+Comment Type
+Equipment State
+Local/Remote Control State
+Alert Level
+Remote Control Command
+Specimen Role
+Container Status
+Additive/Preservative
+Specimen Component
+Treatment
+System Induced Contaminants
+Artificial Blood
+Special Handling Code
+Other Environmental Factors
+Carrier Type
+Tray Type
+Separator Type
+Cap Type
+Drug Interference
+Substance Status
+Substance Type
+Manufacturer Identifier
+Supplier Identifier
+Command Response
+Processing Type
+Analyte Repeat Status
+Segment Group
+Match Reason
+Match Algorithms
+Response Modality
+Modify Indicator
+Coding System
+Sequencing
+Continuation Style Code
+Country Code
+Government Reimbursement Program
+School Type
+Language Ability
+Language Proficiency
+Organization Unit
+Participant Organization Unit Type
+Application Change Type
+Supplemental Service Information Values
+Category Identifier
+Consent Identifier
+Units of Time
+Transfer Type
+Procedure DRG Type
+Tissue Type Code
+Procedure Priority
+Severity of Illness Code
+Triage Code
+Case Category Code
+Gestation Category Code
+Newborn Code
+Blood Product Code
+Risk Management Incident Code
+Incident Type Code
+Production Class Code
+Mode of Arrival Code
+Recreational Drug Use Code
+Admission Level of Care Code
+Precaution Code
+Patient Condition Code
+Advance Directive Code
+Sensitivity to Causative Agent Code
+Alert Device Code
+Allergy Clinical Status
+Data Types
+Immunization Registry Status
+Location Service Code
+Provider Role
+Name Assembly Order
+Identity Reliability Code
+Species Code
+Breed Code
+Name Context
+Event Type
+Substance Identifier
+Health Care Provider Type Code
+Health Care Provider Classification
+Health Care Provider Area of Specialization
+Type of Bill Code
+Revenue code
+Overall Claim Disposition Code
+OCE Edit Code
+Reimbursement Action Code
+Denial or Rejection Code
+License Number
+Location Cost Center
+Inventory Number
+Facility ID
+Name/Address Representation
+Ambulatory Payment Classification Code
+Modifier Edit Code
+Payment Adjustment Code
+Packaging Status Code
+Reimbursement Type Code
+Query Name
+TQ Conjunction ID
+Formulary Status
+Practitioner Organization Unit Type
+Charge Type Reason
+Medically Necessary Duplicate Procedure Reason
+Controlled Substance Schedule
+Formulary Status
+Pharmaceutical Substances
+Pharmacy Order Types
+Order Type
+Authorization Mode
+Dispense Type
+Extended Priority Codes
+Specimen Type
+Specimen Collection Method
+Risk Codes
+Specimen Reject Reason
+Specimen Quality
+Specimen Appropriateness
+Specimen Condition
+Specimen Child Role
+Body Site Modifier
+Consent Type
+Consent Mode
+Consent Status
+Consent Bypass Reason
+Consent Disclosure Level
+Consent Non-Disclosure Reason
+Non-Subject Consenter Reason
+Sequence/Results Flag
+Sequence Condition Code
+Cyclic Entry/Exit Indicator
+Service Request Relationship
+Observation Result Handling
+Blood Product Processing Requirements
+Indication for Use
+Blood Product Dispense Status
+BP Observation Status Codes Interpretation
+Commercial Product
+Blood Product Transfusion/Disposition Status
+Transfusion Adverse Reaction
+Transfusion Interrupted Reason
+Error Severity
+Inform Person Code
+Override Type
+Override Reason
+Message Waiting Priority
+Override Code
+Computation Type
+Privilege
+Privilege Class
+Calendar Alignment
+Event Related Period
+Organization, Agency, Department
+Institution
+Expanded Yes/no Indicator
+Application Error Code
+Notify Clergy Code
+Signature Code
+Certificate Status
+Institution
+Institution Relationship Type
+Cost Center Code
+Inactive Reason Code
+Specimen Type Modifier
+Specimen Source Type Modifier
+Specimen Collection Site
+Container Condition
+Jurisdictional Breadth
+Signatory's Relationship to Subject
+NDC Codes
+Body Parts
+Advanced Beneficiary Notice Override Reason
+Invoice Control Code
+Invoice Reason Codes
+Invoice Type
+Benefit Group
+Payee Type
+Payee Relationship to Invoice
+Product/Service Status
+Quantity Units
+Product/Services Clarification Codes
+Processing Consideration Codes
+Adjustment Category Code
+Provider Adjustment Reason Code
+Blood Unit Type
+Adjustment Action
+Payment Method Code
+Invoice Processing Results Status
+Tax status
+User Authentication Credential Type Code
+Address Expiration Reason
+Address Usage
+Protection Code
+Item Status Codes
+Item Importance Codes
+Reorder Theory Codes
+Labor Calculation Type
+Date Format
+Device Type
+Lot Control
+Device Data State
+Load Status
+Device Status
+Cycle Type
+Access Restriction Value
+Access Restriction Reason Code
+Mood Codes
+CCL Value
+DRG Diagnosis Determination Status
+Grouper Status
+DRG Status Patient
+DRG Status Financial Calculation
+DRG Grouping Status
+Status Weight At Birth
+DRG Status Respiration Minutes
+Status Admission
+DRG Procedure Determination Status
+DRG Procedure Relevance
+Resource Type or Category
+Item Status
+Item Type
+Approving Regulatory Agency
+Ruling Act
+Sterilization Type
+Maintenance Cycle
+Maintenance Type
+Package
+MIME Types
+Problem Severity
+Problem Perspective
+Referral Documentation Completion Status
+Telecommunication Expiration Reason
+Supply Risk Codes
+Product/Service Code
+Product/Service Code Modifier
+Role Executing Physician
+Medical Role Executing Physician
+Side of body
+Present On Admission (POA) Indicator
+Security Check Scheme
+Shipment Status
+ActPriority
+Confidentiality
+Package Type
+Patient Results Release Categorization Scheme
+Acquisition Modality
+Participation
+Monetary Denomination Code
+Root Cause
+Process Control Code
+Relevant Clincial Information
+Bolus Type
+PCA Type
+Exclusive Test
+Preferred Specimen/Attribute Status
+Certification Type Code
+Certification Category Code
+Process Interruption
+Cumulative Dosage Limit UoM
+Phlebotomy Issue
+Phlebotomy Status
+Arm Stick
+Weight Units
+Volume Units
+Temperature Units
+Donation Duration Units
+Intended Procedure Type
+Order Workflow Profile
+Process Interruption Reason
+no table for CE

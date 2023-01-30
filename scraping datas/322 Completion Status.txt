@@ -1,0 +1,17 @@
+
+
+class CompletionStatus(str, Enum):
+     """
+     322 - Completion Status
+
+     CP  Complete
+     RE  Refused
+     NA  Not Administered
+     PA  Partially Administered
+     """
+
+
+     CP = "CP"
+     RE = "RE"
+     NA = "NA"
+     PA = "PA"

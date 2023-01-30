@@ -1,0 +1,213 @@
+
+
+class KindofQuantity(str, Enum):
+     """
+     254 - Kind of Quantity
+
+     CACT  *Catalytic Activity
+     CNC  *Catalytic Concentration
+     CCRTO  Catalytic Concentration Ratio
+     CCNT  *Catalytic Content
+     CFR  *Catalytic Fraction
+     CRAT  *Catalytic Rate
+     CRTO  Catalytic Ratio
+     ENT  *Entitic
+     ENTSUB  *Entitic Substance of Amount
+     ENTCAT  *Entitic Catalytic Activity
+     ENTNUM  *Entitic Number
+     ENTVOL  *Entitic Volume
+     MASS  *Mass
+     MCNC  *Mass Concentration
+     MCRTO  *Mass Concentration Ratio
+     MCNT  Mass Content
+     MFR  *Mass Fraction
+     MINC  *Mass Increment
+     MRAT  *Mass Rate
+     MRTO  *Mass Ratio
+     NUM  *Number
+     NCNC  *Number Concentration
+     NCNT  *Number Content
+     NFR  *Number Fraction
+     NRTO  *Number Ratio
+     SUB  *Substance Amount
+     SCNC  *Substance Concentration
+     SCRTO  *Substance Concentration Ratio
+     SCNT  *Substance Content
+     SCNTR  *Substance Content Rate
+     SFR  *Substance Fraction
+     SCNCIN  *Substance Concentration Increment
+     SRAT  *Substance Rate
+     SRTO  *Substance Ratio
+     VOL  *Volume
+     VCNT  *Volume Content
+     VFR  *Volume Fraction
+     VRAT  *Volume Rate
+     VRTO  *Volume Ratio
+     ACNC  Concentration, Arbitrary Substance
+     RLMCNC  *Relative Mass Concentration
+     RLSCNC  *Relative Substance Concentration
+     THRMCNC  *Threshold Mass Concentration
+     THRSCNC  *Threshold Substance Concentration
+     TIME  *Time (e.g. seconds)
+     TMDF  *Time Difference
+     TMSTP  *Time Stamp-Date and Time
+     TRTO  *Time Ratio
+     RCRLTM  *Reciprocal Relative Time
+     RLTM  *Relative Time
+     ABS  Absorbance
+     ACT  *Activity
+     APER  Appearance
+     ARB  *Arbitrary
+     AREA  Area
+     ASPECT  Aspect
+     CLAS  Class
+     CNST  *Constant
+     COEF  *Coefficient
+     COLOR  Color
+     CONS  Consistency
+     DEN  Density
+     DEV  Device
+     DIFF  *Difference
+     ELAS  Elasticity
+     ELPOT  Electrical Potential (Voltage)
+     ELRAT  Electrical current (amperage)
+     ELRES  Electrical Resistance
+     ENGR  Energy
+     EQL  Equilibrium
+     FORCE  Mechanical force
+     FREQ  Frequency
+     IMP  Impression/ interpretation of study
+     KINV  *Kinematic Viscosity
+     LEN  Length
+     LINC  *Length Increment
+     LIQ  *Liquefaction
+     MGFLUX  Magnetic flux
+     MORPH  Morphology
+     MOTIL  Motility
+     OD  Optical density
+     OSMOL  *Osmolality
+     PRID  Presence/Identity/Existence
+     PRES  *Pressure (Partial)
+     PWR  Power (wattage)
+     RANGE  *Ranges
+     RATIO  *Ratios
+     RDEN  *Relative Density
+     REL  *Relative
+     SATFR  *Saturation Fraction
+     SHAPE  Shape
+     SMELL  Smell
+     SUSC  *Susceptibility
+     TASTE  Taste
+     TEMP  *Temperature
+     TEMPDF  *Temperature Difference
+     TEMPIN  *Temperature Increment
+     TITR  *Dilution Factor (Titer)
+     TYPE  *Type
+     VEL  *Velocity
+     VELRT  *Velocity Ratio
+     VISC  *Viscosity
+     """
+
+
+     CACT = "CACT"
+     CNC = "CNC"
+     CCRTO = "CCRTO"
+     CCNT = "CCNT"
+     CFR = "CFR"
+     CRAT = "CRAT"
+     CRTO = "CRTO"
+     ENT = "ENT"
+     ENTSUB = "ENTSUB"
+     ENTCAT = "ENTCAT"
+     ENTNUM = "ENTNUM"
+     ENTVOL = "ENTVOL"
+     MASS = "MASS"
+     MCNC = "MCNC"
+     MCRTO = "MCRTO"
+     MCNT = "MCNT"
+     MFR = "MFR"
+     MINC = "MINC"
+     MRAT = "MRAT"
+     MRTO = "MRTO"
+     NUM = "NUM"
+     NCNC = "NCNC"
+     NCNT = "NCNT"
+     NFR = "NFR"
+     NRTO = "NRTO"
+     SUB = "SUB"
+     SCNC = "SCNC"
+     SCRTO = "SCRTO"
+     SCNT = "SCNT"
+     SCNTR = "SCNTR"
+     SFR = "SFR"
+     SCNCIN = "SCNCIN"
+     SRAT = "SRAT"
+     SRTO = "SRTO"
+     VOL = "VOL"
+     VCNT = "VCNT"
+     VFR = "VFR"
+     VRAT = "VRAT"
+     VRTO = "VRTO"
+     ACNC = "ACNC"
+     RLMCNC = "RLMCNC"
+     RLSCNC = "RLSCNC"
+     THRMCNC = "THRMCNC"
+     THRSCNC = "THRSCNC"
+     TIME = "TIME"
+     TMDF = "TMDF"
+     TMSTP = "TMSTP"
+     TRTO = "TRTO"
+     RCRLTM = "RCRLTM"
+     RLTM = "RLTM"
+     ABS = "ABS"
+     ACT = "ACT"
+     APER = "APER"
+     ARB = "ARB"
+     AREA = "AREA"
+     ASPECT = "ASPECT"
+     CLAS = "CLAS"
+     CNST = "CNST"
+     COEF = "COEF"
+     COLOR = "COLOR"
+     CONS = "CONS"
+     DEN = "DEN"
+     DEV = "DEV"
+     DIFF = "DIFF"
+     ELAS = "ELAS"
+     ELPOT = "ELPOT"
+     ELRAT = "ELRAT"
+     ELRES = "ELRES"
+     ENGR = "ENGR"
+     EQL = "EQL"
+     FORCE = "FORCE"
+     FREQ = "FREQ"
+     IMP = "IMP"
+     KINV = "KINV"
+     LEN = "LEN"
+     LINC = "LINC"
+     LIQ = "LIQ"
+     MGFLUX = "MGFLUX"
+     MORPH = "MORPH"
+     MOTIL = "MOTIL"
+     OD = "OD"
+     OSMOL = "OSMOL"
+     PRID = "PRID"
+     PRES = "PRES"
+     PWR = "PWR"
+     RANGE = "RANGE"
+     RATIO = "RATIO"
+     RDEN = "RDEN"
+     REL = "REL"
+     SATFR = "SATFR"
+     SHAPE = "SHAPE"
+     SMELL = "SMELL"
+     SUSC = "SUSC"
+     TASTE = "TASTE"
+     TEMP = "TEMP"
+     TEMPDF = "TEMPDF"
+     TEMPIN = "TEMPIN"
+     TITR = "TITR"
+     TYPE = "TYPE"
+     VEL = "VEL"
+     VELRT = "VELRT"
+     VISC = "VISC"

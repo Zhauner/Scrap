@@ -1,0 +1,15 @@
+
+
+class ReorderTheoryCodes(str, Enum):
+     """
+     642 - Reorder Theory Codes
+
+     D  DOP/DOQ
+     M  MIN/MAX
+     O  Override
+     """
+
+
+     D = "D"
+     M = "M"
+     O = "O"

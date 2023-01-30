@@ -1,0 +1,17 @@
+
+
+class InstitutionRelationshipType(str, Enum):
+     """
+     538 - Institution Relationship Type
+
+     EMP  Employee
+     VOL  Volunteer
+     CON  Contractor
+     CST  Consultant
+     """
+
+
+     EMP = "EMP"
+     VOL = "VOL"
+     CON = "CON"
+     CST = "CST"

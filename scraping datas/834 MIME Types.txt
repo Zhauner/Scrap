@@ -1,0 +1,23 @@
+
+
+class MIMETypes(str, Enum):
+     """
+     834 - MIME Types
+
+     application  Application data
+     audio  Audio data
+     image  Image data
+     model  Model data
+     text  Text data
+     video  Video data
+     multipart  MIME multipart package
+     """
+
+
+     application = "application"
+     audio = "audio"
+     image = "image"
+     model = "model"
+     text = "text"
+     video = "video"
+     multipart = "multipart"

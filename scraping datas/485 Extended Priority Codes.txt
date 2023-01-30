@@ -1,0 +1,35 @@
+
+
+class ExtendedPriorityCodes(str, Enum):
+     """
+     485 - Extended Priority Codes
+
+     S  Stat
+     A  ASAP
+     R  Routine
+     P  Preop
+     C  Callback
+     T  Timing critical
+     TS<integer>  Timing critical within  seconds.
+     TM<integer>  Timing critical within  minutes.
+     TH<integer>  Timing critical within  hours.
+     TD<integer>  Timing critical within  days.
+     TW<integer>  Timing critical within  weeks.
+     TL<integer>  Timing critical within  months.
+     PRN  As needed
+     """
+
+
+     S = "S"
+     A = "A"
+     R = "R"
+     P = "P"
+     C = "C"
+     T = "T"
+     TS_integer_ = "TS<integer>"
+     TM_integer_ = "TM<integer>"
+     TH_integer_ = "TH<integer>"
+     TD_integer_ = "TD<integer>"
+     TW_integer_ = "TW<integer>"
+     TL_integer_ = "TL<integer>"
+     PRN = "PRN"

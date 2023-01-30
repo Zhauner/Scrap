@@ -1,0 +1,23 @@
+
+
+class SupplyRiskCodes(str, Enum):
+     """
+     871 - Supply Risk Codes
+
+     COR  Corrosive
+     FLA  Flammable
+     EXP  Explosive
+     INJ  Injury Hazard
+     TOX  Toxic
+     RAD  Radioactive
+     UNK  Unknown
+     """
+
+
+     COR = "COR"
+     FLA = "FLA"
+     EXP = "EXP"
+     INJ = "INJ"
+     TOX = "TOX"
+     RAD = "RAD"
+     UNK = "UNK"

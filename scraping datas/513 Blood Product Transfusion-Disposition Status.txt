@@ -1,0 +1,19 @@
+
+
+class BloodProductTransfusion_DispositionStatus(str, Enum):
+     """
+     513 - Blood Product Transfusion-Disposition Status
+
+     RA  Returned unused/no longer needed
+     RL  Returned unused/keep linked to patient for possible use later
+     WA  Wasted (product no longer viable)
+     TX  Transfused
+     TR  Transfused with adverse reaction
+     """
+
+
+     RA = "RA"
+     RL = "RL"
+     WA = "WA"
+     TX = "TX"
+     TR = "TR"

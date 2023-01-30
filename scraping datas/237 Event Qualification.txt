@@ -1,0 +1,25 @@
+
+
+class EventQualification(str, Enum):
+     """
+     237 - Event Qualification
+
+     I  Interaction
+     O  Overdose
+     A  Abuse
+     M  Misuse
+     D  Dependency
+     L  Lack of expect therapeutic effect
+     W  Drug withdrawal
+     B  Unexpected beneficial effect
+     """
+
+
+     I = "I"
+     O = "O"
+     A = "A"
+     M = "M"
+     D = "D"
+     L = "L"
+     W = "W"
+     B = "B"

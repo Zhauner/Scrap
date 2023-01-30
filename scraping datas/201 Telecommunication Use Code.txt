@@ -1,0 +1,27 @@
+
+
+class TelecommunicationUseCode(str, Enum):
+     """
+     201 - Telecommunication Use Code
+
+     PRN  Primary Residence Number
+     ORN  Other Residence Number
+     WPN  Work Number
+     VHN  Vacation Home Number
+     ASN  Answering Service Number
+     EMR  Emergency Number
+     NET  Network (email) Address
+     BPN  Beeper Number
+     PRS  Personal
+     """
+
+
+     PRN = "PRN"
+     ORN = "ORN"
+     WPN = "WPN"
+     VHN = "VHN"
+     ASN = "ASN"
+     EMR = "EMR"
+     NET = "NET"
+     BPN = "BPN"
+     PRS = "PRS"

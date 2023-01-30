@@ -1,0 +1,13 @@
+
+
+class ChargeOnIndicator(str, Enum):
+     """
+     269 - Charge On Indicator
+
+     O  Charge on Order
+     R  Charge on Result
+     """
+
+
+     O = "O"
+     R = "R"

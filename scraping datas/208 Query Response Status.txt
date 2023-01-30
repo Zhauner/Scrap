@@ -1,0 +1,17 @@
+
+
+class QueryResponseStatus(str, Enum):
+     """
+     208 - Query Response Status
+
+     OK  Data found, no errors (this is the default)
+     NF  No data found, no errors
+     AE  Application error
+     AR  Application reject
+     """
+
+
+     OK = "OK"
+     NF = "NF"
+     AE = "AE"
+     AR = "AR"

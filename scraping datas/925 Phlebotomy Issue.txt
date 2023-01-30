@@ -1,0 +1,35 @@
+
+
+class PhlebotomyIssue(str, Enum):
+     """
+     925 - Phlebotomy Issue
+
+     INF  Infiltration
+     VSM  Vein Spasm
+     COL  Collapse
+     MIS  Missed / in tissue
+     NAD  Needle adjustment (this may not end a procedure, if successful will impact component production)
+     PFL  Poor flow
+     CLT  Clotted
+     DND  Defective Needle
+     DBG  Defective Bag
+     DAK  Defective Apheresis Kit
+     DMT  Defective Instrument
+     IPF  Instrument Power Failure
+     ACN  Air Contamination
+     """
+
+
+     INF = "INF"
+     VSM = "VSM"
+     COL = "COL"
+     MIS = "MIS"
+     NAD = "NAD"
+     PFL = "PFL"
+     CLT = "CLT"
+     DND = "DND"
+     DBG = "DBG"
+     DAK = "DAK"
+     DMT = "DMT"
+     IPF = "IPF"
+     ACN = "ACN"

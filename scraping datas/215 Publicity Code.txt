@@ -1,0 +1,17 @@
+
+
+class PublicityCode(str, Enum):
+     """
+     215 - Publicity Code
+
+     F  Family only
+     N  No Publicity
+     O  Other
+     U  Unknown
+     """
+
+
+     F = "F"
+     N = "N"
+     O = "O"
+     U = "U"

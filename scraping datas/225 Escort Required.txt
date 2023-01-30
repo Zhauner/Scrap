@@ -1,0 +1,15 @@
+
+
+class EscortRequired(str, Enum):
+     """
+     225 - Escort Required
+
+     R  Required
+     N  Not Required
+     U  Unknown
+     """
+
+
+     R = "R"
+     N = "N"
+     U = "U"

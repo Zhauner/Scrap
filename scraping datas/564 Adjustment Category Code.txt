@@ -1,0 +1,17 @@
+
+
+class AdjustmentCategoryCode(str, Enum):
+     """
+     564 - Adjustment Category Code
+
+     EA  Edit/Adjudication Response
+     IN  Information
+     PA  Provider Adjustment
+     PR  Processing Result
+     """
+
+
+     EA = "EA"
+     IN = "IN"
+     PA = "PA"
+     PR = "PR"

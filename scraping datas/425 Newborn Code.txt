@@ -1,0 +1,19 @@
+
+
+class NewbornCode(str, Enum):
+     """
+     425 - Newborn Code
+
+     5  Born at home
+     3  Born en route
+     1  Born in facility
+     4  Other
+     2  Transfer in
+     """
+
+
+     _5 = "5"
+     _3 = "3"
+     _1 = "1"
+     _4 = "4"
+     _2 = "2"

@@ -1,0 +1,15 @@
+
+
+class AssignmentofBenefits(str, Enum):
+     """
+     135 - Assignment of Benefits
+
+     Y  Yes
+     N  No
+     M  Modified assignment
+     """
+
+
+     Y = "Y"
+     N = "N"
+     M = "M"

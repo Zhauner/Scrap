@@ -1,0 +1,15 @@
+
+
+class ProcessingID(str, Enum):
+     """
+     103 - Processing ID
+
+     D  Debugging
+     P  Production
+     T  Training
+     """
+
+
+     D = "D"
+     P = "P"
+     T = "T"

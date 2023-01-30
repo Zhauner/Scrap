@@ -1,0 +1,29 @@
+
+
+class ReportSource(str, Enum):
+     """
+     235 - Report Source
+
+     C  Clinical trial
+     L  Literature
+     H  Health professional
+     R  Regulatory agency
+     D  Database/registry/poison control center
+     N  Non-healthcare professional
+     P  Patient
+     M  Manufacturer/marketing authority holder
+     E  Distributor
+     O  Other
+     """
+
+
+     C = "C"
+     L = "L"
+     H = "H"
+     R = "R"
+     D = "D"
+     N = "N"
+     P = "P"
+     M = "M"
+     E = "E"
+     O = "O"

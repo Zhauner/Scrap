@@ -1,0 +1,15 @@
+
+
+class SpecimenChildRole(str, Enum):
+     """
+     494 - Specimen Child Role
+
+     A  Aliquot
+     C  Component
+     M  Modified from original specimen
+     """
+
+
+     A = "A"
+     C = "C"
+     M = "M"

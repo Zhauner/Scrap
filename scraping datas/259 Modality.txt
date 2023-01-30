@@ -1,0 +1,61 @@
+
+
+class Modality(str, Enum):
+     """
+     259 - Modality
+
+     AS  Angioscopy
+     BS  Biomagnetic imaging
+     CD  Color flow Doppler
+     CP  Colposcopy
+     CR  Computed radiography
+     CS  Cystoscopy
+     CT  Computed tomography
+     DD  Duplex Doppler
+     DG  Diapanography
+     DM  Digital microscopy
+     EC  Echocardiography
+     ES  Endoscopy
+     FA  Fluorescein angiography
+     FS  Fundoscopy
+     LP  Laparoscopy
+     LS  Laser surface scan
+     MA  Magnetic resonance angiography
+     MS  Magnetic resonance spectroscopy
+     NM  Nuclear Medicine (radioisotope study)
+     OT  Other
+     PT  Positron emission tomography (PET)
+     RF  Radio fluoroscopy
+     ST  Single photon emission computed tomography (SPECT)
+     TG  Thermography
+     US  Ultrasound
+     XA  X-ray Angiography
+     """
+
+
+     AS = "AS"
+     BS = "BS"
+     CD = "CD"
+     CP = "CP"
+     CR = "CR"
+     CS = "CS"
+     CT = "CT"
+     DD = "DD"
+     DG = "DG"
+     DM = "DM"
+     EC = "EC"
+     ES = "ES"
+     FA = "FA"
+     FS = "FS"
+     LP = "LP"
+     LS = "LS"
+     MA = "MA"
+     MS = "MS"
+     NM = "NM"
+     OT = "OT"
+     PT = "PT"
+     RF = "RF"
+     ST = "ST"
+     TG = "TG"
+     US = "US"
+     XA = "XA"

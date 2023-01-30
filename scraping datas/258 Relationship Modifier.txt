@@ -1,0 +1,17 @@
+
+
+class RelationshipModifier(str, Enum):
+     """
+     258 - Relationship Modifier
+
+     CONTROL  Control
+     PATIENT  Patient
+     DONOR  Donor
+     BPU  Blood product unit
+     """
+
+
+     CONTROL = "CONTROL"
+     PATIENT = "PATIENT"
+     DONOR = "DONOR"
+     BPU = "BPU"

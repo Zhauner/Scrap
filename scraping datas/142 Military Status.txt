@@ -1,0 +1,15 @@
+
+
+class MilitaryStatus(str, Enum):
+     """
+     142 - Military Status
+
+     ACT  Active duty
+     RET  Retired
+     DEC  Deceased
+     """
+
+
+     ACT = "ACT"
+     RET = "RET"
+     DEC = "DEC"

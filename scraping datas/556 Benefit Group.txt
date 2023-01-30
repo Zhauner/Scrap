@@ -1,0 +1,13 @@
+
+
+class BenefitGroup(str, Enum):
+     """
+     556 - Benefit Group
+
+     AMB  AMBULATORY CARE
+     DENT  DENTAL
+     """
+
+
+     AMB = "AMB"
+     DENT = "DENT"

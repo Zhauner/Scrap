@@ -1,0 +1,15 @@
+
+
+class ExclusiveTest(str, Enum):
+     """
+     919 - Exclusive Test
+
+     Y  This test should be exclusive
+     N  This test can be included with any number of other tests
+     D  In some cases, this test should be only exclusively with like tests (examples are cyto or pathology)
+     """
+
+
+     Y = "Y"
+     N = "N"
+     D = "D"

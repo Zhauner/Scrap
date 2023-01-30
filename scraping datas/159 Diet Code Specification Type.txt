@@ -1,0 +1,15 @@
+
+
+class DietCodeSpecificationType(str, Enum):
+     """
+     159 - Diet Code Specification Type
+
+     D  Diet
+     S  Supplement
+     P  Preference
+     """
+
+
+     D = "D"
+     S = "S"
+     P = "P"

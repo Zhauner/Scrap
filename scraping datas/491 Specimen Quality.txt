@@ -1,0 +1,17 @@
+
+
+class SpecimenQuality(str, Enum):
+     """
+     491 - Specimen Quality
+
+     E  Excellent
+     G  Good
+     F  Fair
+     P  Poor
+     """
+
+
+     E = "E"
+     G = "G"
+     F = "F"
+     P = "P"

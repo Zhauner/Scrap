@@ -1,0 +1,13 @@
+
+
+class ContinuationStyleCode(str, Enum):
+     """
+     398 - Continuation Style Code
+
+     F  Fragmentation
+     I  Interactive Continuation
+     """
+
+
+     F = "F"
+     I = "I"

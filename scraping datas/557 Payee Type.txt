@@ -1,0 +1,17 @@
+
+
+class PayeeType(str, Enum):
+     """
+     557 - Payee Type
+
+     ORG  Payee Organization
+     PERS  Person
+     PPER  Pay Person
+     EMPL  Employer
+     """
+
+
+     ORG = "ORG"
+     PERS = "PERS"
+     PPER = "PPER"
+     EMPL = "EMPL"

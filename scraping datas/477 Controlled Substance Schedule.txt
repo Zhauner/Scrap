@@ -1,0 +1,21 @@
+
+
+class ControlledSubstanceSchedule(str, Enum):
+     """
+     477 - Controlled Substance Schedule
+
+     I  Schedule I
+     II  Schedule II
+     III  Schedule III
+     IV  Schedule IV
+     V  Schedule V
+     VI  Schedule VI
+     """
+
+
+     I = "I"
+     II = "II"
+     III = "III"
+     IV = "IV"
+     V = "V"
+     VI = "VI"

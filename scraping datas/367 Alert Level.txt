@@ -1,0 +1,17 @@
+
+
+class AlertLevel(str, Enum):
+     """
+     367 - Alert Level
+
+     N  Normal
+     W  Warning
+     S  Serious
+     C  Critical
+     """
+
+
+     N = "N"
+     W = "W"
+     S = "S"
+     C = "C"

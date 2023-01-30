@@ -1,0 +1,15 @@
+
+
+class CertificationCategoryCode(str, Enum):
+     """
+     922 - Certification Category Code
+
+     IR  Initial Request
+     RA  Request for Appeal
+     RE  Request for Extension
+     """
+
+
+     IR = "IR"
+     RA = "RA"
+     RE = "RE"

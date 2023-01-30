@@ -1,0 +1,19 @@
+
+
+class ProviderAdjustmentReasonCode(str, Enum):
+     """
+     565 - Provider Adjustment Reason Code
+
+     PST  Provincial Sales Tax
+     GST  Goods and Services Tax
+     HST  Harmonized Sales Tax
+     DISP  Dispensing Fee
+     MKUP  Mark up Fee
+     """
+
+
+     PST = "PST"
+     GST = "GST"
+     HST = "HST"
+     DISP = "DISP"
+     MKUP = "MKUP"

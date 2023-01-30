@@ -1,0 +1,21 @@
+
+
+class TriageCode(str, Enum):
+     """
+     422 - Triage Code
+
+     1  Non-acute
+     2  Acute
+     3  Urgent
+     4  Severe
+     5  Dead on Arrival (DOA)
+     99  Other
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"
+     _99 = "99"

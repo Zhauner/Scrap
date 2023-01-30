@@ -1,0 +1,29 @@
+
+
+class GrouperStatus(str, Enum):
+     """
+     734 - Grouper Status
+
+     0  Normal grouping
+     1  Invalid or missing primary diagnosis
+     2  Diagnosis is not allowed to be primary
+     3  Data does not fulfill DRG criteria
+     4  Invalid age, admission date, date of birth or discharge date
+     5  Invalid gender
+     6  Invalid discharge status
+     7  Invalid weight ad admission
+     8  Invalid length of stay
+     9  Invalid field "same day"
+     """
+
+
+     _0 = "0"
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"
+     _4 = "4"
+     _5 = "5"
+     _6 = "6"
+     _7 = "7"
+     _8 = "8"
+     _9 = "9"

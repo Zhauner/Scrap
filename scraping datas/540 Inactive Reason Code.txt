@@ -1,0 +1,15 @@
+
+
+class InactiveReasonCode(str, Enum):
+     """
+     540 - Inactive Reason Code
+
+     L  Leave of Absence
+     T  Termination
+     R  Retired
+     """
+
+
+     L = "L"
+     T = "T"
+     R = "R"

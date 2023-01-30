@@ -1,0 +1,39 @@
+
+
+class AdministrationMethod(str, Enum):
+     """
+     165 - Administration Method
+
+     CH  Chew
+     DI  Dissolve
+     DU  Dust
+     IF  Infiltrate
+     IS  Insert
+     IR  Irrigate
+     IVPB  IV Piggyback
+     IVP  IV Push
+     NB  Nebulized
+     PT  Paint
+     PF  Perfuse
+     SH  Shampoo
+     SO  Soak
+     WA  Wash
+     WI  Wipe
+     """
+
+
+     CH = "CH"
+     DI = "DI"
+     DU = "DU"
+     IF = "IF"
+     IS = "IS"
+     IR = "IR"
+     IVPB = "IVPB"
+     IVP = "IVP"
+     NB = "NB"
+     PT = "PT"
+     PF = "PF"
+     SH = "SH"
+     SO = "SO"
+     WA = "WA"
+     WI = "WI"

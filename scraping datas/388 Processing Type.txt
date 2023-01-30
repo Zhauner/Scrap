@@ -1,0 +1,13 @@
+
+
+class ProcessingType(str, Enum):
+     """
+     388 - Processing Type
+
+     P  Regular Production
+     E  Evaluation
+     """
+
+
+     P = "P"
+     E = "E"

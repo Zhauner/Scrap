@@ -1,0 +1,33 @@
+
+
+class ProductionClassCode(str, Enum):
+     """
+     429 - Production Class Code
+
+     BR  Breeding/genetic stock
+     DA  Dairy
+     DR  Draft
+     DU  Dual Purpose
+     LY  Layer, Includes Multiplier flocks
+     MT  Meat
+     OT  Other
+     PL  Pleasure
+     RA  Racing
+     SH  Show
+     NA  Not Applicable
+     U  Unknown
+     """
+
+
+     BR = "BR"
+     DA = "DA"
+     DR = "DR"
+     DU = "DU"
+     LY = "LY"
+     MT = "MT"
+     OT = "OT"
+     PL = "PL"
+     RA = "RA"
+     SH = "SH"
+     NA = "NA"
+     U = "U"

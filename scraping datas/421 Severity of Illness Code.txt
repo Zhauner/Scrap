@@ -1,0 +1,15 @@
+
+
+class SeverityofIllnessCode(str, Enum):
+     """
+     421 - Severity of Illness Code
+
+     MI  Mild
+     MO  Moderate
+     SE  Severe
+     """
+
+
+     MI = "MI"
+     MO = "MO"
+     SE = "SE"

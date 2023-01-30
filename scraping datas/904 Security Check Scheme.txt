@@ -1,0 +1,15 @@
+
+
+class SecurityCheckScheme(str, Enum):
+     """
+     904 - Security Check Scheme
+
+     BCV  Bank Card Validation Number
+     CCS  Credit Card Security code
+     VID  Version ID
+     """
+
+
+     BCV = "BCV"
+     CCS = "CCS"
+     VID = "VID"

@@ -1,0 +1,23 @@
+
+
+class BloodUnitType(str, Enum):
+     """
+     566 - Blood Unit Type
+
+     WBL  Whole Blood
+     RBC  Red Blood Cells
+     PLS  Plasma
+     PLT  Platelets
+     GRN  Granulocytes
+     PSC  Peripheral Stem Cells
+     LYM  Lymphocytes
+     """
+
+
+     WBL = "WBL"
+     RBC = "RBC"
+     PLS = "PLS"
+     PLT = "PLT"
+     GRN = "GRN"
+     PSC = "PSC"
+     LYM = "LYM"

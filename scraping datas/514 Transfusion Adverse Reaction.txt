@@ -1,0 +1,47 @@
+
+
+class TransfusionAdverseReaction(str, Enum):
+     """
+     514 - Transfusion Adverse Reaction
+
+     ABOINC  ABO Incompatible Transfusion Reaction
+     ACUTHEHTR  Acute Hemolytic Transfusion Reaction
+     ALLERGIC1  Allergic Reaction - First
+     ALLERGIC2  Allergic Reaction - Recurrent
+     ALLERGICR  Allergic Reaction - Repeating
+     ANAPHYLAC  Anaphylactic Reaction
+     BACTCONTAM  Reaction to Bacterial Contamination
+     DELAYEDHTR  Delayed Hemolytic Transfusion Reaction
+     DELAYEDSTR  Delayed Serological Transfusion Reaction
+     GVHD  Graft vs Host Disease - Transfusion - Associated
+     HYPOTENS  Non-hemolytic Hypotensive Reaction
+     NONHTR1  Non-Hemolytic Fever Chill Transfusion Reaction - First
+     NONHTR2  Non-Hemolytic Fever Chill Transfusion Reaction - Recurrent
+     NONHTRREC  Non-Hemolytic Fever Chill Transfusion Reaction - Repeating
+     NONIMMUNE  Non-Immune Hemolysis
+     NONSPEC  Non-Specific, Non-Hemolytic Transfusion Reaction
+     NORXN  No Evidence of Transfusion Reaction
+     PTP  Posttransfusion Purpura
+     VOLOVER  Symptoms most likely due to volume overload
+     """
+
+
+     ABOINC = "ABOINC"
+     ACUTHEHTR = "ACUTHEHTR"
+     ALLERGIC1 = "ALLERGIC1"
+     ALLERGIC2 = "ALLERGIC2"
+     ALLERGICR = "ALLERGICR"
+     ANAPHYLAC = "ANAPHYLAC"
+     BACTCONTAM = "BACTCONTAM"
+     DELAYEDHTR = "DELAYEDHTR"
+     DELAYEDSTR = "DELAYEDSTR"
+     GVHD = "GVHD"
+     HYPOTENS = "HYPOTENS"
+     NONHTR1 = "NONHTR1"
+     NONHTR2 = "NONHTR2"
+     NONHTRREC = "NONHTRREC"
+     NONIMMUNE = "NONIMMUNE"
+     NONSPEC = "NONSPEC"
+     NORXN = "NORXN"
+     PTP = "PTP"
+     VOLOVER = "VOLOVER"

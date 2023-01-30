@@ -1,0 +1,19 @@
+
+
+class PresentOnAdmission(POA)Indicator(str, Enum):
+     """
+     895 - Present On Admission (POA) Indicator
+
+     Y  Yes
+     N  No
+     U  Unknown
+     W  Not applicable
+     E  Exempt
+     """
+
+
+     Y = "Y"
+     N = "N"
+     U = "U"
+     W = "W"
+     E = "E"

@@ -1,0 +1,21 @@
+
+
+class ShipmentStatus(str, Enum):
+     """
+     905 - Shipment Status
+
+     ONH  On Hold
+     INV  Inventoried
+     PRC  Processing
+     REJ  Rejected
+     TTL  Triaged to Lab
+     TRN  In Transit
+     """
+
+
+     ONH = "ONH"
+     INV = "INV"
+     PRC = "PRC"
+     REJ = "REJ"
+     TTL = "TTL"
+     TRN = "TRN"

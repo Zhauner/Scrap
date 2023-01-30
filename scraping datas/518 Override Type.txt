@@ -1,0 +1,15 @@
+
+
+class OverrideType(str, Enum):
+     """
+     518 - Override Type
+
+     EXTN  Extension Override
+     INLV  Interval Override
+     EQV  Equivalence Override
+     """
+
+
+     EXTN = "EXTN"
+     INLV = "INLV"
+     EQV = "EQV"

@@ -1,0 +1,15 @@
+
+
+class ItemStatus(str, Enum):
+     """
+     776 - Item Status
+
+     A  Active
+     P  Pending Inactive
+     I  Inactive
+     """
+
+
+     A = "A"
+     P = "P"
+     I = "I"

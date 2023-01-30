@@ -1,0 +1,21 @@
+
+
+class ActionTakeninResponsetotheEvent(str, Enum):
+     """
+     251 - Action Taken in Response to the Event
+
+     WP  Product withdrawn permanently
+     WT  Product withdrawn temporarily
+     DR  Product dose or frequency of use reduced
+     DI  Product dose or frequency of use increased
+     OT  Other
+     N  None
+     """
+
+
+     WP = "WP"
+     WT = "WT"
+     DR = "DR"
+     DI = "DI"
+     OT = "OT"
+     N = "N"

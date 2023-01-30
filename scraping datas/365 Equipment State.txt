@@ -1,0 +1,37 @@
+
+
+class EquipmentState(str, Enum):
+     """
+     365 - Equipment State
+
+     PU  Powered Up
+     IN  Initializing
+     ID  Idle
+     CO  Configuring
+     OP  Normal Operation
+     CL  Clearing
+     PA  Pausing
+     PD  Paused
+     ES  E-stopped
+     TS  Transport stopped
+     SS  Sampling stopped
+     SD  Shutting down
+     DI  Diagnose
+     MA  Maintenance
+     """
+
+
+     PU = "PU"
+     IN = "IN"
+     ID = "ID"
+     CO = "CO"
+     OP = "OP"
+     CL = "CL"
+     PA = "PA"
+     PD = "PD"
+     ES = "ES"
+     TS = "TS"
+     SS = "SS"
+     SD = "SD"
+     DI = "DI"
+     MA = "MA"

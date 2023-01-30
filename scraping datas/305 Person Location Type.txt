@@ -1,0 +1,23 @@
+
+
+class PersonLocationType(str, Enum):
+     """
+     305 - Person Location Type
+
+     C  Clinic
+     D  Department
+     H  Home
+     N  Nursing Unit
+     O  Provider's Office
+     P  Phone
+     S  SNF
+     """
+
+
+     C = "C"
+     D = "D"
+     H = "H"
+     N = "N"
+     O = "O"
+     P = "P"
+     S = "S"

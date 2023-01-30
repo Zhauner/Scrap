@@ -1,0 +1,19 @@
+
+
+class ResponseFlag(str, Enum):
+     """
+     121 - Response Flag
+
+     E  Report exceptions only
+     R  Same as E, also Replacement and Parent-Child
+     D  Same as R, also other associated segments
+     F  Same as D, plus confirmations explicitly
+     N  Only the MSA segment is returned
+     """
+
+
+     E = "E"
+     R = "R"
+     D = "D"
+     F = "F"
+     N = "N"

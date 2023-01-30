@@ -1,0 +1,31 @@
+
+
+class BloodProductDispenseStatus(str, Enum):
+     """
+     510 - Blood Product Dispense Status
+
+     RI  Received into inventory (for specified patient)
+     RD  Reserved and ready to dispense
+     RS  Reserved (ordered and product allocated for the patient)
+     RE  Released (no longer allocated for the patient)
+     DS  Dispensed to patient location
+     RA  Returned unused/no longer needed
+     RL  Returned unused/keep linked to patient for possible use later
+     WA  Wasted (product no longer viable)
+     PT  Presumed transfused (dispensed and not returned)
+     CR  Released into inventory for general availability
+     RQ  Request to dispense blood product
+     """
+
+
+     RI = "RI"
+     RD = "RD"
+     RS = "RS"
+     RE = "RE"
+     DS = "DS"
+     RA = "RA"
+     RL = "RL"
+     WA = "WA"
+     PT = "PT"
+     CR = "CR"
+     RQ = "RQ"

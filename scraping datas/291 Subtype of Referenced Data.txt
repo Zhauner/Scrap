@@ -1,0 +1,39 @@
+
+
+class SubtypeofReferencedData(str, Enum):
+     """
+     291 - Subtype of Referenced Data
+
+     XML  Extensible Markup Language (HL7 V2.3.1 and later)
+     TIFF  TIFF image data
+     SGML  Standard Generalized Markup Language (HL7 V2.3.1 and later)
+     RTF  Rich Text Format
+     PostScript  PostScript program
+     PICT  PICT format image data
+     Octet-stream  Uninterpreted binary data
+     JPEG  Joint Photographic Experts Group
+     JOT  Electronic ink data (Jot 1.0 standard)
+     HTML  Hypertext Markup Language
+     GIF  Graphics Interchange Format
+     FAX  Facsimile data
+     DICOM  Digital Imaging and Communications in Medicine
+     BASIC  ISDN PCM audio data
+     x-hl7-cda-level-one  HL7 Clinical Document Architecture Level One document
+     """
+
+
+     XML = "XML"
+     TIFF = "TIFF"
+     SGML = "SGML"
+     RTF = "RTF"
+     PostScript = "PostScript"
+     PICT = "PICT"
+     Octet_stream = "Octet-stream"
+     JPEG = "JPEG"
+     JOT = "JOT"
+     HTML = "HTML"
+     GIF = "GIF"
+     FAX = "FAX"
+     DICOM = "DICOM"
+     BASIC = "BASIC"
+     x_hl7_cda_level_one = "x-hl7-cda-level-one"

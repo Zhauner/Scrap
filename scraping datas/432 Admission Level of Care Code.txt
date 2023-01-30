@@ -1,0 +1,21 @@
+
+
+class AdmissionLevelofCareCode(str, Enum):
+     """
+     432 - Admission Level of Care Code
+
+     AC  Acute
+     CH  Chronic
+     CO  Comatose
+     CR  Critical
+     IM  Improved
+     MO  Moribund
+     """
+
+
+     AC = "AC"
+     CH = "CH"
+     CO = "CO"
+     CR = "CR"
+     IM = "IM"
+     MO = "MO"

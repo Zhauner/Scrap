@@ -1,0 +1,23 @@
+
+
+class Problem_GoalActionCode(str, Enum):
+     """
+     287 - Problem-Goal Action Code
+
+     AD  ADD
+     CO  CORRECT
+     DE  DELETE
+     LI  LINK
+     UC  UNCHANGED *
+     UN  UNLINK
+     UP  UPDATE
+     """
+
+
+     AD = "AD"
+     CO = "CO"
+     DE = "DE"
+     LI = "LI"
+     UC = "UC"
+     UN = "UN"
+     UP = "UP"

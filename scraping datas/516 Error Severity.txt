@@ -1,0 +1,17 @@
+
+
+class ErrorSeverity(str, Enum):
+     """
+     516 - Error Severity
+
+     W  Warning
+     I  Information
+     E  Error
+     F  Fatal Error
+     """
+
+
+     W = "W"
+     I = "I"
+     E = "E"
+     F = "F"

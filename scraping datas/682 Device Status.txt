@@ -1,0 +1,13 @@
+
+
+class DeviceStatus(str, Enum):
+     """
+     682 - Device Status
+
+     0  Ready
+     1  Not Ready
+     """
+
+
+     _0 = "0"
+     _1 = "1"

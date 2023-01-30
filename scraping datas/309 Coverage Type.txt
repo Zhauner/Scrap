@@ -1,0 +1,17 @@
+
+
+class CoverageType(str, Enum):
+     """
+     309 - Coverage Type
+
+     H  Hospital/institutional
+     P  Physician/professional
+     B  Both hospital and physician
+     RX  Pharmacy
+     """
+
+
+     H = "H"
+     P = "P"
+     B = "B"
+     RX = "RX"

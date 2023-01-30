@@ -1,0 +1,27 @@
+
+
+class MoodCodes(str, Enum):
+     """
+     725 - Mood Codes
+
+     INT  Intent
+     APT  Appointment
+     ARQ  Appointment Request
+     PRMS  Promise
+     PRP  Proposal
+     RQO  Request-Order
+     EVN  Event
+     EVN.CRT  Event Criterion
+     EXP  Expectation
+     """
+
+
+     INT = "INT"
+     APT = "APT"
+     ARQ = "ARQ"
+     PRMS = "PRMS"
+     PRP = "PRP"
+     RQO = "RQO"
+     EVN = "EVN"
+     EVN_CRT = "EVN.CRT"
+     EXP = "EXP"

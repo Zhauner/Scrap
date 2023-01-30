@@ -1,0 +1,15 @@
+
+
+class PCAType(str, Enum):
+     """
+     918 - PCA Type
+
+     C  Continuous
+     P  PCA Only
+     PC  PCA + Continuous
+     """
+
+
+     C = "C"
+     P = "P"
+     PC = "PC"

@@ -1,0 +1,13 @@
+
+
+class Active_Inactive(str, Enum):
+     """
+     183 - Active-Inactive
+
+     A  Active Staff
+     I  Inactive Staff
+     """
+
+
+     A = "A"
+     I = "I"

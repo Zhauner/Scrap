@@ -1,0 +1,23 @@
+
+
+class Product_ServicesClarificationCodes(str, Enum):
+     """
+     561 - Product-Services Clarification Codes
+
+     DTCTR  Data Center Number
+     SEQ  Sequence Number
+     DGAPP  Diagnostic Approval Number
+     CLCTR  Claim Center
+     ENC  Encounter Number
+     OOP  Out of Province Indicator
+     GFTH  Good Faith Indicator
+     """
+
+
+     DTCTR = "DTCTR"
+     SEQ = "SEQ"
+     DGAPP = "DGAPP"
+     CLCTR = "CLCTR"
+     ENC = "ENC"
+     OOP = "OOP"
+     GFTH = "GFTH"

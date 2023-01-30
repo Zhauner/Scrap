@@ -1,0 +1,225 @@
+
+
+class IdentifierType(str, Enum):
+     """
+     203 - Identifier Type
+
+     ACSN  Accession ID
+     AM  American Express
+     AMA  American Medical Association Number
+     AN  Account number
+     ANON  Anonymous identifier
+     ANC  Account number Creditor
+     AND  Account number debitor
+     ANT  Temporary Account Number
+     APRN  Advanced Practice Registered Nurse number
+     ASID  Ancestor Specimen ID
+     BA  Bank Account Number
+     BC  Bank Card Number
+     BCT  Birth Certificate
+     BR  Birth registry number
+     BRN  Breed Registry Number
+     BSNR  Primary physician office number
+     CC  Cost Center number
+     CONM  Change of Name Document
+     CZ  Citizenship Card
+     CY  County number
+     DDS  Dentist license number
+     DEA  Drug Enforcement Administration registration number
+     DI  Diner's Club card
+     DFN  Drug Furnishing or prescriptive authority Number
+     DL  Driver's license number
+     DN  Doctor number
+     DO  Osteopathic License number
+     DP  Diplomatic Passport
+     DPM  Podiatrist license number
+     DR  Donor Registration Number
+     DS  Discover Card
+     EI  Employee number
+     EN  Employer number
+     ESN  Staff Enterprise Number
+     FI  Facility ID
+     GI  Guarantor internal identifier
+     GL  General ledger number
+     GN  Guarantor external  identifier
+     HC  Health Card Number
+     JHN  Jurisdictional health number (Canada)
+     IND  Indigenous/Aboriginal
+     LACSN  Laboratory Accession ID
+     LANR  Lifelong physician number
+     LI  Labor and industries number
+     LN  License number
+     LR  Local Registry ID
+     MA  Patient Medicaid number
+     MB  Member Number
+     MC  Patient's Medicare number
+     MCD  Practitioner Medicaid number
+     MCN  Microchip Number
+     MCR  Practitioner Medicare number
+     MCT  Marriage Certificate
+     MD  Medical License number
+     MI  Military ID number
+     MR  Medical record number
+     MRT  Temporary Medical Record Number
+     MS  MasterCard
+     NBSNR  Secondary physician office number
+     NCT  Naturalization Certificate
+     NE  National employer identifier
+     NH  National Health Plan Identifier
+     NI  National unique individual identifier
+     NII  National Insurance Organization Identifier
+     NIIP  National Insurance Payor Identifier (Payor)
+     NNxxx  National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code
+     NP  Nurse practitioner number
+     NPI  National provider identifier
+     OD  Optometrist license number
+     PA  Physician Assistant number
+     PC  Parole Card
+     PCN  Penitentiary/correctional institution Number
+     PE  Living Subject Enterprise Number
+     PEN  Pension Number
+     PI  Patient internal identifier
+     PN  Person number
+     PNT  Temporary Living Subject Number
+     PPIN  Medicare/CMS Performing Provider Identification Number
+     PPN  Passport number
+     PRC  Permanent Resident Card Number
+     PRN  Provider number
+     PT  Patient external identifier
+     QA  QA number
+     RI  Resource identifier
+     RPH  Pharmacist license number
+     RN  Registered Nurse Number
+     RR  Railroad Retirement number
+     RRI  Regional registry ID
+     RRP  Railroad Retirement Provider
+     SID  Specimen ID
+     SL  State license
+     SN  Subscriber Number
+     SP  Study Permit
+     SR  State registry ID
+     SS  Social Security number
+     TAX  Tax ID number
+     TN  Treaty Number/ (Canada)
+     TPR  Temporary Permanent Resident (Canada)
+     U  Unspecified identifier
+     UPIN  Medicare/CMS (formerly HCFA)'s Universal Physician Identification numbers
+     USID  Unique Specimen ID
+     VN  Visit number
+     VP  Visitor Permit
+     VS  VISA
+     WC  WIC identifier
+     WCN  Workers' Comp Number
+     WP  Work Permit
+     XX  Organization identifier
+     """
+
+
+     ACSN = "ACSN"
+     AM = "AM"
+     AMA = "AMA"
+     AN = "AN"
+     ANON = "ANON"
+     ANC = "ANC"
+     AND = "AND"
+     ANT = "ANT"
+     APRN = "APRN"
+     ASID = "ASID"
+     BA = "BA"
+     BC = "BC"
+     BCT = "BCT"
+     BR = "BR"
+     BRN = "BRN"
+     BSNR = "BSNR"
+     CC = "CC"
+     CONM = "CONM"
+     CZ = "CZ"
+     CY = "CY"
+     DDS = "DDS"
+     DEA = "DEA"
+     DI = "DI"
+     DFN = "DFN"
+     DL = "DL"
+     DN = "DN"
+     DO = "DO"
+     DP = "DP"
+     DPM = "DPM"
+     DR = "DR"
+     DS = "DS"
+     EI = "EI"
+     EN = "EN"
+     ESN = "ESN"
+     FI = "FI"
+     GI = "GI"
+     GL = "GL"
+     GN = "GN"
+     HC = "HC"
+     JHN = "JHN"
+     IND = "IND"
+     LACSN = "LACSN"
+     LANR = "LANR"
+     LI = "LI"
+     LN = "LN"
+     LR = "LR"
+     MA = "MA"
+     MB = "MB"
+     MC = "MC"
+     MCD = "MCD"
+     MCN = "MCN"
+     MCR = "MCR"
+     MCT = "MCT"
+     MD = "MD"
+     MI = "MI"
+     MR = "MR"
+     MRT = "MRT"
+     MS = "MS"
+     NBSNR = "NBSNR"
+     NCT = "NCT"
+     NE = "NE"
+     NH = "NH"
+     NI = "NI"
+     NII = "NII"
+     NIIP = "NIIP"
+     NNxxx = "NNxxx"
+     NP = "NP"
+     NPI = "NPI"
+     OD = "OD"
+     PA = "PA"
+     PC = "PC"
+     PCN = "PCN"
+     PE = "PE"
+     PEN = "PEN"
+     PI = "PI"
+     PN = "PN"
+     PNT = "PNT"
+     PPIN = "PPIN"
+     PPN = "PPN"
+     PRC = "PRC"
+     PRN = "PRN"
+     PT = "PT"
+     QA = "QA"
+     RI = "RI"
+     RPH = "RPH"
+     RN = "RN"
+     RR = "RR"
+     RRI = "RRI"
+     RRP = "RRP"
+     SID = "SID"
+     SL = "SL"
+     SN = "SN"
+     SP = "SP"
+     SR = "SR"
+     SS = "SS"
+     TAX = "TAX"
+     TN = "TN"
+     TPR = "TPR"
+     U = "U"
+     UPIN = "UPIN"
+     USID = "USID"
+     VN = "VN"
+     VP = "VP"
+     VS = "VS"
+     WC = "WC"
+     WCN = "WCN"
+     WP = "WP"
+     XX = "XX"

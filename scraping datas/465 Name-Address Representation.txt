@@ -1,0 +1,15 @@
+
+
+class Name_AddressRepresentation(str, Enum):
+     """
+     465 - Name-Address Representation
+
+     I  Ideographic (i.e., Kanji)
+     A  Alphabetic (i.e., Default or some single-byte)
+     P  Phonetic (i.e., ASCII, Katakana, Hiragana, etc.)
+     """
+
+
+     I = "I"
+     A = "A"
+     P = "P"

@@ -1,0 +1,15 @@
+
+
+class GestationCategoryCode(str, Enum):
+     """
+     424 - Gestation Category Code
+
+     1  Premature / Pre-term
+     2  Full Term
+     3  Overdue / Post-term
+     """
+
+
+     _1 = "1"
+     _2 = "2"
+     _3 = "3"

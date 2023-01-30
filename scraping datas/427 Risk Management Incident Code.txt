@@ -1,0 +1,37 @@
+
+
+class RiskManagementIncidentCode(str, Enum):
+     """
+     427 - Risk Management Incident Code
+
+     B  Body fluid exposure
+     C  Contaminated Substance
+     D  Diet Errors
+     E  Equipment problem
+     F  Patient fell (not from bed)
+     H  Patient fell from bed
+     I  Infusion error
+     J  Foreign object left during surgery
+     K  Sterile precaution violated
+     P  Procedure error
+     R  Pharmaceutical error
+     S  Suicide Attempt
+     T  Transfusion error
+     O  Other
+     """
+
+
+     B = "B"
+     C = "C"
+     D = "D"
+     E = "E"
+     F = "F"
+     H = "H"
+     I = "I"
+     J = "J"
+     K = "K"
+     P = "P"
+     R = "R"
+     S = "S"
+     T = "T"
+     O = "O"

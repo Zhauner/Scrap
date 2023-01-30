@@ -1,0 +1,31 @@
+
+
+class RiskCodes(str, Enum):
+     """
+     489 - Risk Codes
+
+     BIO  Biological
+     COR  Corrosive
+     ESC  Escape Risk
+     AGG  Aggressive
+     IFL  MaterialDangerInflammable
+     EXP  Explosive
+     INF  MaterialDangerInfectious
+     BHZ  Biohazard
+     INJ  Injury Hazard
+     POI  Poison
+     RAD  Radioactive
+     """
+
+
+     BIO = "BIO"
+     COR = "COR"
+     ESC = "ESC"
+     AGG = "AGG"
+     IFL = "IFL"
+     EXP = "EXP"
+     INF = "INF"
+     BHZ = "BHZ"
+     INJ = "INJ"
+     POI = "POI"
+     RAD = "RAD"

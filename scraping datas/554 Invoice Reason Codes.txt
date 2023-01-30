@@ -1,0 +1,15 @@
+
+
+class InvoiceReasonCodes(str, Enum):
+     """
+     554 - Invoice Reason Codes
+
+     LATE  Late Invoice
+     NORM  Normal submission
+     SUB  Subscriber coverage problem
+     """
+
+
+     LATE = "LATE"
+     NORM = "NORM"
+     SUB = "SUB"

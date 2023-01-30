@@ -1,0 +1,13 @@
+
+
+class TransferType(str, Enum):
+     """
+     415 - Transfer Type
+
+     N  DRG Non Exempt
+     E  DRG Exempt
+     """
+
+
+     N = "N"
+     E = "E"

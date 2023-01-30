@@ -1,0 +1,103 @@
+
+
+class RouteofAdministration(str, Enum):
+     """
+     162 - Route of Administration
+
+     AP  Apply Externally
+     B  Buccal
+     DT  Dental
+     EP  Epidural
+     ET  Endotrachial Tube*
+     GTT  Gastrostomy Tube
+     GU  GU Irrigant
+     IMR  Immerse (Soak) Body Part
+     IA  Intra-arterial
+     IB  Intrabursal
+     IC  Intracardiac
+     ICV  Intracervical (uterus)
+     ID  Intradermal
+     IH  Inhalation
+     IHA  Intrahepatic Artery
+     IM  Intramuscular
+     IN  Intranasal
+     IO  Intraocular
+     IP  Intraperitoneal
+     IS  Intrasynovial
+     IT  Intrathecal
+     IU  Intrauterine
+     IV  Intravenous
+     MTH  Mouth/Throat
+     MM  Mucous Membrane
+     NS  Nasal
+     NG  Nasogastric
+     NP  Nasal Prongs*
+     NT  Nasotrachial Tube
+     OP  Ophthalmic
+     OT  Otic
+     OTH  Other/Miscellaneous
+     PF  Perfusion
+     PO  Oral
+     PR  Rectal
+     RM  Rebreather Mask*
+     SD  Soaked Dressing
+     SC  Subcutaneous
+     SL  Sublingual
+     TP  Topical
+     TRA  Tracheostomy*
+     TD  Transdermal
+     TL  Translingual
+     UR  Urethral
+     VG  Vaginal
+     VM  Ventimask
+     WND  Wound
+     """
+
+
+     AP = "AP"
+     B = "B"
+     DT = "DT"
+     EP = "EP"
+     ET = "ET"
+     GTT = "GTT"
+     GU = "GU"
+     IMR = "IMR"
+     IA = "IA"
+     IB = "IB"
+     IC = "IC"
+     ICV = "ICV"
+     ID = "ID"
+     IH = "IH"
+     IHA = "IHA"
+     IM = "IM"
+     IN = "IN"
+     IO = "IO"
+     IP = "IP"
+     IS = "IS"
+     IT = "IT"
+     IU = "IU"
+     IV = "IV"
+     MTH = "MTH"
+     MM = "MM"
+     NS = "NS"
+     NG = "NG"
+     NP = "NP"
+     NT = "NT"
+     OP = "OP"
+     OT = "OT"
+     OTH = "OTH"
+     PF = "PF"
+     PO = "PO"
+     PR = "PR"
+     RM = "RM"
+     SD = "SD"
+     SC = "SC"
+     SL = "SL"
+     TP = "TP"
+     TRA = "TRA"
+     TD = "TD"
+     TL = "TL"
+     UR = "UR"
+     VG = "VG"
+     VM = "VM"
+     WND = "WND"

@@ -1,0 +1,15 @@
+
+
+class InsuranceCompanyContactReason(str, Enum):
+     """
+     232 - Insurance Company Contact Reason
+
+     01  Medicare claim status
+     02  Medicaid claim status
+     03  Name/address change
+     """
+
+
+     _01 = "01"
+     _02 = "02"
+     _03 = "03"

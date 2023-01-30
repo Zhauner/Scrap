@@ -1,0 +1,15 @@
+
+
+class Product_ServiceStatus(str, Enum):
+     """
+     559 - Product-Service Status
+
+     P  Processed
+     D  Denied
+     R  Rejected
+     """
+
+
+     P = "P"
+     D = "D"
+     R = "R"

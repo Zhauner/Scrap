@@ -1,0 +1,19 @@
+
+
+class AmountType(str, Enum):
+     """
+     146 - Amount Type
+
+     DF  Differential
+     LM  Limit
+     PC  Percentage
+     RT  Rate
+     UL  Unlimited
+     """
+
+
+     DF = "DF"
+     LM = "LM"
+     PC = "PC"
+     RT = "RT"
+     UL = "UL"

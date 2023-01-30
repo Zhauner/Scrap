@@ -1,0 +1,19 @@
+
+
+class EventReason(str, Enum):
+     """
+     062 - Event Reason
+
+     01  Patient request
+     02  Physician/health practitioner order
+     03  Census management
+     O  Other
+     U  Unknown
+     """
+
+
+     _01 = "01"
+     _02 = "02"
+     _03 = "03"
+     O = "O"
+     U = "U"

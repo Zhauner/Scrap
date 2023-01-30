@@ -1,0 +1,15 @@
+
+
+class StudentStatus(str, Enum):
+     """
+     231 - Student Status
+
+     F  Full-time student
+     P  Part-time student
+     N  Not a student
+     """
+
+
+     F = "F"
+     P = "P"
+     N = "N"

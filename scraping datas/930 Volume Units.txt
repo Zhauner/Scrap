@@ -1,0 +1,15 @@
+
+
+class VolumeUnits(str, Enum):
+     """
+     930 - Volume Units
+
+     l  Liter
+     [pt_us]  Pint
+     ml  Milliliters
+     """
+
+
+     l = "l"
+     [pt_us] = "[pt_us]"
+     ml = "ml"

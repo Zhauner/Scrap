@@ -1,0 +1,17 @@
+
+
+class FacilityType(str, Enum):
+     """
+     331 - Facility Type
+
+     U  User
+     M  Manufacturer
+     D  Distributor
+     A  Agent for a foreign manufacturer
+     """
+
+
+     U = "U"
+     M = "M"
+     D = "D"
+     A = "A"

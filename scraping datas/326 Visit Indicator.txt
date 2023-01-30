@@ -1,0 +1,13 @@
+
+
+class VisitIndicator(str, Enum):
+     """
+     326 - Visit Indicator
+
+     A  Account level (default)
+     V  Visit level
+     """
+
+
+     A = "A"
+     V = "V"

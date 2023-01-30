@@ -1,0 +1,11 @@
+
+
+class HealthCareProviderTypeCode(str, Enum):
+     """
+     452 - Health Care Provider Type Code
+
+     SUGGESTION  ANSI ASC X12 Health Care Provider Taxonomy, Level 1 - Type
+     """
+
+
+     SUGGESTION = "SUGGESTION"

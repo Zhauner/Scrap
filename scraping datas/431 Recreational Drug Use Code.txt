@@ -1,0 +1,23 @@
+
+
+class RecreationalDrugUseCode(str, Enum):
+     """
+     431 - Recreational Drug Use Code
+
+     A  Alcohol
+     K  Kava
+     M  Marijuana
+     T  Tobacco - smoked
+     C  Tobacco - chewed
+     O  Other
+     U  Unknown
+     """
+
+
+     A = "A"
+     K = "K"
+     M = "M"
+     T = "T"
+     C = "C"
+     O = "O"
+     U = "U"

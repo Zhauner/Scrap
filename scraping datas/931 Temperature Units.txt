@@ -1,0 +1,13 @@
+
+
+class TemperatureUnits(str, Enum):
+     """
+     931 - Temperature Units
+
+     degF  Degrees Fahrenheit
+     Cel  Degrees Celsius
+     """
+
+
+     degF = "degF"
+     Cel = "Cel"

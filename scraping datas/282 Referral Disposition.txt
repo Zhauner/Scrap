@@ -1,0 +1,17 @@
+
+
+class ReferralDisposition(str, Enum):
+     """
+     282 - Referral Disposition
+
+     WR  Send Written Report
+     RP  Return Patient After Evaluation
+     AM  Assume Management
+     SO  Second Opinion
+     """
+
+
+     WR = "WR"
+     RP = "RP"
+     AM = "AM"
+     SO = "SO"

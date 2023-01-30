@@ -1,0 +1,13 @@
+
+
+class ComputationType(str, Enum):
+     """
+     523 - Computation Type
+
+     %  Indicates a percent change
+     a  Absolute Change
+     """
+
+
+     percent = "%"
+     a = "a"

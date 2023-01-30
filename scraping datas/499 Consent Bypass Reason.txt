@@ -1,0 +1,13 @@
+
+
+class ConsentBypassReason(str, Enum):
+     """
+     499 - Consent Bypass Reason
+
+     E  Emergency
+     PJ  Professional Judgment
+     """
+
+
+     E = "E"
+     PJ = "PJ"
